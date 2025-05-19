@@ -1,0 +1,428 @@
+/* SPECIFIC ITEMS */
+#markdown-toc {
+  float:right;
+  margin:6px;
+  margin-bottom:2rem;
+  padding:6px;
+  padding-left:32px;
+  padding-right:12px;
+  background-color:#f8f8f8;
+  box-shadow: 2.5px 2.5px 10px #75f64f;
+}
+
+#markdown-toc li {
+  list-style-position: inside;
+}
+
+#markdown-toc:before  {
+	content: 'Page Contents';
+}
+
+#markdown-toc ul  {
+	position: relative;
+	list-style: none;
+	ZZZmargin-left: 0;
+	ZZZpadding-left: 1.2em;
+}
+#markdown-toc li:before {
+	content: "▷" !important;
+  color:#75f64f
+}
+
+/* GENEREAL CLASSES */
+
+.fullwidth {
+  /* Break out on both sides */
+  margin-left: calc(-2rem);
+  margin-right: calc(-2rem);
+  /* Expand width to cover that extra space */
+  width: calc((100vw/2) + 16rem);
+  background-color: #f0f0f0;
+  padding: 2rem;
+}
+
+.whitewash {
+  filter: contrast(30%) brightness(150%)
+}
+
+
+/* Light backgrounds */
+
+.mrw-green-bg {
+  background-color: #79fb4d;
+}
+
+.mrw-gold-bg {
+  background-color: gold;
+  color: black;
+}
+
+.mrw-golden-rule {
+  background-color: gold;
+  color: black;
+}
+
+.mrw-golden-rule::before {
+  content: "🥇 ";
+  margin-right: 0.25rem; /* space between emoji and text */
+}
+
+.fmide-bg {
+  background-color: #eaab43;
+  color: black;
+}
+
+.under-construction {
+  background-color: #ec682c;
+  color: black;
+}
+
+.under-construction::before {
+  content: "🚧 ";
+  margin-right: 0.25rem; /* space between emoji and text */
+}
+
+.under-construction::after {
+  content: " 🚧";
+  margin-left: 0.25rem; /* space between emoji and text */
+}
+
+/* Dark backgrounds */
+
+/* Define a mixin for light text, headings, and links */
+@mixin light-text {
+  color: #fff;
+
+  h1, h2, h3, h4, h5, h6 {
+    color: #fff;
+  }
+
+  a {
+    color: #70b6fb; // Adjusted to match the hue of standard mode
+    text-decoration: underline;
+    text-decoration-color: rgba(255, 255, 255, 0.3); // Dim underline
+
+    &:hover {
+      text-decoration-color: rgba(255, 255, 255, 0.8); // Stark underline on hover
+    }
+  }
+}
+
+.mrw-windows-bg {
+  background-color: #0050ef;
+  @include light-text;
+}
+
+.mrw-orange-bg {
+  background-color: #ec682c;
+  @include light-text;
+}
+
+.mrw-red-bg {
+  background-color: #ec0000;
+  @include light-text;
+}
+
+.mrw-schwarz-bg {
+  background-color: #111;
+  @include light-text;
+}
+
+.mrw-blue-bg {
+  background-color: #1432ef;
+  @include light-text;
+}
+
+.mrw-dark-bg h2 {
+  color: #79fb4d;
+}
+
+.mrw-dark-bg {
+  color: white;
+  background-color: #000; // Assuming this is the intended background color
+  @include light-text;
+}
+
+.mbs-bg {
+  background-color: #a68751;
+  @include light-text;
+}
+
+.mrw-killer-bg {
+  background-color: #74a;
+  @include light-text;
+}
+
+.float-front-right {
+  float:right;
+  position:relative;
+  z-index: 10;
+}
+
+/* Keys */
+
+kbd {
+  display: inline-block;
+
+  margin: 0.1em;
+  padding: 0.2em 0.3em;
+  min-width: 2em;
+  text-align:center;
+
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  font-size: 0.7rem;
+}
+
+/* MAC KEY */
+kbd {
+  color: #fff;
+  background: linear-gradient(to bottom, #444 0%, #222 100%);
+  border: 1px solid #000;
+  border-radius: 6px;
+  box-shadow:
+    0 2px 4px rgba(0, 0, 0, 0.4), /* outer 3D shadow */
+    inset 0 1px 0 rgba(255, 255, 255, 0.05), /* subtle top highlight */
+    0 0 4px rgba(255, 255, 255, 0.1); /* slight glow around the key */
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.5);
+}
+
+kbd.win, .win kbd {
+  background: linear-gradient(to bottom, #ccc 0%, #999 100%);
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  /* 3D + Glow shadows */
+  box-shadow:
+    0 2px 4px rgba(0, 0, 0, 0.2),  /* subtle outer 3D shadow */
+    inset 0 1px 0 rgba(255, 255, 255, 0.3), /* top highlight */
+    0 0 4px rgba(255, 255, 255, 0.1); /* gentle glow around the key */
+
+  color: #666; /* darker text for better contrast against lighter grays */
+  ztext-shadow: 0 1px 0 #ccc; /* slight highlight on text */
+  text-shadow: 0.5px 1px 0.5px #ccc;
+
+  /* transition for hover effect */
+  transition: box-shadow 0.2s ease, background 0.2s ease;
+}
+
+.w-50pc {
+  width: 50%;
+}
+
+.w-25pc {
+  width: 25%;
+}
+
+.w-20pc {
+  width: 20%;
+}
+
+.w-33pc {
+  width: 33%;
+}
+
+.w-75pc {
+  width: 75%;
+}
+
+.w-66pc {
+  width: 66%;
+}
+
+.w-100pc {
+  width: 100%;
+}
+
+.w-256 {
+  width: 256px;
+}
+
+.w-192 {
+  width: 192px;
+}
+
+.w-128 {
+  width: 128px;
+}
+
+.w-64 {
+  width: 64px;
+}
+
+.w-32 {
+  width: 32px;
+}
+
+.w-16 {
+  width: 16px;
+}
+
+.h-128 {
+  height: 128px;
+}
+
+.h-64 {
+  height: 64px;
+}
+
+
+
+.rainbow {
+  background: linear-gradient(to left,violet,indigo, blue, green, yellow, orange, red);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.clear {
+  clear: both;
+}
+
+.mt-8 {
+  margin-top: 8px !important;
+}
+
+.mt-16 {
+  margin-top: 16px ;
+}
+
+.mt--8 {
+  margin-top: -8px;
+}
+
+.mt--16 {
+  margin-top: -16px;
+}
+
+.mt--32 {
+  margin-top: -32px;
+}
+
+.lowlight {
+  color: #ccc;
+}
+
+.mrw-github-corner {
+  position: fixed;
+  top: 0;
+  right: 0;
+  border: 0;
+  z-index: 1000;
+  width: 64px;
+  height: 64px;
+  text-decoration: none;
+  color: inherit;
+}
+
+.mrw-github-corner:hover::before {
+  content: "Get\\A Me on\\A Github !";
+  white-space: pre;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 12px;
+  line-height: 1.5;
+  z-index: 10;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+.text-10xl {
+  font-size: 10rem;
+}
+
+.text-8xl {
+  font-size: 8rem;
+}
+
+.text-6xl {
+  font-size: 6rem;
+}
+
+.text-4xl {
+  font-size: 4rem;
+}
+
+.text-3xl {
+  font-size: 3rem;
+}
+
+.text-2xl {
+  font-size: 2.5rem;
+}
+
+.text-xl {
+  font-size: 2rem;
+}
+
+.text-lg {
+  font-size: 1.5rem;
+}
+
+.text-md {
+  font-size: 1.25rem;
+}
+
+.text-sm {
+  font-size: 1rem;
+}
+
+.text-xs {
+  font-size: 0.875rem;
+}
+
+.text-2xs {
+  font-size: 0.75rem;
+}
+
+.text-3xs {
+  font-size: 0.625rem;
+}
+
+.text-bold {
+  font-weight: bold;
+}
+
+.text-ARMTB {
+  font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
+  font-weight: bolder;
+}
+
+pre.steps {
+  background:
+    /* top header: 20px high, full width */
+    linear-gradient( to bottom,
+      #c2c2c2 20px, 
+      transparent 20px
+    ) top left / 100% 20px no-repeat,
+    /* left gutter: 10px wide, full height */
+    linear-gradient( to right,
+      #ececec 20px,
+      transparent 20px
+    ) top left / 20px 100% no-repeat,
+    /* main body */
+    #fff;
+  padding: calc(1rem + 20px) calc(1rem) calc(1rem) calc(1rem + 20px);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  /* enable wrapping */
+  white-space: pre-wrap;       /* preserve spaces & wrap lines */
+  overflow-wrap: break-word;   /* break long words if needed */
+}

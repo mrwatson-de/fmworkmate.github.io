@@ -1,0 +1,15 @@
+<script>
+  /* This code causes all external links open in a new window */
+  document.addEventListener("DOMContentLoaded", function() {
+    const excludedDomains = ["mrwatson.de", "fmworkmate.com"];
+    var domain = window.location.hostname; 
+    var links = document.querySelectorAll("a[href]");
+    links.forEach(function(link) {
+      var linkHost = link.hostname;
+      if (linkHost && linkHost !== domain && !excludedDomains.includes(linkHost)) {
+        link.setAttribute("target", "_blank");
+        link.setAttribute("rel", "noopener"); /* or noopener noreferrer */
+      }
+    });
+  });
+</script>

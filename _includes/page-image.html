@@ -1,0 +1,26 @@
+{% comment %}
+page.dir      -> The folder path with a leading slash (e.g. "/", or "/subdir/", or "/_posts/")
+page.name     -> The filename itself, e.g. "my-page.md"
+We remove .md, .markdown, etc. from page.name to get the base, then append .png, .jpg, etc.
+{% endcomment %}
+
+{% assign possible_extensions = "png,jpg,jpeg,gif,webp" | split: "," %}
+
+{% assign base_name_no_ext = page.name 
+   | remove: ".md"
+   | remove: ".markdown"
+   | remove: ".html" 
+%}
+
+{% for ext in possible_extensions %}
+  {% assign image_path = page.dir | append: base_name_no_ext | append: "." | append: ext %}
+
+  {% assign matching_files = site.static_files | where: "path", image_path %}
+  {% if matching_files.size > 0 %}
+
+<!-- auto-image -->
+<img src="{{ image_path }}" alt="{{ page.title }}" {% if include.width %} width="{{ include.width }}" {% endif %} {% if include.height %} height="{{ include.height }}" {% endif %}>
+ 
+    {% break %}
+  {% endif %}
+{% endfor %}
