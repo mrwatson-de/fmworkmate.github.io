@@ -11,3 +11,7 @@ aux_links:
 
 page_image_width: 256
 page_image_height: 256
+
+remote_theme: just-the-docs/just-the-docs   # fetches theme repo
+plugins:
+  - jekyll-remote-theme                     # already allowed by Pages
