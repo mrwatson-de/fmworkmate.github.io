@@ -21,12 +21,12 @@ Just like corners of my toolkit this page is still very much in development.
 
 I make tools primarily in my spare time for myself to [solve the everyday FileMaker problems](solutions-to-daily-problems.html) that I face as a 24 x 7 x 365 FileMaker developer.
 
-Over the years I've produced quite a collection of tools that I use every day in my FileMaker development work. Looking back at the history of these tools- which is well documented in the tools' history comments - I can see that they have evolved very much over time, and that they have been shaped and fed by the problems I have encountered in my daily work.
-
-Once you've read the history here, you may be interested in [the Making of the History of MrWatson's Tools](the-making-of-the-history-of-mrwatsons-tools.html), which is a detailed look at how I track this information.
+Over the years I've produced [quite a collection of tools](a-system-of-integrated-tools.html) that I use every day in my FileMaker development work. Looking back at the history of these tools- which is well documented in the tools' history comments - I can see that they have evolved very much over time, and that they have been shaped and fed by the problems I have encountered in my daily work.
 
 {: .note}
 The image above shows an analysis of the history comments in the change log (first script) of all my tools - up to 2021. The size of the circles represents the number of comments in the code, and the lines between the circles represent the connections between the tools. The analysis shows that the tools have evolved over time, and that they have been shaped by the problems I have encountered in my daily work.
+
+Once you've read the history here, you may be interested in [the Making of the History of MrWatson's Tools](the-making-of-the-history-of-mrwatsons-tools.html), which is a detailed look at how I track this information.
 
 {: .clear}
 
@@ -34,7 +34,7 @@ The image above shows an analysis of the history comments in the change log (fir
 
 ### 2006 The Phoenix rises from the Ashes
 
-I finally found my footing in the German FileMaker Community, and with Jens Teich did a presentation on the new custom functions in FileMaker at the FileMaker Conference in Chiemsee.
+I finally found my footing in the German FileMaker Community, and with Jens Teich did a [presentation on the new custom functions in FileMaker](videos.html#fmk2006---jens-teich--russell-watson---filemaker-7---custom-functions) at the FileMaker Conference in Chiemsee.
 
 In 2006 I was beginning to dabble in AppleScript as a glue between FileMaker and other applications. 
 
