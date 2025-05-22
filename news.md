@@ -5,6 +5,9 @@ parent: fmWorkMate.com
 nav_order: 1000
 layout: default
 ---
+1. TOC
+{:toc}
+
 {% include page-image.html width=site.page_image_width %}
 
 ## {{page.title}}
@@ -17,7 +20,7 @@ Read the blog on [mrwatson.de](https://www.mrwatson.de) to keep up to date.
 
 <div 
   data-rss-feed="https://github.com/mrwatson-de.atom"
-  data-rss-max="5"
+  data-rss-max="10"
   data-rss-link-titles="false"
   data-rss-title-wrapper="h4"
 ></div>
