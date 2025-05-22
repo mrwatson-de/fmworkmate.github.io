@@ -25,8 +25,8 @@ My tools are my solutions to all the problems I get in my daily work, and since 
 
 If there was one thing we learned from [dotfmp](https://www.youtube.com/channel/UCpvtoyie8-1vZd7pW-wEICA/videos), it was
 
-> 'we share because we can!'
-
 {: .mrw-gold-bg}
+
+'We share because we can!'
 
 So, take a look through the problems listed here, and see if you can't find a solution to make your daily routine better, more productive and [more fun](why-mrwatsons-tools.html#fun) than ever before!
