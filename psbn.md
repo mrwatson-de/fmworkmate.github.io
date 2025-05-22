@@ -15,3 +15,5 @@ layout: default
 {{page.strapline}}
 
 An amazing utility that made sense in FM16, but is now deprecated. It was a way to call a script by name, but now FileMaker has a native function for that.
+
+PSBN is delivered with fmWorkMate but due to its deprecation, it is not actively integrated into the toolbox itself.
