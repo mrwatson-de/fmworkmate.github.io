@@ -24,10 +24,4 @@ The tools can solve problems
 - during deployment and patching
 - with integrating documentation
 
-## MrWatson's Tools Overview
-
-To help you understand where the tools fit into the FileMaker development ecosystem, and how they work together, here is a schematic overview:
-
-
-{: .fullwidth}
-![Overview of MrWatson's Tools](/assets/images/mrwatsons-tools-overview-2025.png)
+They have [common navigation](navigation-menus-keys.html), a kind of geeky common look and feel, they are designed to work together efficiently.
