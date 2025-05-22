@@ -16,7 +16,7 @@ layout: default
 
 fmDBAnalyser is a tool which can provide an instant analysis of the currently open FileMaker databases around it.
 
-![fmDBAnalyser Screenshot](/assets/images/fmdbanalyser_screenshot.png)
+![fmDBAnalyser Screenshot](/assets/images/fmdbanalyser-screenshot.png)
 
 Being [one of the first tools I made for FileMaker](the-history-of-mrwatsons-tools.html#2008-a-murky-beginning) many of the functions are outstripped these days by other analysis tools, yet the relationship analysis function is still extremely useful when transferring tables between files.
 
