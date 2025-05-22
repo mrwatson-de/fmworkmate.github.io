@@ -24,11 +24,11 @@ and icons:
 
 ## ![Stop](/assets/images/mrwatson-de-1-stop.png){: .w-32 .mt-32} Stop
 
-- Throw out the crap
+- Throw out the junk
 
 ## ![Get Ready](/assets/images/mrwatson-de-2-get-ready.png){: .w-32 .mt-32} Get Ready
 
-- Tweak it here and there
+- Tweak it baby
 
 ## ![Go](/assets/images/mrwatson-de-3-go.png){: .w-32 .mt-32} Go!
 

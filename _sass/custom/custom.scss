@@ -426,3 +426,59 @@ pre.steps {
   white-space: pre-wrap;       /* preserve spaces & wrap lines */
   overflow-wrap: break-word;   /* break long words if needed */
 }
+
+
+
+
+
+
+
+
+
+
+.js-feed-item-view {
+  padding: 1em;
+  margin-bottom: 1em;
+  border: 1px solid #e1e4e8;
+  border-radius: 6px;
+  background: #f6f8fa;
+  font-family: system-ui, sans-serif;
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+.js-feed-item-view a {
+  color: #0366d6;
+  text-decoration: none;
+}
+
+.js-feed-item-view a:hover {
+  text-decoration: underline;
+}
+
+.js-feed-item-view time {
+  display: block;
+  font-size: 0.8em;
+  color: #586069;
+  margin-top: 0.25em;
+}
+
+.issues_opened::before {
+  content: "🐛 Issue opened: ";
+  font-weight: bold;
+}
+
+.watch_started::before {
+  content: "⭐ Starred repo: ";
+  font-weight: bold;
+}
+
+.fork::before {
+  content: "🍴 Forked repo: ";
+  font-weight: bold;
+}
+
+.public::before {
+  content: "📂 Public repo: ";
+  font-weight: bold;
+}

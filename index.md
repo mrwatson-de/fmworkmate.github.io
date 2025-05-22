@@ -105,10 +105,7 @@ Keep on top of the latest developments in MrWatson's Tools.
 
 Sign up for an irregular newsletter!
 
-Follow [MrWatson]({{mrwatson.md|relative url}}) 
-
-the latest from mrwatson-de on [mrwatson.de]
-on GitHub
+Get the latest from mrwatson-de on GitHub.
 
 {% endcapture %}<section class="fullwidth mrw-schwarz-bg">{{ stay_in_the_loop | markdownify }}</section>
 

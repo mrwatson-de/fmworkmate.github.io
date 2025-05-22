@@ -1,6 +1,6 @@
 ---
 title: Why MrWatson's Tools?
-strapline: Some decisions in life are … tricky
+strapline: Some decisions in life are tricky
 parent: MrWatson's Tools
 nav_order: 0100
 layout: default
@@ -57,10 +57,6 @@ MrWatson's Tools make things possible that are otherwise out of your grasp:
 
 MrWatson's Tools are fun and brighten up your code and your life!
 
-#### Before
-
-![Before](assets/images/filemaker-developer-before.png)
-
-#### After
-
-![After](assets/images/filemaker-developer-after.png)
+| Before  |   | After |
+|:-------:|:-:|:-----:|
+| ![Before](assets/images/filemaker-developer-before.png) | ![MrWatson's Tools](fmworkmate.png)<br>MrWatson's Tools | ![After](assets/images/filemaker-developer-after.png) |
