@@ -1,6 +1,6 @@
 ---
 title: Claris FileMaker
-strapline: One Solution to bind them all
+strapline: One Platform to bind them
 nav_order: 3
 layout: default
 ---

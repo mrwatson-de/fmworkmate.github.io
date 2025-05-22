@@ -1,7 +1,6 @@
 remote_theme: just-the-docs/just-the-docs   # fetches theme repo
 plugins:
   - jekyll-remote-theme                     # allowed by Pages
-  - jekyll-feed
 
 # Settings for the Just the Docs theme
 

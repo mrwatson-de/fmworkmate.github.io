@@ -434,7 +434,7 @@ pre.steps {
 
 
 
-
+/* GitHub Feed Item View */
 
 .js-feed-item-view {
   padding: 1em;
@@ -481,4 +481,12 @@ pre.steps {
 .public::before {
   content: "📂 Public repo: ";
   font-weight: bold;
+}
+.js-feed-item-view a.d-inline-block {
+  /*
+  float: left;
+  margin-top: 0.25em;
+  margin-right: 0.75em;
+  */
+  vertical-align: middle;
 }

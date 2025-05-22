@@ -16,7 +16,11 @@ layout: default
 
 Read the blog on [mrwatson.de](https://www.mrwatson.de) to keep up to date.
 
-### MrWatson's Activities on GitHub
+![GitHub](/assets/images/github-mark.png){: .float-front-right .w-64}
+
+### MrWatson's GitHub Ticker
+
+{% capture github %}
 
 <div 
   data-rss-feed="https://github.com/mrwatson-de.atom"
@@ -24,5 +28,7 @@ Read the blog on [mrwatson.de](https://www.mrwatson.de) to keep up to date.
   data-rss-link-titles="false"
   data-rss-title-wrapper="h4"
 ></div>
+
+{% endcapture %}<section class="fullwidth">{{ github | markdownify }}</section>
 
 <script src="https://cdn.jsdelivr.net/gh/55sketch/simple-rss/simple-rss.js"></script>

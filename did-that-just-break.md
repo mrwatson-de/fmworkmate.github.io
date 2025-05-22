@@ -14,8 +14,6 @@ layout: default
 
 {{page.strapline}}
 
-### Introduction
-
 And when something breaks in a FileMaker database, does it log an error?
 
 When moving code around, patching files, or generally copy + pasting stuff from A to B, it's quite easy to break things. 
@@ -64,8 +62,5 @@ If the list is empty, you can go back and save the custom functions, and if not 
 
 #### For Layouts
 
-- Copy the layout objects back to the clipboard
-- With fmCheckMate convert them to XML
-- Click `[T]` (or press`⌘T`) to choose an XSLT transformation
-- Select the analysis function "Layout Analysis"
-- You get a neat list of all the errors and warnings in the layout
+With fmCheckMate and the fmCheckMate XSLT Library you can [perform an instant analysis on any layout](layout-analysis-with-fmcheckmate.html) in your solution.
+

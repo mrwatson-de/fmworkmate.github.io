@@ -1,6 +1,6 @@
 ---
 title: Other Tools and Modules
-strapline: One more thing…
+strapline: …including the ones that didn't make it
 nav_order: 1900
 layout: default
 ---
@@ -13,3 +13,9 @@ layout: default
 
 {{page.strapline}}
 
+- MrWatson's Quarantine remover for the MBS Plugin
+- …and?
+
+### The ones that didn't make it
+
+See below.

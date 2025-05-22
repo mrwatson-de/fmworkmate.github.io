@@ -15,10 +15,18 @@ layout: default
 
 ### We are Problem Solvers
 
-We are FileMaker developers. We are problem solvers, right? Yep, and in my daily work I often find myself solving the same problems over and over again. Sometimes silly little problems, sometimes huge problems needing all the skills and tools of the trade.
+> We are FileMaker developers. We are problem solvers, right?
 
-My tools are my solution to all the problems I get in my daily work - and very probably solutions to the problems you get in your daily FileMaker work too! So, take a look through the problems listed here, and see if you can't find a solution to make your daily routine better, more productive and more fun!
+Yep, and in my daily work I often find myself solving the same problems over and over again. Sometimes silly little problems, sometimes huge problems needing all the skills and tools of the trade.
 
-### Show me your Problem, I'll show you my Solution
+### And Solution Sharers
 
-Here are some of the problems I've faced and the solutions I've found. I hope you find them useful too!
+My tools are my solutions to all the problems I get in my daily work, and since we [share the same platform](claris-filemaker.html) we very probably *share the same problems* in our daily FileMaker development, I can share my solutions to your great advantage :D
+
+If there was one thing we learned from [dotfmp](https://www.youtube.com/channel/UCpvtoyie8-1vZd7pW-wEICA/videos), it was
+
+> 'we share because we can!'
+
+{: .mrw-gold-bg}
+
+So, take a look through the problems listed here, and see if you can't find a solution to make your daily routine better, more productive and [more fun](why-mrwatsons-tools.html#fun) than ever before!

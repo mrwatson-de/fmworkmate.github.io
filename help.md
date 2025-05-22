@@ -91,6 +91,16 @@ Some tips from the Beatles:
 
 ---
 
+![FileMakerDoc](filemakerdoc.png){:.float-front-right .mt-16 .w-64}
+
+## FileMakerDoc
+
+About [FileMakerDoc](filemakerdoc.html)
+
+[🔝](#)
+
+---
+
 ![fmAutoMate](fmautomate.png){:.float-front-right .mt-16 .w-64}
 
 ## fmAutoMate
@@ -296,6 +306,16 @@ About [fmTextConverter](fmtextconverter.html)
 ## fmTextDiff
 
 About [fmTextDiff](fmtextdiff.html)
+
+[🔝](#)
+
+---
+
+![fmTouchBar](fmtouchbar.png){:.float-front-right .mt-16 .w-64}
+
+## fmTouchBar
+
+About [fmTouchBar](fmtouchbar.html)
 
 [🔝](#)
 

@@ -1,6 +1,6 @@
 ---
 title: fmCheckMate Transform Button
-strapline: Transforms your FileMaker work
+strapline: [T] is for Transform
 parent: fmCheckMate
 nav_order: 100
 layout: default
@@ -14,29 +14,8 @@ layout: default
 
 {{page.strapline}}
 
-
-
 ### Introduction
 
-fmCheckMate converts your FileMaker objects to/from XML.
-
-
-### fmCheckMate Settings
-
-
-### Finding & Replacing
-
-
-
-### Finding strings
-
-Right click on the `[F]` button to see the
-
-### fmCheckMate Modes
-
-1. Convert Mode
-2. Analysis Mode
-3. XML Editor
-   a. Internal XML Editor
-   b. External XML Editor
+With the help of the [fmCheckMate XSLT Library](fmcheckmate-xslt-library.html)
+fmCheckMate can transform your life by analysing, changing and transforming your FileMaker code.
 
