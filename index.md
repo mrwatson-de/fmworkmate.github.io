@@ -95,7 +95,7 @@ Grab your code by the horns! You want it? Just name it and you get it!
 
 {% capture stay_in_the_loop %}
 
-![Stay in the Loop](/assets/images/stay_in_the_loop.png){: .float-front-right .w-192}
+![Stay in the Loop](/assets/images/stay-in-the-loop.png){: .float-front-right .w-192}
 
 ## Stay in the Loop
 
