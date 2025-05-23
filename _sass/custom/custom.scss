@@ -47,16 +47,16 @@
 /* Light backgrounds */
 
 .mrw-green-bg {
-  background-color: #79fb4d;
+  background-color: #79fb4d !important;
 }
 
 .mrw-gold-bg {
-  background-color: gold;
+  background-color: gold !important;
   color: black;
 }
 
 .mrw-golden-rule {
-  background-color: gold;
+  background-color: gold !important;
   color: black;
 }
 
@@ -66,13 +66,13 @@
 }
 
 .fmide-bg {
-  background-color: #eaab43;
-  color: black;
+  background-color: #eaab43 !important;
+  color: black !important;
 }
 
 .under-construction {
-  background-color: #ec682c;
-  color: black;
+  background-color: #ec682c !important;
+  color: black !important;
 }
 
 .under-construction::before {
@@ -107,49 +107,54 @@
 }
 
 .mrw-windows-bg {
-  background-color: #0050ef;
+  background-color: #0050ef !important;
   @include light-text;
 }
 
 .mrw-orange-bg {
-  background-color: #ec682c;
+  background-color: #ec682c !important;
   @include light-text;
 }
 
 .mrw-red-bg {
-  background-color: #ec0000;
+  background-color: #ec0000 !important;
   @include light-text;
 }
 
 .mrw-schwarz-bg {
-  background-color: #111;
+  background-color: #111 !important;
   @include light-text;
 }
 
 .mrw-blue-bg {
-  background-color: #1432ef;
+  background-color: #1432ef !important;
   @include light-text;
 }
 
+/* FIXME */
+.mrw-dark-bg {
+  background-color: #000 !important;
+  @include light-text;
+}
+
+/* FIXME */
 .mrw-dark-bg h2 {
   color: #79fb4d;
 }
 
-.mrw-dark-bg {
-  color: white;
-  background-color: #000; // Assuming this is the intended background color
-  @include light-text;
-}
+
 
 .mbs-bg {
-  background-color: #a68751;
+  background-color: #a68751 !important;
   @include light-text;
 }
 
 .mrw-killer-bg {
-  background-color: #74a;
+  background-color: #74a !important;
   @include light-text;
 }
+
+
 
 .float-front-right {
   float:right;
