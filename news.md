@@ -14,9 +14,11 @@ layout: default
 
 {{page.strapline}}
 
-Read the blog on [mrwatson.de](https://www.mrwatson.de) to keep up to date.
+{: .mrw-gold-bg}
 
-![GitHub](/assets/images/github-mark.png){: .float-front-right .w-64}
+Read the latest on MrWatson's blog on [mrwatson.de](https://www.mrwatson.de) to keep up to date.
+
+[![GitHub](/assets/images/github-mark.png)](https://github.com/mrwatson-de.atom){: .float-front-right .w-64}
 
 ### MrWatson's GitHub Ticker
 
