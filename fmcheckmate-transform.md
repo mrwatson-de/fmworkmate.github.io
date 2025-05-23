@@ -1,6 +1,6 @@
 ---
 title: fmCheckMate Transform Button
-strapline: [T] is for Transform
+strapline: T is for Transform
 parent: fmCheckMate
 nav_order: 100
 layout: default
@@ -18,4 +18,3 @@ layout: default
 
 With the help of the [fmCheckMate XSLT Library](fmcheckmate-xslt-library.html)
 fmCheckMate can transform your life by analysing, changing and transforming your FileMaker code.
-
