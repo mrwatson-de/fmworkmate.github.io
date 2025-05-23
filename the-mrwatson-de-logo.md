@@ -69,4 +69,8 @@ Enjoy!
 
 ---
 
-More on [mrwatson.de](https://www.mrwatson.de).
+Now if you are seeing this, you haven't got Wingdings 3 on your system.
+
+![How it looks with no Wingdings3](/assets/images/no-wingdings3.png)
+
+To do: where to get it
