@@ -21,15 +21,13 @@
 #markdown-toc ul  {
 	position: relative;
 	list-style: none;
-	ZZZmargin-left: 0;
-	ZZZpadding-left: 1.2em;
 }
 #markdown-toc li:before {
 	content: "▷" !important;
   color:#75f64f
 }
 
-/* GENEREAL CLASSES */
+/* GENERAL CLASSES */
 
 .fullwidth {
   /* Break out on both sides */
@@ -197,7 +195,6 @@ kbd.win, .win kbd {
     0 0 4px rgba(255, 255, 255, 0.1); /* gentle glow around the key */
 
   color: #666; /* darker text for better contrast against lighter grays */
-  ztext-shadow: 0 1px 0 #ccc; /* slight highlight on text */
   text-shadow: 0.5px 1px 0.5px #ccc;
 
   /* transition for hover effect */
@@ -269,6 +266,7 @@ kbd.win, .win kbd {
 .rainbow {
   background: linear-gradient(to left,violet,indigo, blue, green, yellow, orange, red);
   -webkit-background-clip: text;
+  background-clip: text;
   color: transparent;
 }
 
