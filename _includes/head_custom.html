@@ -1,3 +1,33 @@
+
+
+
+
+{%- comment -%}
+/* Build a “sheets” list from the global defaults plus any page-level overrides */
+{%- endcomment -%}
+
+{%- assign sheets = page.stylesheets | default: site.stylesheets -%}
+
+{%- for sheet in sheets -%}
+<link rel="stylesheet" href="{{ sheet | relative_url }}">
+{%- endfor -%}
+
+
+
+
+{%- comment -%}
+/* scripts */
+{%- endcomment -%}
+
+{%- assign all_scripts = page.scripts | default: site.scripts_global | default: site.data.scripts -%}
+{%- if all_scripts and all_scripts != empty -%}
+  {%- for src in all_scripts -%}
+<script src="{{ src | relative_url }}"></script>
+  {%- endfor -%}
+{%- endif -%}
+
+
+
 <script>
   /* This code causes all external links open in a new window */
   document.addEventListener("DOMContentLoaded", function() {

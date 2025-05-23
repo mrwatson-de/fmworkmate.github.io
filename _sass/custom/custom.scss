@@ -46,6 +46,13 @@
 
 /* Light backgrounds */
 
+.no-bg {
+  background-color: none !important;
+}
+.white-bg {
+  background-color: white !important;
+}
+
 .mrw-green-bg {
   background-color: #79fb4d !important;
 }
@@ -457,8 +464,6 @@ pre.steps {
 
 
 
-
-
 /*************************/
 /* GitHub Feed Item View */
 /*************************/
@@ -518,4 +523,25 @@ pre.steps {
   margin-right: 0.75em;
   */
   vertical-align: middle;
+}
+
+/*******************/
+/* Github Calendar */
+/*******************/
+
+/* 1) Reset the theme’s pad/minimum on your calendar */
+.ContributionCalendar-grid td,
+.ContributionCalendar-grid th {
+  /* remove that huge min-width */
+  min-width: auto !important;    
+  /* collapse the padding so your width is exact */
+  padding: 0 !important;         
+  /* make sure width is calculated from content-box */
+  box-sizing: content-box;       
+}
+
+/* 2) Force the cell to stay 11px wide */
+.ContributionCalendar-day {
+  width: 11px !important;
+  min-width: auto !important;
 }

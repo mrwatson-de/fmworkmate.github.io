@@ -4,6 +4,8 @@ strapline: News for fmWorkMate and MrWatson's Tools
 parent: fmWorkMate.com
 nav_order: 1000
 layout: default
+stylesheets:
+- https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css
 ---
 1. TOC
 {:toc}
@@ -18,11 +20,34 @@ layout: default
 
 Read the latest on MrWatson's blog on [mrwatson.de](https://www.mrwatson.de) to keep up to date.
 
-[![GitHub](/assets/images/github-mark.png)](https://github.com/mrwatson-de.atom){: .float-front-right .w-64}
-
 ### MrWatson's GitHub Ticker
 
-{% capture github %}
+[![GitHub](/assets/images/github-mark.png)](https://github.com/mrwatson-de.atom){: .float-front-right .w-32}
+
+Follow [@mrwatson-de on GitHub](https://github.com/mrwatson-de/#:~:text=Russell%20Watson) to keep up to date with the latest changes.
+
+<!-- 
+ ! ###############
+ ! GitHub Calendar.
+ ! ###############
+ !-->
+ 
+<script
+  src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"
+></script>
+
+<div class="fullwidth white-bg">
+<div class="calendar">
+    <!-- Loading stuff -->
+    Loading the data just for you.
+</div>
+</div>
+
+<script>
+  GitHubCalendar(".calendar", "mrwatson-de", { responsive: false, global_stats: false, tooltips: true });
+</script>
+
+{% capture github_feed %}
 
 <div 
   data-rss-feed="https://github.com/mrwatson-de.atom"
@@ -31,7 +56,7 @@ Read the latest on MrWatson's blog on [mrwatson.de](https://www.mrwatson.de) to 
   data-rss-title-wrapper="h4"
 ></div>
 
-{% endcapture %}<section class="fullwidth">{{ github | markdownify }}</section>
+{% endcapture %}<section class="fullwidth">{{ github_feed | markdownify }}</section>
 
 <script src="https://cdn.jsdelivr.net/gh/55sketch/simple-rss/simple-rss.js"></script>
 
