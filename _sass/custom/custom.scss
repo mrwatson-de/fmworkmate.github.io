@@ -154,6 +154,29 @@
   @include light-text;
 }
 
+.mrw-red {
+  color: red !important;
+}
+
+.mrw-orange {
+  color: orange !important;
+}
+
+.mrw-green {
+  color: #72f54a !important;
+}
+
+.mrw-blue {
+  color: #1432ef !important;
+}
+
+.wingdings3 {
+  font-family: "Wingdings 3";
+}
+
+.mrw-text-logo {
+  font-family: "Wingdings 3";
+}
 
 
 .float-front-right {
@@ -436,8 +459,9 @@ pre.steps {
 
 
 
-
+/*************************/
 /* GitHub Feed Item View */
+/*************************/
 
 .js-feed-item-view {
   padding: 1em;
@@ -448,6 +472,8 @@ pre.steps {
   font-family: system-ui, sans-serif;
   font-size: 0.95rem;
   line-height: 1.5;
+  /* ensure smooth background‐color transitions: */
+  transition: background-color 2s ease-in-out;
 }
 
 .js-feed-item-view a {
@@ -492,24 +518,4 @@ pre.steps {
   margin-right: 0.75em;
   */
   vertical-align: middle;
-}
-
-.wingdings3 {
-  font-family: "Wingdings 3";
-}
-
-.mrw-text-logo {
-  font-family: "Wingdings 3";
-}
-
-.mrw-red {
-  color: red;
-}
-
-.mrw-orange {
-  color: orange;
-}
-
-.mrw-green {
-  color: #72f54a;
 }
