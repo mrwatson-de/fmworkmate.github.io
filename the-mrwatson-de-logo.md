@@ -14,7 +14,7 @@ layout: default
 
 {{page.strapline}}
 
-> Hey, MrWatson, what's the meaning of your logo, bro'? 
+> Hey, MrWatson, what's the meaning of your logo, bro'?
 
 Well…
 
