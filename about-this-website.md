@@ -30,11 +30,25 @@ I'm using [GitHub Pages](https://pages.github.com/) to host this website - and i
 
 GitHub and GitHub Pages are great! 😃
 
+![Visual Studio Code](/assets/images/vscode.png){: .float-front-right .w-64}
+
 ## Visual Studio Code
 
-[VS-Code](https://code.visualstudio.com/) is my editor of choice, and [I'm using the [Markdown All in One](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one) extension to help me write Markdown.] - actually NOT - but VS-Code's co-pilot suggested it, so maybe I'll leave this here till I have time to check it out! :D
+[VS-Code](https://code.visualstudio.com/) is my editor of choice, and if you have not used it, you should try.Indeed it is the hero of interactive development environments and the inspiration for fmIDE.
 
 VS-Code is mega cool! 🤩
+
+![ChatGPT](/assets/images/chatgpt.png){: .float-front-right .w-64}
+
+## ChatGPT & Co
+
+Of course to help me learn all the skills and get out of the technical dead ends that one inevitabily lands in  I'm using ChatGPT and GitHub's Copilot.
+
+ChatGPT helps with the image creation and teaching me technologies very adroitly. Copilot is extremly useful for recommending and applying edits to web code. 
+
+There's a lot more to learn in this area, and I'll post anything useful I find here.
+
+![fmImage](/assets/images/tool-icon-256-x-256.png){: .float-front-right .w-64}
 
 ## fmImage
 
@@ -44,3 +58,9 @@ fmImage is meh! 😕
 
 …but maybe one day it'll become another great free tool from me for you! :D
 {: .mrw-gold-bg}
+
+![compresspng.com](/assets/images/compresspng-66pc.png){: .float-front-right .w-64}
+
+## compresspng.com
+
+I use [compresspng.com](https://compresspng.com/) to compress PNG images, and it works great, on average reducing file sizes to about 1/3 their original size without noticeable loss of quality.
