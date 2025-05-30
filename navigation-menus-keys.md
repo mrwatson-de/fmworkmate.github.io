@@ -29,10 +29,7 @@ Each tool has an `«App»` menu, containing the most important functions of the 
 
 You'll probably recognise the app menu as the traditional FileMaker `Script` menu, home to the traditional script shortcut keys (and variations thereof).
 
-![ctrl-cmd](/assets/images/ctrl-cmd.png)
-{: .float-front-right .w-64}
-
-### Take control / Take command
+### Standard Keyboard Shortcuts
 
 These are the standard keyboard shortcuts in MrWatson's tools.
 
@@ -48,8 +45,18 @@ These are the standard keyboard shortcuts in MrWatson's tools.
 <kbd>⌘</kbd><kbd>0</kbd>
 : **Maximize/minimize/reset the window** (on the `Window` menu).
 
+![ctrl-cmd](/assets/images/ctrl-cmd.png){: .float-front-right .w-64}
+
+### Take control / Take command
+
+MrWatson's Tools and documentation take a Mac-first approach, and thus keyboard shortcuts are shown for the Mac platform - with the <kbd>⌘</kbd> command key.
+
+That means, of course - unless the windows shortcut is completely different & separately documented -
+
+{: .mrw-mac-bg}
+
 {: .mrw-windows-bg}
-Of course windows users will need to use the ctrl key <kbd>⌃</kbd> instead of the command key <kbd>⌘</kbd>.
+windows users will need to use the <kbd>⌃</kbd> ctrl key instead of the <kbd>⌘</kbd> command key.
 
 See [MrWatson's Keyboard Shortcut Cheatsheet](mrwatsons-keyboard-shortcut-cheatsheet.html) for more keyboard shortcuts and tricks.
 
