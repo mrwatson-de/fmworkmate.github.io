@@ -1,0 +1,9 @@
+{
+  "MD013": false,
+  "MD025": {
+    "front_matter_title": false
+  },
+  "MD033": {
+    "allowed_elements": ["kbd", "sup", "sub", "section"]
+  }
+}

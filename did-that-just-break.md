@@ -10,7 +10,7 @@ layout: default
 
 {% include page-image.html width=site.page_image_width %}
 
-## {{page.title}}
+# {{page.title}}
 
 {{page.strapline}}
 
@@ -20,7 +20,7 @@ When moving code around, patching files, or generally copy + pasting stuff from 
 
 FileMaker tries to help in the form of the import.log which gets written to every time you paste something in, **but…**
 
-### The Problems
+## The Problems
 
 1. The import.log is hard to read
 2. Some problems are not logged as errors
@@ -29,11 +29,11 @@ FileMaker tries to help in the form of the import.log which gets written to ever
 5. Custom functions errors are not logged
 6. In Layout Mode there is *no logging at all*
 
-### MrWatson's Solutions
+## MrWatson's Solutions
 
 MrWatson has a solution for everything
 
-#### For Mastering the import.log
+### For Mastering the import.log
 
 First and foremost you need [fmLogAnalyser](./fmloganalyser.html) to help you read the import.log, and the  [BugOff! Alarm](./fmloganalyser-and-the-bugoff-alarm.html) to tell you when you've broken something.
 
@@ -48,7 +48,7 @@ Problem 5 and 6, errors in Custom Functions and Layouts, have to be solved diffe
 - [fmCheckMate XSLT-Library](./fmcheckmate-xslt-library.html)!
 - and, of course, [the MBS Plugin](./the-mbs-plugin.html)
 
-#### For Custom Functions
+### For Custom Functions
 
 …after you paste them in, but *before* you close the Custom Functions dialog,…
 
@@ -60,7 +60,7 @@ Problem 5 and 6, errors in Custom Functions and Layouts, have to be solved diffe
 
 If the list is empty, you can go back and save the custom functions, and if not you can break off, fix the problems and repeat.
 
-#### For Layouts
+### For Layouts
 
 With fmCheckMate and the fmCheckMate XSLT Library you can [perform an instant analysis on any layout](layout-analysis-with-fmcheckmate.html) in your solution.
 

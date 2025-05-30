@@ -10,7 +10,7 @@ layout: default
 
 {% include page-image.html width=site.page_image_width %}
 
-## {{page.title}}
+# {{page.title}}
 
 {{page.strapline}}
 
@@ -18,7 +18,7 @@ fmLogAnalyser's BugOff! Alarm **tells you when something breaks** when pasting c
 
 It monitors the import.log file, and when an error occurs fmLogAnalyser is brought to your attention, so you can fix it immediately and tick it off in.
 
-### Don't let the bugs in!
+## Don't let the bugs in!
 
 You can keep the bugs out of your database by setting up fmWorkMate and fmLogAnalyser to turn on the BugOff! Alarm automatically at start:
 

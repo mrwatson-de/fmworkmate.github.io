@@ -10,7 +10,7 @@ layout: default
 
 {% include page-image.html height=site.page_image_height %}
 
-## {{page.title}}
+# {{page.title}}
 
 {{page.strapline}}
 
@@ -32,7 +32,7 @@ You'll probably recognise the app menu as the traditional FileMaker `Script` men
 ![ctrl-cmd](/assets/images/ctrl-cmd.png)
 {: .float-front-right .w-64}
 
-### Take command / Take control (with keyboard shortcuts)
+### Take control / Take command
 
 These are the standard keyboard shortcuts in MrWatson's tools.
 

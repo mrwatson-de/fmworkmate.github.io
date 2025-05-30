@@ -12,16 +12,16 @@ layout: default
 
 {% include page-image.html width="400" %}
 
-## {{page.title}}
+# {{page.title}}
 
 {{page.strapline}}
 
-### Problem
+## Problem
 
 You need to change something in some FileMaker code, for example maybe the TO of *every* field in a portal to the new LayoutTable / PTO.
 
 
-### Solution
+## Solution
 
 For a super-fast fix on a Mac you can use `fmAutoMate > Find & Replace > Find & Replace ALL in XML` to recontextualise code in place
 
@@ -32,7 +32,7 @@ In FileMaker
 
 {% endcapture %}<section>{{ killer-keys | markdownify }}</section>{: .fullwidth .mrw-killer-bg}
 
-### Recontextualise Code Directly on the Clipboard
+## Recontextualise Code Directly on the Clipboard
 
 You can use fmAutomate's Extended Commands to edit the text on the clipboard directly.
 

@@ -10,7 +10,7 @@ layout: default
 
 {% include page-image.html width=site.page_image_width %}
 
-## {{page.title}}
+# {{page.title}}
 
 {{page.strapline}}
 
@@ -33,13 +33,13 @@ Whilst the XSLT transformation never made it to production, the project did have
   - `@return`
   - `@returns`
 
-### @tags for Variable Checking
+## @tags for Variable Checking
 
 Above all the `@param` and `@var` tags are useful to mark variables as defined, where the MBS Plugin is unable to recognise them. This is not only documentation, but semantic meaning!
 
 - ToDo Image / explanation
 
-### FileMakerDoc: Discontinued or just sleeping?
+## FileMakerDoc: Discontinued or just sleeping?
 
 FileMakerDoc, which for a while even had a website to its name, never quite got off the ground, not least because around the same time that I started to work on FileMakerDoc, Todd Geist brought out [karbon fmdocs](https://github.com/karbonfm/fmdocs) with almost identical aims, and marketed far more enthusiastically.
 

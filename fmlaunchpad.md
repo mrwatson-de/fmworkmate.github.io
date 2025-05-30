@@ -10,7 +10,7 @@ layout: default
 
 {% include page-image.html width=site.page_image_width %}
 
-## {{page.title}}
+# {{page.title}}
 
 {{page.strapline}}
 
@@ -19,7 +19,7 @@ This page is under contruction!
 
 fmLaunchpad is a solution to the [conceptionally flawed 'open file on start' functionality in FileMaker](https://community.claris.com/en/s/question/0D5Vy00000guyjZKAQ/filemaker-forget-to-open-file).
 
-### The Problems of 'open file on start'
+## The Problems of 'open file on start'
 
 Whilst the idea to open a file automatically on start is a great one, the implementation that Claris gave us is sadly far less than ideal for the majority of FileMaker users/developers, because it is incompatible with double-clicking a file to open it. In other words:
 
@@ -33,7 +33,7 @@ only one setting applies to all versions and instances of the FileMaker App on t
 
 This is a shame, because so much more could be possible.
 
-### Multiple FileMaker Apps (need multiple start files)
+## Multiple FileMaker Apps (need multiple start files)
 
 Did you know that on Mac OS you can not only have multiple versions of FileMaker installed on your computer, but also multiple instances of the same version?
 
@@ -44,7 +44,7 @@ Just duplicate, rename and re-iconise the FileMaker app, and you can have multip
 But, of course, *each of these apps needs a different start file*, and that's where the 'open file on start' functionality falls down.
 
 
-### The Solution
+## The Solution
 or, indeed, with fmLaunchPad **is possible**!
 
 ![fmLaunchpad long](/assets/images/fmlaunchpad-long.png)

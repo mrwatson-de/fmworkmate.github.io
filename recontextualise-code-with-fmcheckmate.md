@@ -12,11 +12,11 @@ nav_order: 400
 
 {% include page-image.html width="400" %}
 
-## {{page.title}}
+# {{page.title}}
 
 {{page.strapline}}
 
-### Problem
+## Problem
 
 Have you got some fields nicely arranged in a portal but you now need to have the same fields shown in a new list layout?
 
@@ -28,13 +28,13 @@ You can copy and paste the fields to the new list layout, but the problem is
 
 Bummer!
 
-### Solution
+## Solution
 
 Use fmCheckMate to rename all the TO references in a single
 
 
 
-### Alternatively
+## Alternatively
 
 - Use fmAutoMate to recontextualise in situ
 

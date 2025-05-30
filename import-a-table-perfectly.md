@@ -10,11 +10,11 @@ layout: default
 
 {% include page-image.html width=site.page_image_width %}
 
-## {{page.title}}
+# {{page.title}}
 
 {{page.strapline}}
 
-### Introduction
+## Introduction
 
 So…
 
@@ -32,7 +32,7 @@ That's good, *isn't it?*
 
 Well, it depends, but, no, not really very.
 
-### The Problems
+## The Problems
 
 There are several potential pitfalls and problems…
 
@@ -60,6 +60,6 @@ A missing ID in the source fields is like a missing tooth in a zipper. The teeth
 
 ![Zip IDs together](/assets/images/zipper-up.png)
 
-### MrWatson's Solution
+## MrWatson's Solution
 
 Undelete those holes in the source field IDs

@@ -10,7 +10,7 @@ nav_order: 300
 
 {% include page-image.html width="400" %}
 
-## {{page.title}}
+# {{page.title}}
 
 {{page.strapline}}
 

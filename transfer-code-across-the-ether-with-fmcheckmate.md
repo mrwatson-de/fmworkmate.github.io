@@ -12,15 +12,15 @@ nav_order: 100
 
 {% include page-image.html width="400" %}
 
-## {{page.title}}
+# {{page.title}}
 
 {{page.strapline}}
 
-### Problem
+## Problem
 
 Can't copy FileMaker from here to there? From there to here?
 
 
-### Solution
+## Solution
 
 Use fmCheckMate to convert the clipboard to/from xml

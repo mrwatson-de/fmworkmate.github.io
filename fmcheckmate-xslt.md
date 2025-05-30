@@ -10,29 +10,29 @@ layout: default
 
 {% include page-image.html width=site.page_image_width %}
 
-## {{page.title}}
+# {{page.title}}
 
 {{page.strapline}}
 
 
 
-### Introduction
+## Introduction
 
 fmCheckMate converts your FileMaker objects to/from XML.
 
 
-### fmCheckMate Settings
+## fmCheckMate Settings
 
 
-### Finding & Replacing
+## Finding & Replacing
 
 
 
-### Finding strings
+## Finding strings
 
 Right click on the `[F]` button to see the
 
-### fmCheckMate Modes
+## fmCheckMate Modes
 
 1. Convert Mode
 2. Analysis Mode

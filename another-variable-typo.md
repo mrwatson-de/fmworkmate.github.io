@@ -10,7 +10,7 @@ layout: default
 
 {% include page-image.html width=site.page_image_width %}
 
-## {{page.title}}
+# {{page.title}}
 
 {{page.strapline}}
 
@@ -28,7 +28,7 @@ Except, of course, when they are not! 🙁
 
 {% endcapture %}<section class="fullwidth mrw-green-bg">{{ conversation | markdownify }}</section>
 
-### The Problem
+## The Problem
 
 …is, of course, when you have a typo in a variable name - or have forgotten to define a variable.
 
@@ -60,13 +60,13 @@ Can you spot the mistake(s)?
 
  - but don't worry, you have good friends at hand to help!
 
-### MrWatson's Solution 1: Copy + Paste
+## MrWatson's Solution 1: Copy + Paste
 
 My first solution was to simply **always copy and paste variable names**.
 
 > It's not a bad solution - and I still use it today - just watch out for accidentally doubled up `$$` characters when selecting and replacing variable names!
 
-### MBS Plugin Solution: Variable Checking
+## MBS Plugin Solution: Variable Checking
 
 Then Christian Schmitz started a wonder solution with the MBS Plugin … variable checking!
 
@@ -74,7 +74,7 @@ FIXME IMAGE
 
 MBS clearly flags up undefined variables, so long as you play by 
 
-#### The Rules of the Game
+### The Rules of the Game
 
 {% capture rules %}
 
@@ -89,7 +89,7 @@ MBS clearly flags up undefined variables, so long as you play by
 
 {% endcapture %}<section class="fullwidth mrw-gold-bg">{{ rules | markdownify }}</section>
 
-#### Best Practice Tips
+### Best Practice Tips
 
 {% capture tips %}
 
@@ -105,7 +105,7 @@ MBS clearly flags up undefined variables, so long as you play by
 - Be aware, that in long steps and calculations the step text is truncated, so the MBS Plugin may may miss ome variable references.
 {% endcapture %}<section class="fullwidth">{{ tips | markdownify }}</section>
 
-### MrWatson's Solution 2: fmSyntaxColorizer
+## MrWatson's Solution 2: fmSyntaxColorizer
 
  - fmSyntaxColorizer
  - and a useful code transformation to change all variable names in a script to be MBS-friendly

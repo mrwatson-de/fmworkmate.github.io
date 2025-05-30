@@ -10,7 +10,7 @@ layout: default
 
 {% include page-image.html width=site.page_image_width %}
 
-## {{page.title}}
+# {{page.title}}
 
 {{page.strapline}}
 
@@ -38,7 +38,7 @@ All seems well, but clearly it is not.
 
 So, what's going on?
 
-### The Problem
+## The Problem
 
 {: .mrw-red-bg }
 The problem is you have (passively or actively) created an Imposter PTO in your file!
@@ -69,7 +69,7 @@ This typically occurs
 - when the developer is inattentive and accidentally uses the first TO as a related TO to some other table
 - when a table is imported into a file, where a refernce to the table already exists as a related TO to some other table
 
-### So what?
+## So what?
 
 What are the consequences of having an Imposter PTO?
 
@@ -77,7 +77,7 @@ Imposter PTOs can cause problems with calculations in new fields, because the de
 
 This is best illustrated with an example:
 
-### User Story: Imposter PTO caused by Refactoring the Database
+## User Story: Imposter PTO caused by Refactoring the Database
 
 Say
 
@@ -117,7 +117,7 @@ The structure you now have is like this:
    - related TO `Invoices.InvoiceLineItems`
    - New PTO (*) `_InvoiceLineItems`
 
-### The Problem
+## The Problem
 
 {: .mrw-red-bg }
 You have created an Imposter PTO in your file!
@@ -126,11 +126,11 @@ All seems well, and you're happy with your work, until one day down the line you
 
 Even duplicating a field by copying and pasting the field, causes the Calculation context to change from `_InvoiceLineItems` to `Invoices.InvoiceLineItems` 😱
 
-### The Solutions
+## The Solutions
 
 Three solutions are available to you.
 
-#### Avoid the problem
+### Avoid the problem
 
 The best solution is to **avoid the problem** by adopting the Golden Rule
 
@@ -142,14 +142,14 @@ If, on the other hand, you can't avoid a potenital Imposter PTO due to a table i
 1. Replace the imposter PTO with a newer TO
 2. Just live with it.
 
-#### Living with an Imposter PTO
+### Living with an Imposter PTO
 
 An imposter PTO is not such a problem, if you remain aware of it and take precautions:
 
 {: .mrw-golden-rule}
 When living with an Imposter PTO, always take care to correct the calculation context when creating new fields or pasting fields into the table.
 
-#### Replacing the Imposter PTO
+### Replacing the Imposter PTO
 
 To remove the Imposter TO you must
 

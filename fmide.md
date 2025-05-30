@@ -10,7 +10,7 @@ layout: default
 
 {% include page-image.html width=site.page_image_width %}
 
-## {{page.title}}
+# {{page.title}}
 
 {{page.strapline}}
 
@@ -18,13 +18,13 @@ fmIDE, the successor to [fmScriptWorkspace](fmscriptworkspace.html), not only gi
 
 ![fmIDE Name that Thing API](/assets/images/fmide-name-that-thing-a-p-i-256.png){: width="128"}
 
-### The fmIDE Name That Thing API
+## The fmIDE Name That Thing API
 
 …opens up the entirety of the FileMaker development environment - like a rainbow opens up your heart…
 
 ![fmIDE Name that Thing API](/assets/images/fmide-name-that-thing-api-rainbow.jpg)
 
-### Basic Installation
+## Basic Installation
 
 The basic installation process is simple, just…
 
@@ -37,7 +37,7 @@ The basic installation process is simple, just…
 
 For further details read the [full installation instructions](https://github.com/fmide/fmide/wiki/About-fmIDE-Installation-and-Setup) on the [fmIDE Wiki](https://github.com/fmide/fmide/wiki).
 
-### fmIDE on GitHub
+## fmIDE on GitHub
 
 fmIDE is well documented on the [fmIDE Wiki](https://github.com/fmIDE/fmIDE/wiki), and you can [find the latest version](https://github.com/fmIDE/fmIDE/releases/latest) of fmIDE on the [fmIDE GitHub Repository](https://github.com/fmIDE/fmIDE).
 

@@ -10,23 +10,23 @@ layout: default
 
 {% include page-image.html width=site.page_image_width %}
 
-## {{page.title}}
+# {{page.title}}
 
 {{page.strapline}}
 
-### Introduction
+## Introduction
 
 - Need to transfer some FileMaker code from here to there across the internet quick?
 - Wanna copy and paste your FileMaker code between two FileMaker solutions - and it just doesn't work?
 
-### The Problem
+## The Problem
 
 - Copy and paste **doesn't work for FileMaker code.** (at least not from a Mac.)
 - **However**, copy and paste **does work for text.** (most of the time)
 
 That means, if we can convert our FileMaker code to xml on the clipboard, we are ready to transfer our code across the ether…
 
-### MrWatson's Solutions
+## MrWatson's Solutions
 
 Two solutions help bridge the divide:
 
@@ -34,7 +34,7 @@ Two solutions help bridge the divide:
 
 ![](/assets/images/fmcheckmate-convert-and-transfer-mode.png)
 
-#### Copy Code from here to there with fmCheckMate (Mac to Win)
+### Copy Code from here to there with fmCheckMate (Mac to Win)
 
 1. <kbd>⌘</kbd><kbd>C</kbd>
    : **Copy** your code from the FileMaker solution here
@@ -45,7 +45,7 @@ Two solutions help bridge the divide:
 4. <kbd>⌃</kbd><kbd>V</kbd>
    : **Paste** the code into the FileMaker solution there
 
-#### Copy Code from there to here with fmCheckMate (Win to Mac)
+### Copy Code from there to here with fmCheckMate (Win to Mac)
 
 1. <kbd>⌃</kbd><kbd>C</kbd>
    : **Copy** your code from the FileMaker solution there

@@ -10,11 +10,11 @@ layout: default
 
 {% include page-image.html width=site.page_image_width %}
 
-## {{page.title}}
+# {{page.title}}
 
 {{page.strapline}}
 
-### Introduction
+## Introduction
 
 I guess it is good to know where you are going, eh?
 

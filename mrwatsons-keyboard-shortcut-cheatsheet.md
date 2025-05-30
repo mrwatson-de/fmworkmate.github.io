@@ -10,7 +10,7 @@ layout: default
 
 {% include page-image.html width="100" %}
 
-## {{page.title}}
+# {{page.title}}
 
 {{page.strapline}}
 

@@ -10,11 +10,11 @@ layout: default
 
 {% include page-image.html width=site.page_image_width %}
 
-## {{page.title}}
+# {{page.title}}
 
 {{page.strapline}}
 
-### Downloading Stuff from GitHub
+## Downloading Stuff from GitHub
 
 MrWatson's tools are hosted on GitHub, so you'll need to know how to download stuff from GitHub.
 

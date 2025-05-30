@@ -13,11 +13,11 @@ Page under construction
 
 {% include page-image.html width=site.page_image_width %}
 
-## {{page.title}}
+# {{page.title}}
 
 {{page.strapline}}
 
-### TL;DR: fmWorkMate
+## TL;DR: fmWorkMate
 
 The simple answer to that question is: 
 

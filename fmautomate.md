@@ -12,7 +12,7 @@ github_repo: https://github.com/mrwatson-de/fmAutoMate
 
 {% include page-image.html width=site.page_image_width %}
 
-## {{page.title}}
+# {{page.title}}
 
 {{page.strapline}}
 

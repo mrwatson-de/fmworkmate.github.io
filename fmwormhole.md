@@ -10,19 +10,19 @@ layout: default
 
 {% include page-image.html width=site.page_image_width %}
 
-## {{page.title}}
+# {{page.title}}
 
 {{page.strapline}}
 
 Get files from A to B through the wormhole in space.
 
-### Problem
+## Problem
 
 Sometimes simply transferring files from one computer to another on a remote system is a PITA.
 
 Drives and mounts and access rights and all that stuff, you know?
 
-### Solution
+## Solution
 
 All the machines that I'm interested in can reach the FileMaker Sever, so I made a FileMaker solution:
 
@@ -33,7 +33,7 @@ Kind of embarrassingly simple really.
 
 In fact, so embarrassingly simple that I never actually got round to publishing it.
 
-### Never mind!
+## Never mind!
 
 Here's a pretty picture to give you the idea:
 

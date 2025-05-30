@@ -10,13 +10,15 @@ layout: default
 
 {% include page-image.html width=site.page_image_width %}
 
-## {{page.title}}
+# {{page.title}}
 
 {{page.strapline}}
 
 Developed over [many years](the-history-of-mrwatsons-tools.html) to [solve real-world problems](solutions-to-daily-problems.html), MrWatson's tools have come to cover a wide range of tasks and problems that I and many other FileMaker developers encounter regularly during their daily routine.
 
-### Solve Problems
+![Problems Solved](/assets/images/problems-solved.png){: .float-front-right .w-64 .mt-16}
+
+## Solve Problems
 
 {: .mrw-green-bg}
 
@@ -30,7 +32,7 @@ The tools solve problems at all stages of the development process
 
 ![Plug Gaps](/assets/images/plug-gaps.png){: .float-front-right .w-64 .mt-16}
 
-### Plug gaps
+## Plug gaps
 
 {: .mrw-gold-bg}
 
@@ -45,18 +47,30 @@ The tools plug gaps in FileMaker functionality
 - FileMaker's Assisted Install file can only go so far in setting up your FileMaker environment
   - [fmSetupAssistant](fmsetupassistant.html) goes the whole way and can not only setup your FileMaker settings, but also some operating system settings too.
 
-### Work Together
+![Work Together](/assets/images/work-together.png){: .float-front-right .h-64 .mt-16}
+
+## Work Together
 
 {: .mrw-blue-bg}
 
-The Tools work together
+MrWatson's Tools are designed to work together
 
-- As evident from the [Case Study Backporting an e-Invoice Solution for GBS GmbH](case-study-backporting-e-invoice-solution-gbs.html). 
+Here are some examples:
 
-### Work Consistently
+- When you use fmTextDiff to compare FileMaker code, fmTextDiff uses fmCheckMate to transform the code into the best format to recognise the differences
+  - You can even choose to automatically perform a conversion on one of the files using mTextConverter
+- In fmTextMultiplier entering `1..10` in the replacement field will automatically fire up fmTextSeries to create a series to multiply.
+- In fmCheckMate
+  - entering multiple lines in the replacement field will automatically switch to use fmTextMultiplier to multiply the code.
+  - entering multiple lines in both the find and replacement fields will automatically switch to use fmTextConverter to convert the code.
+- As evident from the [Case Study Backporting an e-Invoice Solution for GBS GmbH](case-study-backporting-e-invoice-solution-gbs.html).
 
-MrWatson's Tools 
+## Work Consistently
+
+{: .mrw-schwarz-bg}
+
+MrWatson's Tools aim to be consistent
 
 - have [common navigation](navigation-menus-keys.html)
-- have a kind of geeky common look and feel
-- are designed to work efficiently together
+- speak a common language
+- have a (kind of geeky) look and feel

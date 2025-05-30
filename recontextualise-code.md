@@ -11,14 +11,14 @@ layout: default
 
 {% include page-image.html width=site.page_image_width %}
 
-## {{page.title}}
+# {{page.title}}
 
 {{page.strapline}}
 
 
 
 
-### Problem
+## Problem
 
 Have you got some code working in one place you want to move to another place?
 
@@ -37,7 +37,7 @@ Yes, you can maybe do this with copy and paste, however,
 
 That could all be quite a lot of work, surely we can do better…
 
-### MrWatson's Solutions
+## MrWatson's Solutions
 
 For **simple recontextualisation** (old TO name -> new TO name)
 

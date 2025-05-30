@@ -9,7 +9,7 @@ layout: default
 
 {% include page-image.html width=site.page_image_width %}
 
-## {{page.title}}
+# {{page.title}}
 
 {{page.strapline}}
 
@@ -20,6 +20,6 @@ layout: default
   - If you are interested, ask me about it.
 - …and?
 
-### The ones that didn't make it
+## The ones that didn't make it
 
 See below.

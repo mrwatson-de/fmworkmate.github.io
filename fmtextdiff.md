@@ -11,14 +11,14 @@ layout: default
 
 {% include page-image.html width=site.page_image_width %}
 
-## {{page.title}}
+# {{page.title}}
 
 {{page.strapline}}
 
 
 One of my favourite tools, fmTextDiff is a simple but powerful tool that 'makes all the difference' when you need to compare two files, texts or even FileMaker code straight up!
 
-### The Problem
+## The Problem
 
 Very often we need to know what the differences are between two versions of a database, in order to know what has changed.
 
@@ -26,7 +26,7 @@ When faced with a whole bunch of scripts, pages and pages of script steps, or a 
 
 Yes, there are analysis tools that can help, but they often only work on the entire-database level and require hours to run.
 
-### The Solution
+## The Solution
 
 fmTextDiff works like you work, allowing you to concentrate on one bit at a time.
 
@@ -70,7 +70,7 @@ Tables and Fields
 
 ![fmTextDiff Inputs](/assets/images/fmtextdiff-inputs.png)
 
-### How to
+## How to
 
 - To compare files,
 - To compare texts

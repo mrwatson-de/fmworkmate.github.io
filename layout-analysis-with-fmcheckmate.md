@@ -10,7 +10,7 @@ layout: default
 
 {% include page-image.html width=site.page_image_width %}
 
-## {{page.title}}
+# {{page.title}}
 
 {{page.strapline}}
 
@@ -24,6 +24,6 @@ You just need fmCheckMate and fmCheckMate XSLT Library:
 4. Select the analysis function "Layout Analysis"
 5. You get a neat list of all the errors and warnings in the layout
 
-### Processing lots of layouts?
+## Processing lots of layouts?
 
 Use [fmCheckMate's Analysis mode](fmcheckmate-modes.html#analysis-mode) to process layouts sequentially and quickly.

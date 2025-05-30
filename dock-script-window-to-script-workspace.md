@@ -10,15 +10,15 @@ layout: default
 
 {% include page-image.html width=site.page_image_width %}
 
-## {{page.title}}
+# {{page.title}}
 
 {{page.strapline}}
 
-### Introduction
+## Introduction
 
 FileMaker has a pretty neat debugger, with a very useful button for editing the current script, which allows you to open the script and break off the debugging. It's a quick way to get to a script directly from a button or process,… **however…**
 
-### The Problem
+## The Problem
 
 when you edit the currently running script, you get a standalone editing window for editing the steps of the script, which lacks many of the niceties of being in the script workspace. For example, you are not able to see where the script is in the script tree, or to duplicate the script.
 
@@ -26,7 +26,7 @@ Morevover, there is no way to easily get back to editing this script in the Scri
 
 You get stuck in a bit of a GUI dead-end, which doesn't feel nice - even the 100th time you find yourself there
 
-### MrWatson's Solution
+## MrWatson's Solution
 
 Two of MrWatson's integration tools to the rescue!
 

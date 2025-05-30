@@ -12,15 +12,15 @@ nav_order: 200
 
 {% include page-image.html width="400" %}
 
-## {{page.title}}
+# {{page.title}}
 
 {{page.strapline}}
 
-### Problem
+## Problem
 
 
 
 
-### Solution
+## Solution
 
 Use fmTextConverter to substitute all the old names with the new names

@@ -10,7 +10,7 @@ layout: default
 
 {% include page-image.html width=site.page_image_width %}
 
-## {{page.title}}
+# {{page.title}}
 
 {{page.strapline}}
 
@@ -23,28 +23,28 @@ Just duplicate, rename and re-iconise the FileMaker app, and you can have multip
 
 ![Multiple FileMaker Apps using fmLaunchPad](/assets/images/fmlaunchpad-multiple-filemaker-apps.png)
 
-### How to Create a FileMaker App on Mac OS
+## How to Create a FileMaker App on Mac OS
 
 Here is how to create a FileMaker App, using the `MrWatson in the Table of Doom` App as an example
 
-#### 1. Duplicate the FileMaker App
+### 1. Duplicate the FileMaker App
 
 - Select your standard FileMaker app in the Finder
 - Duplicate it <kbd>⌘D</kbd>
 
-#### 2. Rename the App
+### 2. Rename the App
 
 - Press <kbd>⏎</kbd> and give it a new, unique, zingy, iconic name
 - and, if you need to group it with some app FileMaker files, put it in a new folder of the same name and throw in the app's FileMaker files
 
-#### 3. Re-iconise the App
+### 3. Re-iconise the App
 
 - Create a new icon for your FileMaker app
 - Select the FileMaker app
 - Show the Information window <kbd>⌘I</kbd> or right click and select 'Get Info'
 - Drag your new icon to the file icon at the top left of the Get Info window
 
-#### 4. Setup fmLaunchPad to handle your app
+### 4. Setup fmLaunchPad to handle your app
 
 - Open fmLaunchPad
 - Change to List view

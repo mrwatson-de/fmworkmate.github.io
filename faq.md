@@ -14,7 +14,7 @@ Use the page navigation to skip to a question…
 
 {% include page-image.html width=site.page_image_width %}
 
-## {{page.title}}
+# {{page.title}}
 
 {{page.strapline}}
 

@@ -10,11 +10,11 @@ layout: default
 
 {% include page-image.html width=site.page_image_width %}
 
-## {{page.title}}
+# {{page.title}}
 
 {{page.strapline}}
 
-### Introduction
+## Introduction
 
 fmCheckMate's text result viewer shows the results of an analysis, or of any transformation that produces a text result. It is a simple viewer, but it has some powerful features that make it more than just a viewer.
 

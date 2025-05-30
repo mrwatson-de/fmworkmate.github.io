@@ -10,11 +10,11 @@ layout: default
 
 {% include page-image.html width=site.page_image_width %}
 
-## {{page.title}}
+# {{page.title}}
 
 {{page.strapline}}
 
-### Introduction
+## Introduction
 
 In my experience there are many moments in my FileMaker development day where I have written a little bit of code, and I need to do exacly the same with this whole bunch of fields" (or scripts, or repetitions, …)
 

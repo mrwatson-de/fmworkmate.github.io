@@ -10,7 +10,7 @@ layout: default
 
 {% include page-image.html width=site.page_image_width %}
 
-## {{page.title}}
+# {{page.title}}
 
 {{page.strapline}}
 
@@ -30,17 +30,17 @@ You can choose between three main modes of operation:
 | **XML Editor**         | edit the XML, see, search, change or transform it                      | <kbd>⌘9</kbd><kbd>⌘3</kbd> |
 | **Analysis**           | check your code for errors, particularly layouts!                      | <kbd>⌘9</kbd><kbd>⌘4</kbd> |
 
-### Convert & Transfer Mode
+## Convert & Transfer Mode
 
 In Convert and Transfer mode when you convert the clipboard between FileMaker objects and fmxmlsnippet text fmCheckMate does not change to the editor view but stays on the home layout
 
 If you want to transfer code across a remote connection between FileMaker deployments, you can use the `Convert & Transfer` mode in fmCheckMate on both machines to quickly move code between them.
 
-### Analysis Mode
+## Analysis Mode
 
 In Analysis mode, when you convert the clipboard fmCheckMate immediately shows the list of analysis functions, so you can choose one to run on the XML.
 
-### XML Editor Mode
+## XML Editor Mode
 
 The XML Editor mode is about working with the XML. There are several different XML Editor modes to choose from, depending on your needs:
 

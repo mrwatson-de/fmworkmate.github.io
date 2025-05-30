@@ -9,17 +9,17 @@ layout: default
 
 {% include page-image.html width=site.page_image_width %}
 
-## {{page.title}}
+# {{page.title}}
 
 {{page.strapline}}
 
-### We are Problem Solvers
+## We are Problem Solvers
 
 > We are FileMaker developers. We are problem solvers, right?
 
 Yep, and in my daily work I often find myself solving the same problems over and over again. Sometimes silly little problems, sometimes huge problems needing all the skills and tools of the trade.
 
-### And Solution Sharers
+## And Solution Sharers
 
 My tools are my solutions to all the problems I get in my daily work, and since we [share the same platform](claris-filemaker.html) we very probably *share the same problems* in our daily FileMaker development, I can share my solutions to your great advantage :D
 

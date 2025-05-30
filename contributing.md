@@ -10,17 +10,17 @@ layout: default
 
 {% include page-image.html width=site.page_image_width %}
 
-## {{page.title}}
+# {{page.title}}
 
 {{page.strapline}}
 
-### A labour of love
+## A labour of love
 
 fmWorkMate started in 2008 and has been a labour of love ever since.
 
 Contributions are always welcome, and there are many ways you can help.
 
-### How can you help?
+## How can you help?
 
 You can help MrWatson help us all to have better tools!
 
@@ -54,7 +54,7 @@ You can help MrWatson help us all to have better tools!
   - [Drop me a line][Drop me a line]
 
 
-### Using Git / GitHub Desktop to contribute...
+## Using Git / GitHub Desktop to contribute...
 
 > Need to clear up the best way of doing this, since FileMaker files and GitHub don't work great together.
 
@@ -78,7 +78,7 @@ Basically:
 
 **If you have documentation to contribute**, you can use Git / Github to clone a repository to your local machine
 
-### Cloning a repository to your computer
+## Cloning a repository to your computer
 
 Do this if you want to contribute changes back to the project.
 

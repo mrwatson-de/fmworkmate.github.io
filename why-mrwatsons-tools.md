@@ -10,7 +10,7 @@ layout: default
 
 {% include page-image.html width=site.page_image_width %}
 
-## {{page.title}}
+# {{page.title}}
 
 {{page.strapline}}
 
@@ -19,7 +19,7 @@ This one, however, is easy 😃…
 {:.text-3xl .mt--16 .clear .float-front-right}
 💯
 
-### Quality
+## Quality
 
 MrWatson's Tools improve the quality of your code and your life:
 
@@ -31,7 +31,7 @@ MrWatson's Tools improve the quality of your code and your life:
 {:.text-3xl .mt--16 .clear .float-front-right}
 🍻
 
-### Productivity
+## Productivity
 
 MrWatson's Tools can greatly improve your productivity:
 
@@ -41,7 +41,7 @@ MrWatson's Tools can greatly improve your productivity:
 
 ![fmIDE URIcorn](/assets/images/fmide-uricorn.png){:.w-64}{: .clear .float-front-right}
 
-### Magic
+## Magic
 
 MrWatson's Tools make things possible that are otherwise out of your grasp:
 
@@ -53,7 +53,7 @@ MrWatson's Tools make things possible that are otherwise out of your grasp:
 {:.text-3xl .mt--16 .clear .float-front-right}
 🤩
 
-### Fun
+## Fun
 
 MrWatson's Tools are fun and brighten up your code and your life!
 
