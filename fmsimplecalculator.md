@@ -2,7 +2,7 @@
 title: fmSimpleCalculator
 strapline: 1+2 Quick & Dirty
 parent: More Utilities
-nav_order: 300
+nav_order: 0400
 layout: default
 ---
 1. TOC

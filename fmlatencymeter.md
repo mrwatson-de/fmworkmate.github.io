@@ -1,8 +1,8 @@
 ---
 title: fmLatencyMeter
 strapline: Internet slow? See the delay!
-parent: Setup Utilities
-nav_order: 300
+parent: More Utilities
+nav_order: 0200
 layout: default
 ---
 1. TOC

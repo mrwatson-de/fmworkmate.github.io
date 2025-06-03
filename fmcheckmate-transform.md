@@ -14,7 +14,5 @@ layout: default
 
 {{page.strapline}}
 
-## Introduction
-
 With the help of the [fmCheckMate XSLT Library](fmcheckmate-xslt-library.html)
 fmCheckMate can transform your life by analysing, changing and transforming your FileMaker code.

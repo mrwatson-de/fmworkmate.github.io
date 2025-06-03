@@ -10,20 +10,23 @@ layout: default
 
 {% include page-image.html width=site.page_image_width %}
 
+[![fmWorkMate Toolbox Screenshot](/assets/images/fmworkmate-toolbox-screenshot.png)](https://github.com/mrwatson-de/fmWorkMate){: .float-front-right .w-20pc}
+
 # {{page.title}}
 
 {{page.strapline}}
 
+The first group of tools in the fmWorkMate toolbox are the `Developer Tools`.
 
+Historically, some of the first tools I made, this group of tools represent the original core of MrWatson's Power Tools for FileMaker developers.
 
-## Introduction
+Above all [fmCheckMate](fmcheckmate.html) and the [fmCheckMate XSLT-Library](fmcheckmate-xslt-library.html) along with fmLogAnalyser and the BugOff! Alarm, belong to the tools that get used most every day. .
 
-At the core of MrWatson's Developer Tools are, traditionally, the following tools:
+[fmDBAnalyser](fmdbanalyser.html) is the original analytics tool to 'turn your databases inside out
 
-- fmCheckMate (and the fmCheckMate XSLT-Library)
-- fmLogAnalyser (and the BugOff! Alarm)
-- fmDBAnalyser
-- fmSyntaxColorizer
+[fmSyntaxColorizer](fmsyntaxcolorizer.html) is the tool that makes your script workspace come to life with colour, and the first step to extending your FileMaker development environment with MrWatson's tools.
+
+Of course, all my tools are tools for FileMaker developers.
 
 ---
 

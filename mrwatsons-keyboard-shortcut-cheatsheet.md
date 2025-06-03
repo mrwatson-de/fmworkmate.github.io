@@ -124,6 +124,7 @@ Please let me know if there is anything missing from or incorrect on this page
 | Mac + MBS           |                 | <kbd>⌘</kbd><kbd>[</kbd> or<br><kbd>⌥</kbd><kbd>⌘</kbd><kbd>6</kbd> | Outdent selected text   |
 | Mac + MBS           |                 | <kbd>⌥</kbd><kbd>⌘</kbd><kbd>I</kbd>                                | Toggle invisible characters<br>MBS < 15.2: without <kbd>⌥</kbd>|
 | Mac + MBS           |                 | <kbd>⌥</kbd><kbd>⌘</kbd><kbd>R</kbd>                                | Show Ruler / Temporarily edit tab stops<br>MBS < 15.2: without <kbd>⌥</kbd> |
+| Mac + MBS           |                 | <kbd>⌘</kbd><kbd>T</kbd>/<kbd>N</kbd>/<kbd>D</kbd>/<kbd>I</kbd>/<kbd>M</kbd>/<kbd>R</kbd> | Set the data type (like in the field list) |
 
 ## Debugger Keys
 

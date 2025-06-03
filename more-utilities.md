@@ -1,6 +1,6 @@
 ---
 title: More Utilities
-strapline: Bits and Bobs
+strapline: Bits and Bobs your Uncle
 parent: fmWorkMate
 nav_order: 60
 layout: default

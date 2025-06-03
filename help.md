@@ -62,9 +62,10 @@ Amazing!
 
 {% capture big-picture %}
 
-> 🌌 Are you lacking the big picture? 
+> 🌌 Are you lacking the big picture?
 
-- Take a look at how MrWatson's Tools work together as [a system of integrated tools](a-system-of-integrated-tools.html)
+- Maybe you need an [Overview of  MrWatson's Tools](mrwatsons-tools.html#overview) to see where they fit in to the big picture?
+- Alternatively, take a look at how MrWatson's Tools work together as [a system of integrated tools](a-system-of-integrated-tools.html)
 - Check out the [Case Study: Backporting an e-Invoice Solution for GBS GmbH](case-study-backporting-e-invoice-solution-gbs.html) for a real-world example of how fmWorkMate & co. worked together to solve a bunch of problems.
 
 {% endcapture %}<section class="fullwidth mrw-green-bg">{{ big-picture | markdownify }}</section>
@@ -97,7 +98,7 @@ Some tips from the Beatles:
 
 About [FileMakerDoc](filemakerdoc.html)
 
-[🔝](#)
+{% include top.html %}
 
 ---
 
@@ -107,7 +108,7 @@ About [FileMakerDoc](filemakerdoc.html)
 
 About [fmAutoMate](fmautomate.html)
 
-[🔝](#)
+{% include top.html %}
 
 ---
 
@@ -117,7 +118,7 @@ About [fmAutoMate](fmautomate.html)
 
 About [fmCheckMate](fmcheckmate.html)
 
-[🔝](#)
+{% include top.html %}
 
 ---
 
@@ -127,7 +128,7 @@ About [fmCheckMate](fmcheckmate.html)
 
 About [fmCheckmate-XSLT](fmcheckmate-xslt.html)
 
-[🔝](#)
+{% include top.html %}
 
 ---
 
@@ -137,7 +138,7 @@ About [fmCheckmate-XSLT](fmcheckmate-xslt.html)
 
 About [fmClipboardViewer](fmclipboardviewer.html)
 
-[🔝](#)
+{% include top.html %}
 
 ---
 
@@ -147,7 +148,7 @@ About [fmClipboardViewer](fmclipboardviewer.html)
 
 About [fmDBAnalyser](fmdbanalyser.html)
 
-[🔝](#)
+{% include top.html %}
 
 ---
 
@@ -157,7 +158,7 @@ About [fmDBAnalyser](fmdbanalyser.html)
 
 About [fmIDE](fmide.html)
 
-[🔝](#)
+{% include top.html %}
 
 ---
 
@@ -167,7 +168,7 @@ About [fmIDE](fmide.html)
 
 About [fmKillDefaultFields](fmkilldefaultfields.html)
 
-[🔝](#)
+{% include top.html %}
 
 ---
 
@@ -177,7 +178,7 @@ About [fmKillDefaultFields](fmkilldefaultfields.html)
 
 About [fmLatencyMeter](fmlatencymeter.html)
 
-[🔝](#)
+{% include top.html %}
 
 ---
 
@@ -187,7 +188,7 @@ About [fmLatencyMeter](fmlatencymeter.html)
 
 About [fmLaunchPad](fmlaunchpad.html)
 
-[🔝](#)
+{% include top.html %}
 
 ---
 
@@ -197,7 +198,7 @@ About [fmLaunchPad](fmlaunchpad.html)
 
 About [fmLogAnalyser](fmloganalyser.html)
 
-[🔝](#)
+{% include top.html %}
 
 ---
 
@@ -207,7 +208,7 @@ About [fmLogAnalyser](fmloganalyser.html)
 
 About [fmMetaMate](fmmetamate.html)
 
-[🔝](#)
+{% include top.html %}
 
 ---
 
@@ -217,7 +218,7 @@ About [fmMetaMate](fmmetamate.html)
 
 About [fmModifierKeys](fmmodifierkeys.html)
 
-[🔝](#)
+{% include top.html %}
 
 ---
 
@@ -227,7 +228,7 @@ About [fmModifierKeys](fmmodifierkeys.html)
 
 About [fmPasteMate](fmpastemate.html)
 
-[🔝](#)
+{% include top.html %}
 
 ---
 
@@ -237,7 +238,7 @@ About [fmPasteMate](fmpastemate.html)
 
 About [fmPluginInfo](fmplugininfo.html)
 
-[🔝](#)
+{% include top.html %}
 
 ---
 
@@ -247,7 +248,7 @@ About [fmPluginInfo](fmplugininfo.html)
 
 About [fmPluginMate](fmpluginmate.html)
 
-[🔝](#)
+{% include top.html %}
 
 ---
 
@@ -257,7 +258,7 @@ About [fmPluginMate](fmpluginmate.html)
 
 About [fmScriptWorkspace](fmscriptworkspace.html)
 
-[🔝](#)
+{% include top.html %}
 
 ---
 
@@ -267,7 +268,7 @@ About [fmScriptWorkspace](fmscriptworkspace.html)
 
 About [fmSetupAssistant](fmsetupassistant.html)
 
-[🔝](#)
+{% include top.html %}
 
 ---
 
@@ -277,7 +278,7 @@ About [fmSetupAssistant](fmsetupassistant.html)
 
 About [fmSimpleCalculator](fmsimplecalculator.html)
 
-[🔝](#)
+{% include top.html %}
 
 ---
 
@@ -287,7 +288,7 @@ About [fmSimpleCalculator](fmsimplecalculator.html)
 
 About [fmSyntaxColorizer](fmsyntaxcolorizer.html)
 
-[🔝](#)
+{% include top.html %}
 
 ---
 
@@ -297,7 +298,7 @@ About [fmSyntaxColorizer](fmsyntaxcolorizer.html)
 
 About [fmTextConverter](fmtextconverter.html)
 
-[🔝](#)
+{% include top.html %}
 
 ---
 
@@ -307,7 +308,7 @@ About [fmTextConverter](fmtextconverter.html)
 
 About [fmTextDiff](fmtextdiff.html)
 
-[🔝](#)
+{% include top.html %}
 
 ---
 
@@ -317,7 +318,7 @@ About [fmTextDiff](fmtextdiff.html)
 
 About [fmTouchBar](fmtouchbar.html)
 
-[🔝](#)
+{% include top.html %}
 
 ---
 
@@ -327,7 +328,7 @@ About [fmTouchBar](fmtouchbar.html)
 
 About [fmTextMultiplier](fmtextmultiplier.html)
 
-[🔝](#)
+{% include top.html %}
 
 ---
 
@@ -337,7 +338,7 @@ About [fmTextMultiplier](fmtextmultiplier.html)
 
 About [fmTextSeries](fmtextseries.html)
 
-[🔝](#)
+{% include top.html %}
 
 ---
 
@@ -347,7 +348,7 @@ About [fmTextSeries](fmtextseries.html)
 
 About [fmThings](fmthings.html)
 
-[🔝](#)
+{% include top.html %}
 
 ---
 
@@ -357,7 +358,7 @@ About [fmThings](fmthings.html)
 
 About [fmUrlDecode](fmurldecode.html)
 
-[🔝](#)
+{% include top.html %}
 
 ---
 
@@ -367,7 +368,7 @@ About [fmUrlDecode](fmurldecode.html)
 
 About the [fmWorkMate](fmworkmate.html) toolbox 
 
-[🔝](#)
+{% include top.html %}
 
 ---
 
@@ -377,7 +378,7 @@ About the [fmWorkMate](fmworkmate.html) toolbox
 
 About [fmWorkMate Clip and Key Tools](clip-and-key-tools.html)
 
-[🔝](#)
+{% include top.html %}
 
 ---
 
@@ -387,7 +388,7 @@ About [fmWorkMate Clip and Key Tools](clip-and-key-tools.html)
 
 About [fmWorkMate Developer Tools](developer-tools.html)
 
-[🔝](#)
+{% include top.html %}
 
 ---
 
@@ -397,7 +398,7 @@ About [fmWorkMate Developer Tools](developer-tools.html)
 
 About [fmWorkMate Integration Tools](integration-tools.html)
 
-[🔝](#)
+{% include top.html %}
 
 ---
 
@@ -407,7 +408,7 @@ About [fmWorkMate Integration Tools](integration-tools.html)
 
 About [fmWorkMate More Utilities](more-utilities.html)
 
-[🔝](#)
+{% include top.html %}
 
 ---
 
@@ -417,7 +418,7 @@ About [fmWorkMate More Utilities](more-utilities.html)
 
 About [fmWorkMate Setup Utilities](setup-utilities.html)
 
-[🔝](#)
+{% include top.html %}
 
 ---
 
@@ -427,7 +428,7 @@ About [fmWorkMate Setup Utilities](setup-utilities.html)
 
 About [fmWorkMate Text Tools](text-tools.html)
 
-[🔝](#)
+{% include top.html %}
 
 ---
 
@@ -437,7 +438,7 @@ About [fmWorkMate Text Tools](text-tools.html)
 
 About [MrWatson's tools](mrwatsons-tools.html)
 
-[🔝](#)
+{% include top.html %}
 
 ---
 
@@ -447,7 +448,7 @@ About [MrWatson's tools](mrwatsons-tools.html)
 
 About [myMateJson](mymatejson.html)
 
-[🔝](#)
+{% include top.html %}
 
 ---
 
@@ -459,4 +460,4 @@ PSBN = Perform Script by Name
 
 About [PSBN](psbn.html)
 
-[🔝](#)
+{% include top.html %}

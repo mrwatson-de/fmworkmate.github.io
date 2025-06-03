@@ -24,6 +24,7 @@ Well…
 - It's modular
 - It's nerdy
 - It's icons
+- It's text
 - It's fun
 - It's me
 
@@ -74,3 +75,11 @@ Now if you are seeing this, you haven't got Wingdings 3 on your system.
 ![How it looks with no Wingdings3](/assets/images/no-wingdings3.png)
 
 To do: where to get it
+
+---
+
+{: .mrw-gold-bg}
+
+Indeed, you can see the idea in use in the Page Contents box at the top right of the page, where the bullet points are green triangles, but using a unicode triangle instead of Wingdings to avoid the font problem! 🤩
+
+---

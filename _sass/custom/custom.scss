@@ -1,6 +1,8 @@
 /* SPECIFIC ITEMS */
 #markdown-toc {
   float:right;
+  position:relative;
+  z-index: 10;
   margin:6px;
   margin-bottom:2rem;
   padding:6px;
@@ -482,6 +484,11 @@ pre.steps {
   /* Prevent page breaks before this element */
   break-before: avoid;
 }
+
+h1 {
+  font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif !important;
+}
+
 
 /*************************/
 /* GitHub Feed Item View */

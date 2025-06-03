@@ -52,8 +52,7 @@ and [Jump Start your FileMaker Experience](jump-start.html)
 
 ## A Toolbox for FileMaker Developers
 
-{: .w-20pc .float-front-right}
-[![fmWorkMate Toolbox Screenshot](/assets/images/fmworkmate-toolbox-screenshot.png)](https://github.com/mrwatson-de/fmWorkMate)
+[![fmWorkMate Toolbox Screenshot](/assets/images/fmworkmate-toolbox-screenshot.png)](https://github.com/mrwatson-de/fmWorkMate){: .float-front-right .w-20pc}
 
 MrWatson's fmWorkMate is a toolbox of free goodies for FileMaker developers.
 

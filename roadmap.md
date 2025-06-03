@@ -25,3 +25,4 @@ Here are some things in the pipeline. Ideas, vague plans, pie in the sky. As eve
 - [fmLog357](fmLog357.html) - a modular logging tool for FileMaker. Also sleeping a bit.
 - [fmGraphIt](fmgraphit.html) - a tool which explains how to quickly make a dependency graph of fields in a table.
 - [fmWormHole](fmwormhole.html) - a tool to transfer files from one computer to another through the wormhole in space. Anyone interested?
+- [fmShortcut](fmshortcut.html) - (an idea for) a tool to manage keyboard shortcuts on Mac computers. 
