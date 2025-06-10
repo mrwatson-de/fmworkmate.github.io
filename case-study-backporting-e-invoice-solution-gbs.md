@@ -33,15 +33,15 @@ At [Günther Business Solutions GmbH](https://guenther-bs.de/) we scrambled to m
 
 Advanter is a multi file solution.
 
-![Advanter](assets/images/cs1-1-original-advanter-erp-solution.png){: .mrw-full-width}
+![Advanter](/assets/images/cs1-1-original-advanter-erp-solution.png){: .mrw-full-width}
 
 The e-Invoice solution adds two more files to advanter:
 
-![Advanter with e-Invoice Solution](assets/images/cs1-2-advanter-erechnung-e-invoice-solution.png){: .mrw-full-width}
+![Advanter with e-Invoice Solution](/assets/images/cs1-2-advanter-erechnung-e-invoice-solution.png){: .mrw-full-width}
 
 The modular concept allows simple communication of the e-invoice via Script API and JSON:
 
-![Modular Script API](assets/images/cs1-3-script-api.png){: .mrw-full-width}
+![Modular Script API](/assets/images/cs1-3-script-api.png){: .mrw-full-width}
 
 The elements of the solution include
 
@@ -97,11 +97,10 @@ The elements of the solution include
 Whilst our preferred delivery method would have been to update all our customers to this new version of the software, there was a problem:
 
 {: .mrw-red-bg}
-A handful of customers - about 15 - were stranded in old legacy versions of the software, requiring GBS to [backport](glossary.html#backport) this new functionality into their old systems. 😕
+A number of customers - about 15 - were stranded in old legacy versions of the software, requiring GBS to [backport](glossary.html#backport) this new functionality into their old systems. 😕
 
 {: .mrw-gold-bg}
 Backporting is the action of porting new functionality to old systems
-
 
 ### The Headaches of Backporting Code
 
@@ -132,50 +131,44 @@ We needed to get efficient!
 
 {% endcapture %}<section>{{ action_summary | markdownify }}</section>{: .fullwidth .mrw-gold-bg}
 
-## The Solution: MrWatson's Tools to the rescue!
+## The Solution: MrWatson's Tools to the rescue
 
-MrWatson's tools proved to be most useful in many aspects of this process!
+MrWatson's tools - together with a Slack canvas - proved to be most useful in many aspects of this backporting process.
 
 Here is a list of the tools we used, and how they helped.
 
-- MrWatson's [fmWorkMate](fmworkmate.html) toolbox, with all its magic…
-- [fmLaunchPad](fmlaunchpad.html)
-  - to speed up te database launch process
-  - and to make it easier for fmWorkMate to run in a separate FileMaker instance
-
+- ![Slack](/assets/images/slack.png){:.float-front-right .w-32}[Slack Canvas](https://slack.com/intl/en-gb/features/canvas)
+  - was used to construct the to do list within our team communication software, [Slack](https://slack.com/).
+  - It supports markdown text, images, checkboxes, collapsible headings and http-links.
+- [fmIDE](fmide.html) ![fmIDE](fmide.png){:.float-front-right .w-32}
+  - was used to deep link to the code that needed to be ported  directly ([^3]) from the Slack Canvas to do list.
+  - This tool really shone in this process!
+- MrWatson's [fmWorkMate](fmworkmate.html) toolbox ![fmWorkMate](fmworkmate.png){:.float-front-right .w-32}
+  - was installed both on the source and target computers to provide all the magic of the tools and facilitate the fastest code transfer on the planet
+- [fmLaunchPad](fmlaunchpad.html) ![fmLaunchPad](fmlaunchpad.png){:.float-front-right .w-32}
+  - made it possible to launch fmWorkMate in its own FileMaker instance
 - Setup tools
-  - [fmSetupAssistant](fmsetupassistant.html)
-    - to make sure that the FileMaker programming environment on the customers computer was setup correctly
-  - [fmKillDefaultFields](fmkilldefaultfields.html)
+  - [fmSetupAssistant](fmsetupassistant.html) ![fmSetupAssistant](fmsetupassistant.png){:.float-front-right .w-32}
+    - was used to make sure that the FileMaker programming environment on the customers computer was setup correctly
+  - [fmKillDefaultFields](fmkilldefaultfields.html) ![fmKillDefaultFields](fmkilldefaultfields.png){:.float-front-right .w-32}
     - to make sure that the customer's database was clean of default fields
-  - [fmSyntaxColorizer](fmsyntaxcolorizer.html)
-    - to make sure that errors in scripts were immediately visible
+  - [fmSyntaxColorizer](fmsyntaxcolorizer.html) ![fmSyntaxColorizer](fmsyntaxcolorizer.png){:.float-front-right .w-32}
+    - was used on Mac computers to make sure that errors in scripts - particularly variable typos - were immediately visible
 
-- [fmCheckmate](fmcheckmate.html)
+- [fmCheckmate](fmcheckmate.html) ![fmCheckMate](fmcheckmate.png){:.float-front-right .w-32}
   - to transfer code from our master database to the customer's deployment
-- [fmAutoMate](fmautomate.html)
+- [fmAutoMate](fmautomate.html) ![fmAutoMate](fmautomate.png){:.float-front-right .w-32}
   - to transfer code even quicker using [Xopy 'n' PaXte](xopy-n-paxte.html) 
 
-- [fmLogAnalyzer](fmloganalyzer.html) and the BugOff! Alarm
+- [fmLogAnalyzer](fmloganalyzer.html) ![fmLogAnalyser](fmloganalyser.png){:.float-front-right .w-32} and the BugOff! Alarm
   - to catch pasting errors as we made them
   - and to turn the errors in a still-to-do list
-- [fmCheckMate-XSLT](fmcheckmate-xslt.html) library
+- [fmCheckMate-XSLT](fmcheckmate-xslt.html) ![fmCheckmate-XSLT](fmcheckmate-xslt.png){:.float-front-right .w-32} library
   - primarily for layout analysis to check no pasting errors crept into customers' layouts.
-- [fmDBAnalyzer](fmdbanalyzer.html)
+- [fmDBAnalyzer](fmdbanalyzer.html) ![fmDBAnalyser](fmdbanalyser.png){:.float-front-right .w-32}
   - for the specific task of checking the new TOs in the relationship graph.
-- [fmTextDiff](fmtextdiff.html)
+- [fmTextDiff](fmtextdiff.html) ![fmTextDiff](fmtextdiff.png){:.float-front-right .w-32}
   - to check how the customer's code and our code differed
-
-The tool, however, which really shone in this process was[fmIDE](fmide.html)
-
-## A To-Do List Solution: Slack Canvas
-
-For the ToDo list we had chosen to use the [Slack Canvas](https://slack.com/intl/en-gb/features/canvas) functionality just released in our team software of choice, [Slack](https://slack.com/).
-
-Thanks to the brand spanking new [Slack Canvas](https://slack.com/intl/en-gb/features/canvas) functionality in our team software of choice, [Slack](https://slack.com/), it was relatively easy to build a comprehensive - but collapsible - to do list, that worked for everyone.
-
-
-- [Slack Canvas](https://slack.com/intl/en-gb/features/canvas) to build a comprehensive & collapsible to do list
 
 ---
 
@@ -183,8 +176,5 @@ Thanks to the brand spanking new [Slack Canvas](https://slack.com/intl/en-gb/fea
 
 [^1]: Due to the advanced features of Advanter's line item functionality the solution also required a new table of normalised line items.
 
-[^2]: A value list allows selection of the target e invoice format
-
-![Value List](assets/images/cs1-4-script-api-and-value-list.png){: .mrw-full-width}
-
-The Value List is not without problems: It is a schema reference to the eRechnungAPI file, and as such during an update of the e-invoicing module it  makes it impossible to close the eRechnungAPI file on the server without the users who have used the value list having to close ALL files. In a future version I hope to replace this with a script based magic value list to remove this irritation.
+[^2]: A value list allows selection of the target e invoice format. This is not without problems: It is a schema reference to the eRechnungAPI file, and as such during an update of the e-invoicing module it  makes it impossible to close the eRechnungAPI file on the server without the users who have used the value list having to close ALL files. In a future version I hope to replace this with a script based magic value list to remove this irritation. ![Value List](/assets/images/cs1-4-script-api-and-value-list.png)
+[^3] Since the Slack Canvas does not support fmp urls they get changed into http-urls, and you have to do a little dance in the browser address field to turn the url back into an fmp link.
