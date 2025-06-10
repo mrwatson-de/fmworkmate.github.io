@@ -350,7 +350,25 @@ kbd.win, .win kbd {
   color: #ccc;
 }
 
+
+/* Whitewash effect from https://stackoverflow.com/questions/78478073/css-filter-fading-an-image-to-white-by-overlaying-a-white-color */
+.image-whitewash-hover {
+  filter: invert(0.45) brightness(1.9);
+  transition: filter 0.1s;
+}
+
+.image-whitewash-hover:hover {
+  filter: invert(0.3) brightness(1.6);
+}
+
+.mrw-github-corner:hover {
+  filter: invert(0.25) brightness(1.5);
+
+}
+
 .mrw-github-corner {
+  filter: invert(0.48) brightness(1.96);
+  transition: filter 0.1s;
   position: fixed;
   top: 0;
   right: 0;
