@@ -16,7 +16,7 @@ layout: default
 
 Have you ever added a new field to a table only to find that the calculation context is not what you expected?
 
-![Example Imposter PTO](assets/images/imposter-pto-old.png)
+![Example Imposter PTO](/assets/images/imposter-pto-old.png)
 
 This can be quite problematic, since, with the wrong calculation context, the calculation can produce quite incorrect results.
 
@@ -27,7 +27,7 @@ It's also quite unepected and confusing…because, taking a look at the relation
 
 
 
-![The Relationship Graph seems alright](assets/images/imposter-pto-relationship-graph.png)
+![The Relationship Graph seems alright](/assets/images/imposter-pto-relationship-graph.png)
 
 - You can see the `PTO` which is used for your layouts - in this case the `_Mandanten` TO with the underscore at the start
 - and the other 'related TOs' - with the table name 'Mandant' at the end.
@@ -61,7 +61,7 @@ On the other hand, an `Imposter PTO` is…
  So here you see (what you think is) the PTO at the bottom left plus a couple of related TOs.
 
 
-![The Relationship Graph seems alright](assets/images/imposter-pto-relationship-graph-p-t-oh.png)
+![The Relationship Graph seems alright](/assets/images/imposter-pto-relationship-graph-p-t-oh.png)
 
 
 This typically occurs
