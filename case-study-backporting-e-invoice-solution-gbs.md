@@ -158,7 +158,7 @@ Here is a list of the tools we used, and how they helped.
 - [fmCheckmate](fmcheckmate.html) ![fmCheckMate](fmcheckmate.png){:.float-front-right .w-32}
   - to transfer code from our master database to the customer's deployment
 - [fmAutoMate](fmautomate.html) ![fmAutoMate](fmautomate.png){:.float-front-right .w-32}
-  - to transfer code even quicker using [Xopy 'n' PaXte](xopy-n-paxte.html) 
+  - to transfer code even quicker using [Xopy 'n' PaXte](xopy-n-paxte.html)
 
 - [fmLogAnalyzer](fmloganalyzer.html) ![fmLogAnalyser](fmloganalyser.png){:.float-front-right .w-32} and the BugOff! Alarm
   - to catch pasting errors as we made them
