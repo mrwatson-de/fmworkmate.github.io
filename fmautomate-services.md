@@ -2,7 +2,7 @@
 title: fmAutoMate Services
 strapline: FIXME
 parent: fmAutoMate
-nav_order: 300
+nav_order: 0300
 layout: default
 ---
 1. TOC

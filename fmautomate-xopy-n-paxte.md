@@ -2,7 +2,7 @@
 title: Xopy 'n' PaXte Code between computers with fmAutoMate
 strapline: /ˈksɒp.i n peɪkst/ (verb) — To copy code across the ether, effectively!
 parent: fmAutoMate
-nav_order: 250
+nav_order: 5250
 layout: default
 ---
 1. TOC
