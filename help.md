@@ -429,6 +429,17 @@ About [fmWorkMate Setup Utilities](setup-utilities.html)
 About [fmWorkMate Text Tools](text-tools.html)
 
 {% include top.html %}
+#
+
+---
+
+![MrWatson's MBS Quarantine Remover App](mrwatsons-mbs-quarantine-remover-app.png){:.float-front-right .mt-16 .h-64}
+
+## MrWatson's MBS Quarantine Remover App
+
+About [MrWatson's MBS Quarantine Remover App](mrwatsons-mbs-quarantine-remover-app.html)
+
+{% include top.html %}
 
 ---
 
