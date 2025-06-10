@@ -1,7 +1,7 @@
 ---
 title: fmTouchBar
 strapline: Touch Bar for FileMaker
-parent: Other Tools and Modules
+parent: The ones that didn't make it
 nav_order: 5
 layout: default
 ---

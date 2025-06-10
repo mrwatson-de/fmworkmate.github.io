@@ -1,7 +1,7 @@
 ---
 title: FileMakerDoc
 strapline: A Documentation Tool & Concept for FileMaker
-parent: Other Tools and Modules
+parent: The ones that didn't make it
 nav_order: 3
 layout: default
 ---
