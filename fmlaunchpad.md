@@ -4,7 +4,11 @@ strapline: 3 • 2 • 1 • FileMaker is GO !
 parent: Integration Tools
 nav_order: 300
 layout: default
+github_repo: https://github.com/mrwatson-de/fmLaunchPad
+github_latest: https://github.com/mrwatson-de/fmLaunchPad/releases/latest
 ---
+[![Get me on Github](/assets/images/get-me-on-github.png){: .mrw-github-corner}]({{page.github_latest}})
+
 1. TOC
 {:toc}
 

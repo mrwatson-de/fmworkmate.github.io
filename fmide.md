@@ -4,7 +4,11 @@ strapline: A FileMaker Integrated Development Environment
 parent: Integration Tools
 nav_order: 200
 layout: default
+github_repo: https://github.com/fmIDE/fmIDE
+github_latest: https://github.com/fmIDE/fmIDE/releases/latest
 ---
+[![Get me on Github](/assets/images/get-me-on-github.png){: .mrw-github-corner}]({{page.github_latest}})
+
 - TOC
 {:toc}
 

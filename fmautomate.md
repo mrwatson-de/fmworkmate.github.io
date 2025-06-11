@@ -8,6 +8,8 @@ tool_name: fmAutoMate
 github_repo: https://github.com/mrwatson-de/fmAutoMate
 github_latest: https://github.com/mrwatson-de/fmAutoMate/releases/latest
 ---
+[![Get me on Github](/assets/images/get-me-on-github.png){: .mrw-github-corner}]({{page.github_latest}})
+
 1. TOC
 {:toc}
 
@@ -16,8 +18,6 @@ github_latest: https://github.com/mrwatson-de/fmAutoMate/releases/latest
 # {{page.title}}
 
 {{page.strapline}}
-
-[![Get me on Github](/assets/images/get-me-on-github.png){: .mrw-github-corner}]({{page.github_latest}})
 
 A tool for FileMaker developers which extends and automates your script workspace and FileMaker environment to provide you with some awesome functions to boost developer productivity (including, in some cases, making the impossible possible 😜).
 
