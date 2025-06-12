@@ -14,6 +14,8 @@ layout: default
 
 {{page.strapline}}
 
+This page is on it's way … bit by bit.{: .fullwidth .mrw-schwarz-bg}
+
 ## fmWorkMate
 
 - Which version?
