@@ -1,5 +1,6 @@
 # Ignore generated Jekyll site output
 /_site/
+.jekyll-metadata
 
 # Ignore Node.js scripts and related files
 .node-scripts/
