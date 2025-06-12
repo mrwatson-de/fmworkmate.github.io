@@ -15,7 +15,9 @@ layout: default
 {{page.strapline}}
 
 {: .under-construction}
-This page is under contruction!
+This page is under construction!
+
+![Mac only](/assets/images/mac.png){: .float-front-right .w-32}
 
 Did you know that on Mac OS you can not only have multiple versions of FileMaker installed on your computer, but also multiple instances of the same version?
 
