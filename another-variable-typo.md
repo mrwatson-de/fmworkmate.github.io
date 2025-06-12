@@ -109,3 +109,11 @@ MBS clearly flags up undefined variables, so long as you play by
 
  - fmSyntaxColorizer
  - and a useful code transformation to change all variable names in a script to be MBS-friendly
+
+ ## MBS Plugin Solution 2: MBS variable name type ahead
+
+Christian Schmitz won another beer with his fantastic variable type ahead functionality!
+
+Type the start of a variable, and MBS offers you a menu of all variables starting like that.
+
+Neat.
