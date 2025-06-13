@@ -64,3 +64,9 @@ fmImage is meh! 😕
 ## compresspng.com
 
 I use [compresspng.com](https://compresspng.com/) to compress PNG images, and it works great, on average reducing file sizes to about 1/3 their original size without noticeable loss of quality.
+
+## Building the Website
+
+When commits are pushed to GitHub the build action is triggered.
+
+On the Actions tab of the [repository](https://github.com/mrwatson-de/fmworkmate.github.io) you can see the [state of the build process](https://github.com/mrwatson-de/fmworkmate.github.io/actions)?
