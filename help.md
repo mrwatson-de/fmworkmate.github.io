@@ -33,7 +33,7 @@ Amazing!
 
 > 📖 Learn by reading?
 
-- Try starting  with our [FAQ](faq.html),
+- Try starting  with our [FAQ],
 - or read [MrWatson's Solutions to daily FileMaker Problems](solutions-to-daily-problems.html)
 - or checkout the blog on [mrwatson.de](https://www.mrwatson.de) for more in-depth articles
 
@@ -96,7 +96,7 @@ Some tips from the Beatles:
 
 ## FileMakerDoc
 
-About [FileMakerDoc](filemakerdoc.html)
+About [FileMakerDoc]
 
 {% include top.html %}
 
@@ -106,7 +106,7 @@ About [FileMakerDoc](filemakerdoc.html)
 
 ## fmAutoMate
 
-About [fmAutoMate](fmautomate.html)
+About [fmAutoMate]
 
 {% include top.html %}
 
@@ -116,7 +116,7 @@ About [fmAutoMate](fmautomate.html)
 
 ## fmCheckMate
 
-About [fmCheckMate](fmcheckmate.html)
+About [fmCheckMate]
 
 {% include top.html %}
 
@@ -126,7 +126,7 @@ About [fmCheckMate](fmcheckmate.html)
 
 ## fmCheckmate-XSLT
 
-About [fmCheckmate-XSLT](fmcheckmate-xslt.html)
+About [fmCheckmate-XSLT]
 
 {% include top.html %}
 
@@ -136,7 +136,7 @@ About [fmCheckmate-XSLT](fmcheckmate-xslt.html)
 
 ## fmClipboardViewer
 
-About [fmClipboardViewer](fmclipboardviewer.html)
+About [fmClipboardViewer]
 
 {% include top.html %}
 
@@ -146,7 +146,7 @@ About [fmClipboardViewer](fmclipboardviewer.html)
 
 ## fmDBAnalyser
 
-About [fmDBAnalyser](fmdbanalyser.html)
+About [fmDBAnalyser]
 
 {% include top.html %}
 
@@ -156,7 +156,7 @@ About [fmDBAnalyser](fmdbanalyser.html)
 
 ## fmIDE
 
-About [fmIDE](fmide.html)
+About [fmIDE]
 
 {% include top.html %}
 
@@ -166,7 +166,7 @@ About [fmIDE](fmide.html)
 
 ## fmKillDefaultFields
 
-About [fmKillDefaultFields](fmkilldefaultfields.html)
+About [fmKillDefaultFields]
 
 {% include top.html %}
 
@@ -176,7 +176,7 @@ About [fmKillDefaultFields](fmkilldefaultfields.html)
 
 ## fmLatencyMeter
 
-About [fmLatencyMeter](fmlatencymeter.html)
+About [fmLatencyMeter]
 
 {% include top.html %}
 
@@ -186,7 +186,7 @@ About [fmLatencyMeter](fmlatencymeter.html)
 
 ## fmLaunchPad
 
-About [fmLaunchPad](fmlaunchpad.html)
+About [fmLaunchPad]
 
 {% include top.html %}
 
@@ -196,7 +196,7 @@ About [fmLaunchPad](fmlaunchpad.html)
 
 ## fmLogAnalyser
 
-About [fmLogAnalyser](fmloganalyser.html)
+About [fmLogAnalyser]
 
 {% include top.html %}
 
@@ -206,7 +206,7 @@ About [fmLogAnalyser](fmloganalyser.html)
 
 ## fmMetaMate
 
-About [fmMetaMate](fmmetamate.html)
+About [fmMetaMate]
 
 {% include top.html %}
 
@@ -216,7 +216,7 @@ About [fmMetaMate](fmmetamate.html)
 
 ## fmModifierKeys
 
-About [fmModifierKeys](fmmodifierkeys.html)
+About [fmModifierKeys]
 
 {% include top.html %}
 
@@ -226,7 +226,7 @@ About [fmModifierKeys](fmmodifierkeys.html)
 
 ## fmPasteMate
 
-About [fmPasteMate](fmpastemate.html)
+About [fmPasteMate]
 
 {% include top.html %}
 
@@ -236,7 +236,7 @@ About [fmPasteMate](fmpastemate.html)
 
 ## fmPluginInfo
 
-About [fmPluginInfo](fmplugininfo.html)
+About [fmPluginInfo]
 
 {% include top.html %}
 
@@ -246,7 +246,7 @@ About [fmPluginInfo](fmplugininfo.html)
 
 ## fmPluginMate
 
-About [fmPluginMate](fmpluginmate.html)
+About [fmPluginMate]
 
 {% include top.html %}
 
@@ -256,7 +256,7 @@ About [fmPluginMate](fmpluginmate.html)
 
 ## fmScriptWorkspace
 
-About [fmScriptWorkspace](fmscriptworkspace.html)
+About [fmScriptWorkspace]
 
 {% include top.html %}
 
@@ -266,7 +266,7 @@ About [fmScriptWorkspace](fmscriptworkspace.html)
 
 ## fmSetupAssistant
 
-About [fmSetupAssistant](fmsetupassistant.html)
+About [fmSetupAssistant]
 
 {% include top.html %}
 
@@ -276,7 +276,7 @@ About [fmSetupAssistant](fmsetupassistant.html)
 
 ## fmSimpleCalculator
 
-About [fmSimpleCalculator](fmsimplecalculator.html)
+About [fmSimpleCalculator]
 
 {% include top.html %}
 
@@ -286,7 +286,7 @@ About [fmSimpleCalculator](fmsimplecalculator.html)
 
 ## fmSyntaxColorizer
 
-About [fmSyntaxColorizer](fmsyntaxcolorizer.html)
+About [fmSyntaxColorizer]
 
 {% include top.html %}
 
@@ -296,7 +296,7 @@ About [fmSyntaxColorizer](fmsyntaxcolorizer.html)
 
 ## fmTextConverter
 
-About [fmTextConverter](fmtextconverter.html)
+About [fmTextConverter]
 
 {% include top.html %}
 
@@ -306,7 +306,7 @@ About [fmTextConverter](fmtextconverter.html)
 
 ## fmTextDiff
 
-About [fmTextDiff](fmtextdiff.html)
+About [fmTextDiff]
 
 {% include top.html %}
 
@@ -316,7 +316,7 @@ About [fmTextDiff](fmtextdiff.html)
 
 ## fmTouchBar
 
-About [fmTouchBar](fmtouchbar.html)
+About [fmTouchBar]
 
 {% include top.html %}
 
@@ -326,7 +326,7 @@ About [fmTouchBar](fmtouchbar.html)
 
 ## fmTextMultiplier
 
-About [fmTextMultiplier](fmtextmultiplier.html)
+About [fmTextMultiplier]
 
 {% include top.html %}
 
@@ -336,7 +336,7 @@ About [fmTextMultiplier](fmtextmultiplier.html)
 
 ## fmTextSeries
 
-About [fmTextSeries](fmtextseries.html)
+About [fmTextSeries]
 
 {% include top.html %}
 
@@ -346,7 +346,7 @@ About [fmTextSeries](fmtextseries.html)
 
 ## fmThings
 
-About [fmThings](fmthings.html)
+About [fmThings]
 
 {% include top.html %}
 
@@ -356,7 +356,7 @@ About [fmThings](fmthings.html)
 
 ## fmUrlDecode
 
-About [fmUrlDecode](fmurldecode.html)
+About [fmUrlDecode]
 
 {% include top.html %}
 
@@ -366,7 +366,7 @@ About [fmUrlDecode](fmurldecode.html)
 
 ## fmWorkMate
 
-About the [fmWorkMate](fmworkmate.html) toolbox 
+About the [fmWorkMate] toolbox 
 
 {% include top.html %}
 
@@ -457,7 +457,7 @@ About [MrWatson's tools](mrwatsons-tools.html)
 
 ## myMateJson
 
-About [myMateJson](mymatejson.html)
+About [myMateJson]
 
 {% include top.html %}
 
@@ -469,6 +469,39 @@ About [myMateJson](mymatejson.html)
 
 PSBN = Perform Script by Name
 
-About [PSBN](psbn.html)
+About [PSBN]
 
 {% include top.html %}
+
+{% comment %}mrwMarkdownLinks{% endcomment %}
+[FAQ]: faq.html
+[FileMakerDoc]: filemakerdoc.html
+[fmAutoMate]: fmautomate.html
+[fmCheckMate]: fmcheckmate.html
+[fmCheckmate-XSLT]: fmcheckmate-xslt.html
+[fmClipboardViewer]: fmclipboardviewer.html
+[fmDBAnalyser]: fmdbanalyser.html
+[fmIDE]: fmide.html
+[fmKillDefaultFields]: fmkilldefaultfields.html
+[fmLatencyMeter]: fmlatencymeter.html
+[fmLaunchPad]: fmlaunchpad.html
+[fmLogAnalyser]: fmloganalyser.html
+[fmMetaMate]: fmmetamate.html
+[fmModifierKeys]: fmmodifierkeys.html
+[fmPasteMate]: fmpastemate.html
+[fmPluginInfo]: fmplugininfo.html
+[fmPluginMate]: fmpluginmate.html
+[fmScriptWorkspace]: fmscriptworkspace.html
+[fmSetupAssistant]: fmsetupassistant.html
+[fmSimpleCalculator]: fmsimplecalculator.html
+[fmSyntaxColorizer]: fmsyntaxcolorizer.html
+[fmTextConverter]: fmtextconverter.html
+[fmTextDiff]: fmtextdiff.html
+[fmTextMultiplier]: fmtextmultiplier.html
+[fmTextSeries]: fmtextseries.html
+[fmThings]: fmthings.html
+[fmTouchBar]: fmtouchbar.html
+[fmUrlDecode]: fmurldecode.html
+[fmWorkMate]: fmworkmate.html
+[myMateJson]: mymatejson.html
+[PSBN]: psbn.html

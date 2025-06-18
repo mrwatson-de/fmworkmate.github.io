@@ -20,4 +20,7 @@ Manage clipboard and keyboard easily.
 
 The Clip + Key Tool group is a collection of tools to work with your clipboard and keyboard.
 
-Of course, the most important clipboard tool is [fmCheckMate](fmcheckmate.html), which is to be found in pole position in the [Developer Tools](./developer-tools.html) group.
+Of course, the most important clipboard tool is [fmCheckMate], which is to be found in pole position in the [Developer Tools](./developer-tools.html) group.
+
+{% comment %}mrwMarkdownLinks{% endcomment %}
+[fmCheckMate]: fmcheckmate.html

@@ -18,7 +18,7 @@ github_latest: https://github.com/mrwatson-de/fmCheckMate-XSLT/releases/latest
 
 {{page.strapline}}
 
-The fmCheckMate-XSLT is a library of functions that plug into [fmCheckMate](fmcheckmate.html) via the `[T]` Transform button.
+The fmCheckMate-XSLT is a library of functions that plug into [fmCheckMate] via the `[T]` Transform button.
 
 ## Installation
 
@@ -167,3 +167,6 @@ When the files are imported this is parsed into the three columns
 - Input type
 - Output type
 - Name of the Function
+
+{% comment %}mrwMarkdownLinks{% endcomment %}
+[fmCheckMate]: fmcheckmate.html

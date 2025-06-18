@@ -23,7 +23,7 @@ The simple answer to that question is:
 
 {% capture fmwm %}
 
-start with [fmWorkMate](fmworkmate.html) - MrWatson's main toolbox of goodies
+start with [fmWorkMate] - MrWatson's main toolbox of goodies
 
 {% endcapture %}<section class="fullwidth mrw-green-bg">{{ fmwm | markdownify }}</section>
 
@@ -48,3 +48,6 @@ Already got MrWatson tools? but [just need some help](help.html)
 Enjoy!
 
 MrWatson
+
+{% comment %}mrwMarkdownLinks{% endcomment %}
+[fmWorkMate]: fmworkmate.html

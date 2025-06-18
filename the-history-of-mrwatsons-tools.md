@@ -53,7 +53,7 @@ Back then I was still mainly working on Windows computers. I was using AutoHotke
 ## 2008 A murky beginning
 
 [![fmDBAnalyser](fmdbanalyser.png){:.w-64}](fmdbanalyser.html){:.float-front-right .mt--16}
-The first of my tools was [fmDBAnalyser](fmdbanalyser.html) - an instant-analysis tool utilising the FileMaker Design Functions to query the structure of neighbouring databases.
+The first of my tools was [fmDBAnalyser] - an instant-analysis tool utilising the FileMaker Design Functions to query the structure of neighbouring databases.
 
 Many of the functions in fmDBAnalyser are covered better by other tools these days (for example the MBS plugin let's you see internal IDs directly within the FileMaker GUI), but the relationship analysis and diffing still plays a very important role today when moving tables between files.
 
@@ -83,7 +83,7 @@ At the end of 2011  I joined GitHub because I felt it was a good thing…but it 
 {: .clear .float-front-right}
 [![fmTextMultiplier](fmtextmultiplier.png){:.w-64}](fmtextmultiplier.html) [![fmTextSeries](fmtextseries.png){:.w-64}](fmtextseries.html) [![fmTextConverter](fmtextconverter.png){:.w-64}](fmtextconverter.html) [![fmCheckMate](fmcheckmate.png){:.w-64}](fmcheckmate.html)
 
-fmWorkMate and fmCheckMate took off in 2012. Along with them came the text tools, shortly after followed by more and more tools.
+[fmWorkMate] and [fmCheckMate] took off in 2012. Along with them came the text tools, shortly after followed by more and more tools.
 
 {: .clear}
 
@@ -93,8 +93,9 @@ fmWorkMate and fmCheckMate took off in 2012. Along with them came the text tools
 
 ## 2012 fmSyntaxColorizer
 
+[fmSyntaxColorizer] was the first integration tool.
 
-2012 the text tools started fmTextMultiplier, fmTextSeries, fmTextConverter
+2012 the text tools started [fmTextMultiplier], [fmTextSeries], [fmTextConverter]
 
 ## 2013 The year for fmSyntaxColorizer
 
@@ -118,7 +119,7 @@ fmWorkMate and fmCheckMate took off in 2012. Along with them came the text tools
 
 ## 2013 fmPasteMate, fmPluginMate, fmTextDiff
 
-More tools were thrown into the fmWorkMate toolbox
+More tools - [fmPasteMate], [fmPluginMate], [fmTextDiff] - were thrown into the fmWorkMate toolbox
 
 {: .clear}
 
@@ -130,9 +131,9 @@ More tools were thrown into the fmWorkMate toolbox
 
 ## 2014 fmClipboardViewer, fmSimpleCalculator (own file)
 
-fmClipboardViewer was added to the fmWorkMate toolbox to help visualise and debug the clipboard contents.
+[fmClipboardViewer] was added to the fmWorkMate toolbox to help visualise and debug the clipboard contents.
 
-fmSimpleCalculator - in the toolbox from the start - got a starter file of it's own in the same year.
+[fmSimpleCalculator] - in the toolbox from the start - got a starter file of it's own in the same year.
 
 {: .clear}
 
@@ -142,7 +143,7 @@ fmSimpleCalculator - in the toolbox from the start - got a starter file of it's 
 
 ## 2014 fmPluginInfo
 
-was never released :-/
+ [fmPluginInfo] was never released :-/
 
 {: .clear}
 
@@ -152,6 +153,7 @@ was never released :-/
 
 ## 2015 fmModifierKeys
 
+[fmModifierKeys] - a simple tool to help see sticky modifier keys across a remote connection.
 {: .clear}
 
 ---
@@ -192,7 +194,7 @@ Note to self: *Not* everything is text!
 
 First came the new MacBook Pro with TouchBar, then the MBS plugin made functions to programme it. 
 
-…and then came fmTouchBar, an app to experiment with the TouchBar functions.
+…and then came [fmTouchBar], an app to experiment with the TouchBar functions.
 
 Time and UX never meant it never quite caught on and remained experimental.
 
@@ -204,7 +206,7 @@ Time and UX never meant it never quite caught on and remained experimental.
 
 ## 2017 fmKeyPress
 
-LOL! The first change log entry in fmKeyPress says it all:
+LOL! The first change log entry in [fmKeyPress] says it all:
 
 `20170120 MrW 0.1v0 Tiny and finy`.
 
@@ -214,9 +216,9 @@ And that it is - just a very tiny and very fine little app to do just one thing:
 
 ## 2017 fmLatencyMeter
 
-It was a time of home office and bad internet connections. So I created fmLatencyMeter to help me visualise and measure the latency of the connection.
+It was a time of home office and bad internet connections. So I created [fmLatencyMeter] to help me visualise and measure the latency of the connection.
 
-To tell the truth it was actually a test app to show how you can use fmTextMultiplier to create a lot of objects on the clipboard - in this case the dots of the circle.
+To tell the truth it was actually a test app to show how you can use [fmTextMultiplier] to create a lot of objects on the clipboard - in this case the dots of the circle.
 
 {: .clear}
 
@@ -242,6 +244,8 @@ Although `Perform Script by Name` was introduced later, thanks to the dynamic Fi
 
 ## 2017 fmScriptWorkspace
 
+[fmScriptWorkspace] - deep linking into the FileMaker Script Workspace
+
 {: .clear}
 
 ---
@@ -259,7 +263,7 @@ FileMakerDoc never quite got off the ground.
 
 ## 2018 My First Commit to Github
 
-My first commit to GitHub was the fmCheckMate-XSLT library on the 6th June 2018, in total 411 files. Over the next 7 years 62 commits have added nearly another 100 funcions to the library!
+My first commit to GitHub was the [fmCheckMate-XSLT] library on the 6th June 2018, in total 411 files. Over the next 7 years 62 commits have added nearly another 100 funcions to the library!
 
 {: .clear}
 
@@ -270,6 +274,10 @@ My first commit to GitHub was the fmCheckMate-XSLT library on the 6th June 2018,
 
 ## 2019 fmAutoMate, fmKillDefaultFields
 
+[fmAutoMate] was the revolution in power at your fingertips.
+
+[fmKillDefaultFields] to just get rid of those pesky default fields
+
 {: .clear}
 
 ---
@@ -278,7 +286,7 @@ My first commit to GitHub was the fmCheckMate-XSLT library on the 6th June 2018,
 
 ## 2019 fmSetupAssistant
 
-Presented in 2023 Rome FileMaker Week
+[fmSetupAssistant] was first presented in 2023 Rome FileMaker Week
 
 First real use in 2025 during the [backporting of Günther Business Solutions' e-Rechnung module](case-study-backporting-e-invoice-solution-gbs.html).
 
@@ -289,10 +297,12 @@ First real use in 2025 during the [backporting of Günther Business Solutions' e
 [![fmLaunchPad](fmlaunchpad.png){:.w-64}](fmlaunchpad.html){: .clear .float-front-right}
 ## 2020 fmLaunchPad - We have lift off!
 
-So it was written in the change log: `20200928 @mrwatson-de v0.1 We have lift off!`
+So it was written in [fmLaunchPad]'s change log: `20200928 @mrwatson-de v0.1 We have lift off!`
 
 [![fmMetaMate](fmmetamate.png){:.w-64}](fmmetamate.html){: .clear .float-front-right}
 ## 2020 fmMetaMate
+
+[fmMetaMate] - create SaveAsXML files fast
 
 {: .clear}
 
@@ -305,7 +315,7 @@ So it was written in the change log: `20200928 @mrwatson-de v0.1 We have lift of
 - demise of runtime solutions
 
 {:.mrw-orange-bg}
-fmWorkMate goes open-source at dotfmp 2021.
+[fmWorkMate] goes open-source at dotfmp 2021.
 
 The main question was: What (open source) licence to use?
 
@@ -319,7 +329,7 @@ The main question was: What (open source) licence to use?
 ## 2022 fmIDE
 
 
-Wow!
+[fmIDE] - Wow! - An integrated FileMaker Developer Environment
 
 {: .clear}
 
@@ -331,7 +341,7 @@ Wow!
 
 Tired with the slow downloading from the Claris ETS website, I needed a solution to download the files with a fast downloader app. The problem was I needed to feed it the direct url to the file, and that was encoded as a url parameter.
 
-=> I created [fmUrlDecode](fmurldecode.html)
+=> I created [fmUrlDecode]
 
 {: .clear}
 
@@ -341,7 +351,7 @@ Tired with the slow downloading from the Claris ETS website, I needed a solution
 
 ## 2024 fmThings
 
-`20240219 @mrwatson-de v0.1 Start of a crazy dream`
+[fmThings] - `20240219 @mrwatson-de v0.1 Start of a crazy dream`
 {: .clear}
 
 ---
@@ -365,6 +375,7 @@ A tweet in June 2024 fondly looks back on the open source journey thus far.
 
 ### fmSetupAssistant
 
+[fmSetupAssistant] took form.
 
 ## 2025 Q2 fmIDE Chrome Extension
 
@@ -379,9 +390,38 @@ A new attempt to illustrate how the tools hang together - since 2016 the Integra
 
 ## 2025 Q2 New Website
 
-Historic day! On Tuesday, 20th May 2025, I finally launched the new website for my tools, fmworkmate.com - albeit in a half baked state - so, the standard state of most of my first releases.
+Historic day! On Tuesday, 20th May 2025, I finally launched the new website for my tools, [fmworkmate.com] - albeit in a half baked state - so, the standard state of most of my first releases.
 
 The new website is a complete overhaul of the old website - indeed a replacement - and it is now much easier to navigate and find the tools and tips you need. Whereas mrwatson.de and fmworkmate.com used to reference the same website, they now have a split personality:
 
 - [fmworkmate.com](https://fmworkmate.com/) = home of my tools
 - [mrwatson.de](https://mrwatson.de/) = home of my blog
+
+{% comment %}mrwMarkdownLinks{% endcomment %}
+[fmAutoMate]: fmautomate.html
+[fmCheckMate]: fmcheckmate.html
+[fmCheckMate-XSLT]: fmcheckmate-xslt.html
+[fmClipboardViewer]: fmclipboardviewer.html
+[fmDBAnalyser]: fmdbanalyser.html
+[fmIDE]: fmide.html
+[fmKeyPress]: fmkeypress.html
+[fmKillDefaultFields]: fmkilldefaultfields.html
+[fmLatencyMeter]: fmlatencymeter.html
+[fmLaunchPad]: fmlaunchpad.html
+[fmMetaMate]: fmmetamate.html
+[fmModifierKeys]: fmmodifierkeys.html
+[fmPasteMate]: fmpastemate.html
+[fmPluginInfo]: fmplugininfo.html
+[fmPluginMate]: fmpluginmate.html
+[fmScriptWorkspace]: fmscriptworkspace.html
+[fmSetupAssistant]: fmsetupassistant.html
+[fmSimpleCalculator]: fmsimplecalculator.html
+[fmSyntaxColorizer]: fmsyntaxcolorizer.html
+[fmTextConverter]: fmtextconverter.html
+[fmTextDiff]: fmtextdiff.html
+[fmTextMultiplier]: fmtextmultiplier.html
+[fmTextSeries]: fmtextseries.html
+[fmThings]: fmthings.html
+[fmTouchBar]: fmtouchbar.html
+[fmUrlDecode]: fmurldecode.html
+[fmWorkMate]: fmworkmate.html

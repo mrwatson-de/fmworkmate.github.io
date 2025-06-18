@@ -83,6 +83,33 @@
   color: black !important;
 }
 
+.mrw-crescendo3-bg {
+  /* Gradient: blue (cool) → orange (amazing) → gold (awesome) */
+  background: linear-gradient(180deg, #aaffff 0%, #ec682c 50%, #ffd700 100%);
+  color: #222; /* dark text for readability */
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  /* Optional: add a subtle overlay for even better readability */
+  position: relative;
+  overflow: hidden;
+}
+
+.mrw-crescendo3-bg > * {
+  position: relative;
+  z-index: 1;
+}
+
+/* Optional: subtle white overlay for text clarity */
+.mrw-crescendo3-bg::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(255,255,255,0.18);
+  z-index: 0;
+  pointer-events: none;
+}
+
 .under-construction {
   background-color: #ec682c !important;
   color: black !important;
@@ -513,6 +540,9 @@ h1 {
 
 .emoji-icon {
   margin:0px;
+    margin-block-start: 2px;
+    margin-block-end: 2px;
+ 
 }
 
 /*************************/

@@ -57,7 +57,7 @@ See the complete list on the [Navigation, Menus and Keys](navigation-menus-keys.
 
 ### 2. fmAutoMate´s magical Xopy-n-PaXte keys
 
-To transfer code between FileMaker solutions from Mac to Mac across the ether using [fmAutoMate](fmautomate.html), you can use the following keyboard shortcuts:
+To transfer code between FileMaker solutions from Mac to Mac across the ether using [fmAutoMate], you can use the following keyboard shortcuts:
 
 {% capture killer-keys %}
 
@@ -84,3 +84,6 @@ Just like Visual Studio Code´s multi-key offerings
 ---
 
 Look for the Killer Keyboard Mode sections in the documentation for each tool to see how you can use the keyboard shortcuts to speed up your workflow, they look something like this:
+
+{% comment %}mrwMarkdownLinks{% endcomment %}
+[fmAutoMate]: fmautomate.html

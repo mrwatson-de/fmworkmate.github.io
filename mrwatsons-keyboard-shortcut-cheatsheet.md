@@ -19,7 +19,7 @@ This cheatsheet lists all the useful keyboard shortcuts (and mouse clicks) to ge
 - Operating System
 - [FileMaker Pro](filemaker-pro.html)
 - [MBS Plugin](the-mbs-plugin.html)
-- [fmAutoMate](fmAutoMate.html) 
+- [fmAutoMate] 
 
 ### Notes
 
@@ -170,4 +170,5 @@ Please let me know if there is anything missing from or incorrect on this page
 - [Mac keyboard shortcuts](https://support.apple.com/en-us/HT201236)
 - [Create keyboard shortcuts for apps on Mac](https://support.apple.com/en-gb/guide/mac-help/mchlp2271/mac)
 
-
+{% comment %}mrwMarkdownLinks{% endcomment %}
+[fmAutoMate]: fmautomate.html

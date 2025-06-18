@@ -14,7 +14,7 @@ layout: default
 
 {{page.strapline}}
 
-Having trouble getting [fmTextConverter](fmtextconverter.html) to work.
+Having trouble getting [fmTextConverter] to work.
 
 ## I can't input search & replace terms
 
@@ -102,4 +102,5 @@ Yes, when working with FileMaker XML code it *is* possible to break the XML.
 
 ToDo - Example of `AT -> RG`.
 
-
+{% comment %}mrwMarkdownLinks{% endcomment %}
+[fmTextConverter]: fmtextconverter.html

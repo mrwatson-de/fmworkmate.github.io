@@ -22,7 +22,7 @@ fmTextConverter is basically a wrapper for the FileMaker `Substitute` function, 
 
 [Indeed, you can also use it to construct a Substitute function by just using the `Convert Text later` button!]
 
-Note: If you only want to perform a single search and replace [fmCheckMate](fmcheckmate.html) may be the better choice of tool.
+Note: If you only want to perform a single search and replace [fmCheckMate] may be the better choice of tool.
 
 {: .mrw-gold-bg}
 
@@ -294,3 +294,5 @@ To restore your data:
 - Change to List View
 - Press the `Import Conversions` button to import the records from the desktop.
 
+{% comment %}mrwMarkdownLinks{% endcomment %}
+[fmCheckMate]: fmcheckmate.html

@@ -22,7 +22,7 @@ The idea is to use `@tags` in your script comments to document them, and provide
 
 Whilst the XSLT transformation never made it to production, the project did have some success:
 
-- in [fmSyntaxColorizer](fmsyntaxcolorizer.html) FileMakerDoc Syntax Colorizing still exists. ˚@tags˚ at the start of a comment get a special colour:
+- in [fmSyntaxColorizer] FileMakerDoc Syntax Colorizing still exists. ˚@tags˚ at the start of a comment get a special colour:
 
   - Image ToDo
 
@@ -45,3 +45,6 @@ FileMakerDoc, which for a while even had a website to its name, never quite got 
 
 {: .mrw-gold-bg }
 Although FileMakerDoc is sleeping, I still believe in the value of the concept, and I hope one day to return to it, but for now I have put it on the back burner.
+
+{% comment %}mrwMarkdownLinks{% endcomment %}
+[fmSyntaxColorizer]: fmsyntaxcolorizer.html

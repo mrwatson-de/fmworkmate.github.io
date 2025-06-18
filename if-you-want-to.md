@@ -25,32 +25,39 @@ Page under construction
 
 ## …transfer code easily between FileMaker Solution deployments / versions
 
-- You need [fmWorkMate][fmWorkMate] > fmCheckMate
+- You need [fmWorkMate] > [fmCheckMate]
 
 ## …catch errors when I paste code into a database
 
-- You need [fmWorkMate][fmWorkMate] > fmLogAnalyser to be able to read the import.log file and turn it into a todo list
-- You need [fmWorkMate][fmWorkMate] > fmCheckMate + the fmCheckMate-XSLT Library
+- You need [fmWorkMate] > fmLogAnalyser to be able to read the import.log file and turn it into a todo list
+- You need [fmWorkMate] > [fmCheckMate] + the [fmCheckMate-XSLT] Library
   - to check for errors in pasted custom functions or layouts
 
 ## …check your layout for errors
 
-- You need [fmWorkMate][fmWorkMate] > fmCheckmate > Layout Analysis
+- You need [fmWorkMate] > [fmCheckMate] > Layout Analysis
 
 ## …move a complicated table between files
 
 Hm … this is a tricky one…
 
-- You need [fmWorkMate][fmWorkMate] > fmCheckMate
-- You need the fmCheckMate-XSLT Library
+- You need [fmWorkMate] > [fmCheckMate]
+- You need the [fmCheckMate-XSLT] Library
   - to undelete fields
-- You need [fmWorkMate][fmWorkMate] > fmLogAnalyser - to check for errors when pasting the fields in
-- You need [fmWorkMate][fmWorkMate] > fmDBAnalyser - to create compact relationship info
-- You need [fmWorkMate][fmWorkMate] > fmTextDiff - to compare the compact relationship info
-
+- You need [fmWorkMate] > [fmLogAnalyser] - to check for errors when pasting the fields in
+- You need [fmWorkMate] > [fmDBAnalyser] - to create compact relationship info
+- You need [fmWorkMate] > [fmTextDiff] - to compare the compact relationship info
 
 ## …use MrWatson's tools on a Windows PC
 
 You're kind of in luck
 
-- You need the [fmWorkMate][fmWorkMate] for Windows Runtime
+- You need the [fmWorkMate] for Windows Runtime
+
+{% comment %}mrwMarkdownLinks{% endcomment %}
+[fmCheckMate]: fmcheckmate.html
+[fmCheckMate-XSLT]: fmcheckmate-xslt.html
+[fmDBAnalyser]: fmdbanalyser.html
+[fmLogAnalyser]: fmloganalyser.html
+[fmTextDiff]: fmtextdiff.html
+[fmWorkMate]: fmworkmate.html

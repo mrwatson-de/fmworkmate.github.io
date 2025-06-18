@@ -38,7 +38,7 @@ You can help MrWatson help us all to have better tools!
   - [fmWorkMate discussions](https://github.com/mrwatson-de/fmWorkMate/discussions)
 - 🚦Give feedback
   - On the repository's issues tab you can post bugs, ideas, wishes and questions
-  - [Drop me a line][Drop me a line]
+  - [Drop me a line]
 - 📖 Help document
   - If you have used a tool successfully, please feel free to submit documentation or publish a screen video
   - If you are good at writing documentation, please do!
@@ -51,7 +51,7 @@ You can help MrWatson help us all to have better tools!
   - [Donate here](donating.html)
 - ⏱ Donate time
   - Want to help in some other way?
-  - [Drop me a line][Drop me a line]
+  - [Drop me a line]
 
 
 ## Using Git / GitHub Desktop to contribute...

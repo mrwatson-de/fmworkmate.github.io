@@ -140,34 +140,34 @@ Here is a list of the tools we used, and how they helped.
 - ![Slack](/assets/images/slack.png){:.float-front-right .w-32}[Slack Canvas](https://slack.com/intl/en-gb/features/canvas)
   - was used to construct the to do list within our team communication software, [Slack](https://slack.com/).
   - It supports markdown text, images, checkboxes, collapsible headings and http-links.
-- [fmIDE](fmide.html) ![fmIDE](fmide.png){:.float-front-right .w-32}
+- [fmIDE] ![fmIDE](fmide.png){:.float-front-right .w-32}
   - was used to deep link to the code that needed to be ported  directly ([^3]) from the Slack Canvas to do list.
   - This tool really shone in this process!
-- MrWatson's [fmWorkMate](fmworkmate.html) toolbox ![fmWorkMate](fmworkmate.png){:.float-front-right .w-32}
+- MrWatson's [fmWorkMate] toolbox ![fmWorkMate](fmworkmate.png){:.float-front-right .w-32}
   - was installed both on the source and target computers to provide all the magic of the tools and facilitate the fastest code transfer on the planet
-- [fmLaunchPad](fmlaunchpad.html) ![fmLaunchPad](fmlaunchpad.png){:.float-front-right .w-32}
+- [fmLaunchPad] ![fmLaunchPad](fmlaunchpad.png){:.float-front-right .w-32}
   - made it possible to launch fmWorkMate in its own FileMaker instance
 - Setup tools
-  - [fmSetupAssistant](fmsetupassistant.html) ![fmSetupAssistant](fmsetupassistant.png){:.float-front-right .w-32}
+  - [fmSetupAssistant] ![fmSetupAssistant](fmsetupassistant.png){:.float-front-right .w-32}
     - was used to make sure that the FileMaker programming environment on the customers computer was setup correctly
-  - [fmKillDefaultFields](fmkilldefaultfields.html) ![fmKillDefaultFields](fmkilldefaultfields.png){:.float-front-right .w-32}
+  - [fmKillDefaultFields] ![fmKillDefaultFields](fmkilldefaultfields.png){:.float-front-right .w-32}
     - to make sure that the customer's database was clean of default fields
-  - [fmSyntaxColorizer](fmsyntaxcolorizer.html) ![fmSyntaxColorizer](fmsyntaxcolorizer.png){:.float-front-right .w-32}
+  - [fmSyntaxColorizer] ![fmSyntaxColorizer](fmsyntaxcolorizer.png){:.float-front-right .w-32}
     - was used on Mac computers to make sure that errors in scripts - particularly variable typos - were immediately visible
 
-- [fmCheckmate](fmcheckmate.html) ![fmCheckMate](fmcheckmate.png){:.float-front-right .w-32}
+- [fmCheckmate] ![fmCheckMate](fmcheckmate.png){:.float-front-right .w-32}
   - to transfer code from our master database to the customer's deployment
-- [fmAutoMate](fmautomate.html) ![fmAutoMate](fmautomate.png){:.float-front-right .w-32}
+- [fmAutoMate] ![fmAutoMate](fmautomate.png){:.float-front-right .w-32}
   - to transfer code even quicker using [Xopy 'n' PaXte](xopy-n-paxte.html)
 
-- [fmLogAnalyzer](fmloganalyzer.html) ![fmLogAnalyser](fmloganalyser.png){:.float-front-right .w-32} and the BugOff! Alarm
+- [fmLogAnalyzer] ![fmLogAnalyser](fmloganalyser.png){:.float-front-right .w-32} and the BugOff! Alarm
   - to catch pasting errors as we made them
   - and to turn the errors in a still-to-do list
-- [fmCheckMate-XSLT](fmcheckmate-xslt.html) ![fmCheckmate-XSLT](fmcheckmate-xslt.png){:.float-front-right .w-32} library
+- [fmCheckMate-XSLT] ![fmCheckmate-XSLT](fmcheckmate-xslt.png){:.float-front-right .w-32} library
   - primarily for layout analysis to check no pasting errors crept into customers' layouts.
-- [fmDBAnalyzer](fmdbanalyzer.html) ![fmDBAnalyser](fmdbanalyser.png){:.float-front-right .w-32}
+- [fmDBAnalyzer] ![fmDBAnalyser](fmdbanalyser.png){:.float-front-right .w-32}
   - for the specific task of checking the new TOs in the relationship graph.
-- [fmTextDiff](fmtextdiff.html) ![fmTextDiff](fmtextdiff.png){:.float-front-right .w-32}
+- [fmTextDiff] ![fmTextDiff](fmtextdiff.png){:.float-front-right .w-32}
   - to check how the customer's code and our code differed
 
 ---
@@ -178,3 +178,15 @@ Here is a list of the tools we used, and how they helped.
 
 [^2]: A value list allows selection of the target e invoice format. This is not without problems: It is a schema reference to the eRechnungAPI file, and as such during an update of the e-invoicing module it  makes it impossible to close the eRechnungAPI file on the server without the users who have used the value list having to close ALL files. In a future version I hope to replace this with a script based magic value list to remove this irritation. ![Value List](/assets/images/cs1-4-script-api-and-value-list.png)
 [^3] Since the Slack Canvas does not support fmp urls they get changed into http-urls, and you have to do a little dance in the browser address field to turn the url back into an fmp link.
+
+{% comment %}mrwMarkdownLinks{% endcomment %}
+[fmAutoMate]: fmautomate.html
+[fmCheckmate]: fmcheckmate.html
+[fmCheckMate-XSLT]: fmcheckmate-xslt.html
+[fmIDE]: fmide.html
+[fmKillDefaultFields]: fmkilldefaultfields.html
+[fmLaunchPad]: fmlaunchpad.html
+[fmSetupAssistant]: fmsetupassistant.html
+[fmSyntaxColorizer]: fmsyntaxcolorizer.html
+[fmTextDiff]: fmtextdiff.html
+[fmWorkMate]: fmworkmate.html

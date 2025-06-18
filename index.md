@@ -26,7 +26,7 @@ Welcome to [fmWorkMate.com](https://fmWorkMate.com), the home of [MrWatson's Too
 
 ## TL;DR
 
-[fmWorkMate](fmworkmate.html) is cool ; it will make you more productive ; it will [make your FileMaker coding-life more <span class="rainbow">COLOURFUL</span>](fmsyntaxcolorizer.html)
+[fmWorkMate] is cool ; it will make you more productive ; it will [make your FileMaker coding-life more <span class="rainbow">COLOURFUL</span>](fmsyntaxcolorizer.html)
 
 {: .float-front-right .w-25pc}
 ![Jump Start your FileMaker Experience](jump-start.png)
@@ -86,7 +86,7 @@ Install [MrWatson's Integration Tools](integration-tools.html) and get turbo-pow
 
 ## fmIDE
 
-At the heart of MrWatson's Integration Tools is [fmIDE](fmide.html) - the FileMaker Integrated Development Environment - a simple script module that together with the MBS plugin puts your code at your command.
+At the heart of MrWatson's Integration Tools is [fmIDE] - the FileMaker Integrated Development Environment - a simple script module that together with the MBS plugin puts your code at your command.
 
 Grab your code by the horns! You want it? Just name it and you get it!
 
@@ -108,4 +108,7 @@ Get the latest from mrwatson-de on GitHub.
 
 {% endcapture %}<section class="fullwidth mrw-schwarz-bg">{{ stay_in_the_loop | markdownify }}</section>
 
-[mrwatson.de]:https://mrwatson.de
+{% comment %}mrwMarkdownLinks{% endcomment %}
+[fmIDE]: fmide.html
+[fmWorkMate]: fmworkmate.html
+[mrwatson.de]: https://mrwatson.de

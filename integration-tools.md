@@ -16,4 +16,7 @@ layout: default
 
 If you want an integrated development environment in FileMaker then MrWatson's Integration Tools is the place to start.
 
-[fmSyntaxColorizer](fmsyntaxcolorizer.html) is also integration tool, my first, and to be found under [Developer Tools](developer-tools.html)
+[fmSyntaxColorizer] is also integration tool, my first, and to be found under [Developer Tools](developer-tools.html)
+
+{% comment %}mrwMarkdownLinks{% endcomment %}
+[fmSyntaxColorizer]: fmsyntaxcolorizer.html

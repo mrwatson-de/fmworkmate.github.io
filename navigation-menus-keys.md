@@ -94,23 +94,32 @@ the same key is used to open the tool as to trigger the tool's main function
 In other words from fmWorkMate you can just press a key twice to open and use the tool:
 
 <kbd>⌘</kbd><kbd>2</kbd> + <kbd>⌘</kbd><kbd>2</kbd>
-: Open [fmCheckmate](fmcheckmate.html) and `Convert the Clipboard`
+: Open [fmCheckmate] and `Convert the Clipboard`
 
 <kbd>⌘</kbd><kbd>3</kbd> + <kbd>⌘</kbd><kbd>3</kbd>
-: Open [fmLogAnalyser](fmloganalyser.html) and `Reload the Log`
+: Open [fmLogAnalyser] and `Reload the Log`
 
 <kbd>⌘</kbd><kbd>4</kbd> + <kbd>⌘</kbd><kbd>4</kbd>
-: Open [fmDBAnalyser](fmdbanalyser.html) and `Analyse Relationships`
+: Open [fmDBAnalyser] and `Analyse Relationships`
 
 <kbd>⌘</kbd><kbd>5</kbd> + <kbd>⌘</kbd><kbd>5</kbd>
-: Open [fmSyntaxColorizer](fmsyntaxcolorizer.html) and `Colorize your Code`
+: Open [fmSyntaxColorizer] and `Colorize your Code`
 
 <kbd>⌘</kbd><kbd>6</kbd> + <kbd>⌘</kbd><kbd>6</kbd>
-: Open [fmTextConverter](fmtextconverter.html) and  `FM → Convert → FM` (convert FileMaker objects on the clipboard)
+: Open [fmTextConverter] and  `FM → Convert → FM` (convert FileMaker objects on the clipboard)
 
 <kbd>⌘</kbd><kbd>7</kbd> + <kbd>⌘</kbd><kbd>7</kbd>
-: Open [fmTextDiff](fmtextdiff.html) and `Paste Text and Diff automatically`
+: Open [fmTextDiff] and `Paste Text and Diff automatically`
 
 <kbd>⌘</kbd><kbd>8</kbd> + <kbd>⌘</kbd><kbd>8</kbd>
-: Open [fmTextMultiplier](fmtextmultiplier.html) and `FM → Multiply → FM` \
+: Open [fmTextMultiplier] and `FM → Multiply → FM` \
 (multiply the FileMaker objects on the clipboard)
+
+{% comment %}mrwMarkdownLinks{% endcomment %}
+[fmCheckmate]: fmcheckmate.html
+[fmDBAnalyser]: fmdbanalyser.html
+[fmLogAnalyser]: fmloganalyser.html
+[fmSyntaxColorizer]: fmsyntaxcolorizer.html
+[fmTextConverter]: fmtextconverter.html
+[fmTextDiff]: fmtextdiff.html
+[fmTextMultiplier]: fmtextmultiplier.html

@@ -66,7 +66,7 @@ My solution is a very specific - even scientific - method of importing a table p
 
 Here is a short summary - I'll flesh it ot later.
 
-1. Kill those pesky default fields with [fmKillDefaultFields](fmkilldefaultfields.html) to prevent any internal field IDs from being used.
+1. Kill those pesky default fields with [fmKillDefaultFields] to prevent any internal field IDs from being used.
 2. Prepare the target file with all necessary base functionality
    - add any missing external file references
    - add any missing custom functions
@@ -74,13 +74,13 @@ Here is a short summary - I'll flesh it ot later.
 3. Create an empty table in the target file.
 4. Copy you fields and undelete field number 1 and paste it into the new table
 5. Create all related TOs + make dummy relationships to them from field 1
-6. Check the related TO names using [fmDBAnalyser](fmdbanalyser.html)
+6. Check the related TO names using [fmDBAnalyser]
 7. Close the DB definition window
 8. Repeat until no errors…
 
    - Copy you fields and undelete from field 2 to fill those holes in the source field IDs.
    - Paste the fields into the new table and then *without closing the database definition dialog*…
-     - Check the `import.log` using [fmLogAnalyser](fmloganalyser.html) to verify that no errors occurred
+     - Check the `import.log` using [fmLogAnalyser] to verify that no errors occurred
      - If errors occurred,
        - cancel the database definition dialog 
        - fix the errors using fmLogAnalyser as a to do list
@@ -88,7 +88,7 @@ Here is a short summary - I'll flesh it ot later.
    - Click OK to close the database definition dialog. 
 
 9. Fix the relations hips
-10. Check the relationship criteria using [fmDBAnalyser](fmdbanalyser.html)
+10. Check the relationship criteria using [fmDBAnalyser]
 11. Fix field 1 if necessary
 
 The table is created! Now 
@@ -98,3 +98,8 @@ The table is created! Now
 3. Test
 
 …and you're done. 😎
+
+{% comment %}mrwMarkdownLinks{% endcomment %}
+[fmDBAnalyser]: fmdbanalyser.html
+[fmKillDefaultFields]: fmkilldefaultfields.html
+[fmLogAnalyser]: fmloganalyser.html

@@ -39,9 +39,12 @@ All in all It's hard to get the big picture, and it can take a lot of time to ge
 
 ## MrWatson's Solution
 
-With [fmGraphIt](fmgraphit.html) you can just copy the fields and with a few clicks get the big picture!
+With [fmGraphIt] you can just copy the fields and with a few clicks get the big picture!
 
 ![Trawling Fields](/assets/images/fmgraphit-a-picture-is-worth-a-thousand-words.png)
 
 - A picture is worth a thousand words!
 - A detailed network with tooltip calculations is worth *far more than* a thousand words!
+
+{% comment %}mrwMarkdownLinks{% endcomment %}
+[fmGraphIt]: fmgraphit.html
