@@ -19,6 +19,7 @@ This functionality is [Mac only] and requires the [MBS Plugin]!
 
 Having [installed fmAutoMate](fmautomate.html#install-fmautomate) you have some extra context menus in your FileMaker GUI.
 
+![MBS Plugin Script Workspace Context Menu](/assets/images/mbs_context_menu_script_workspace.png){: .float-front-right}
 
 ## An Extension of MBS Context Menus
 

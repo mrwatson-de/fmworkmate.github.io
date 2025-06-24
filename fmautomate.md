@@ -38,8 +38,6 @@ fmAutoMate comprises
 3. [fmAutomate Services](#fmautomate-services)
    - which provide (text formatting) functionality in the Mac OS services context menu in text fields throughout your system.
 
-![MBS Plugin Script Workspace Context Menu](/assets/images/mbs_context_menu_script_workspace.png){: .float-front-right}
-
 ## Install fmAutoMate
 
 ![fmAutoMate Install Button](/assets/images/fmautomate-button.png){: .float-front-right}
