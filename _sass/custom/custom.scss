@@ -125,6 +125,23 @@
   margin-left: 0.25rem; /* space between emoji and text */
 }
 
+.watch-this-space {
+  background-color: #ec682c !important;
+  color: black !important;
+}
+
+.watch-this-space::before {
+  content: "👉 ";
+  margin-right: 0.25rem; /* space between emoji and text */
+}
+
+.watch-this-space::after {
+  content: " 👀";
+  margin-left: 0.25rem; /* space between emoji and text */
+}
+
+
+
 /* Dark backgrounds */
 
 /* Define a mixin for light text, headings, and links */
@@ -150,6 +167,28 @@
   }
 }
 
+.side-note {
+  background-color: #fff9c4 !important; /* light yellow */
+  color: #333 !important;
+  border: 1.5px solid #ffe066;
+  box-shadow: 2px 4px 12px rgba(0,0,0,0.10), 0 1px 0 #ffe066 inset;
+  border-radius: 8px 24px 8px 8px;
+  padding: 1rem 1.5rem 1rem 2.5rem;
+  position: relative;
+  font-family: "Comic Sans MS", "Comic Sans", cursive, sans-serif;
+  min-width: 180px;
+  max-width: 360px;
+  margin: 1em 0;
+  /* Optional: subtle tilt for realism */
+  transform: rotate(-1.5deg);
+}
+
+.side-note::before {
+  content: "👉 ";
+  margin-right: 0.25rem; /* space between emoji and text */
+  margin-left: 0.25rem; /* space between emoji and margin */
+}
+
 .mrw-windows-bg {
   background-color: #0050ef !important;
   @include light-text;
@@ -173,6 +212,10 @@
 .mrw-blue-bg {
   background-color: #1432ef !important;
   @include light-text;
+}
+
+code {
+  color: black;
 }
 
 /* FIXME */

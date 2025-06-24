@@ -44,14 +44,14 @@ If your portal TO on the `Company List` layout is `Company.Contacts` and your `C
    - replace **a**ll occurrences by clicking the `[R]` button or pressing <kbd>⌥</kbd><kbd>⌘</kbd><kbd>A</kbd>
    - convert back to FileMaker objects by clicking the `[→ FM]` button or pressing <kbd>⌥</kbd><kbd>⌘</kbd><kbd>V</kbd>
    or
-   - just press <kbd>⇧</kbd><kbd>⌥</kbd><kbd>⌘</kbd><kbd>V</kbd> to replace and convert in one go
+   - just press <kbd>⌥</kbd><kbd>⇧</kbd><kbd>⌘</kbd><kbd>V</kbd> to replace and convert in one go
 6. Go to the `Contacts List` layout and paste the fields in. - <kbd>⌘</kbd><kbd>V</kbd>
 
 {: .fullwidth .mrw-killer-bg}
 
 ### Killer keys
 
-<kbd>⌘</kbd><kbd>C</kbd> • <kbd>⌥</kbd><kbd>⌘</kbd><kbd>C</kbd> • «find string» • <kbd>Tab</kbd> «replace string» • <kbd>⇧</kbd><kbd>⌥</kbd><kbd>⌘</kbd><kbd>V</kbd> • <kbd>⌘</kbd><kbd>V</kbd>
+<kbd>⌘</kbd><kbd>C</kbd> • <kbd>⌥</kbd><kbd>⌘</kbd><kbd>C</kbd> • «find string» • <kbd>Tab</kbd> «replace string» • <kbd>⌥</kbd><kbd>⇧</kbd><kbd>⌘</kbd><kbd>V</kbd> • <kbd>⌘</kbd><kbd>V</kbd>
 
 ### Check your work / Prove you are right
 

@@ -2,7 +2,7 @@
 title: Downloading stuff from GitHub
 strapline: Mastering the Octocat
 parent: Help
-nav_order: 10
+nav_order: 3000
 layout: default
 ---
 - TOC

@@ -46,7 +46,7 @@ Problem 5 and 6, errors in Custom Functions and Layouts, have to be solved diffe
 
 - [fmCheckMate](./fmcheckmate.html) (part of [fmWorkMate](./fmworkmate.html))
 - [fmCheckMate XSLT-Library](./fmcheckmate-xslt-library.html)!
-- and, of course, [the MBS Plugin](./the-mbs-plugin.html)
+- and, of course, [the MBS Plugin](./mbs-plugin.html)
 
 ### For Custom Functions
 

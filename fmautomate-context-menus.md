@@ -1,6 +1,6 @@
 ---
 title: fmAutoMate Context Menus
-strapline: Script Workspace, Layout Mode & Browse Mode
+strapline: for Script Workspace, Layout Mode & Browse Mode
 parent: fmAutoMate
 nav_order: 0100
 layout: default
@@ -9,15 +9,30 @@ layout: default
 - TOC
 {:toc}
 
-{% include page-image.html width="400" %}
+{% include page-image.html width=site.page_image_width %}
 
 # {{page.title}}
 
 {{page.strapline}}
 
-This page is Mac only!
+This functionality is [Mac only] and requires the [MBS Plugin]!
 
 Having [installed fmAutoMate](fmautomate.html#install-fmautomate) you have some extra context menus in your FileMaker GUI.
+
+
+## An Extension of MBS Context Menus
+
+If you use the MBS plugin you may have already noticed the MBS right click menu:
+
+This itself provides some very useful functions, particularly…
+
+- `Copy Selection` copies the selected text - the *script workspace step text* - to the clipboard.
+- `Enable/Disable` is also useful - at least for German keyboard users - for whom the standard shortcut does not always work.
+
+…but the MBS packs some cool functions to extend this menu - and shortcut keys ('hotkeys') - further, and 
+
+{: .mrw-green-bg}
+fmAutoMate extends the fantastic MBS Context Menu functionality bringing you extremely powerful tools to your fingertips.
 
 
 ## fmAutoMate Script Workspace Context Menu
@@ -94,3 +109,7 @@ At the bottom of the standard  right clicking on the layout surface area reveals
 The submenus in Browse Mode are again basically the same as those in the Script Workspace.
 
 If the fmAM Script module is installed, you may see further menu entries here.
+
+{% comment %}mrwMarkdownLinks{% endcomment %}
+[Mac only]: mac-only.html
+[MBS Plugin]: mbs-plugin.html

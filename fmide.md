@@ -30,31 +30,42 @@ fmIDE, the successor to [fmScriptWorkspace], not only gives you direct access to
 
 ![fmIDE Name that Thing API](/assets/images/fmide-name-that-thing-api-rainbow.jpg)
 
+Read more about the [fmIDE 'Name that Thing' API](https://github.com/fmIDE/fmIDE/wiki/fmIDE-'Name-that-Thing'-API) in the [fmIDE Wiki](https://github.com/fmIDE/fmIDE/wiki/), for example, [how to construct an fmIDE 'Name that Thing' API fmpurl](https://github.com/fmIDE/fmIDE/wiki/fmIDE-'Name-that-Thing'-API-fmp-urls), or about the many [fmIDE 'Name that Thing' API Parameters](https://github.com/fmIDE/fmIDE/wiki/fmIDE-'Name-that-Thing'-API-Parameters) that can be used to identify FileMaker things (like scripts, layouts, custom functions, themes, etc.).
+
+
 ## Just try it
 
-section under construction! {: .under-construction}
+{: .under-construction}
+
+Section under construction!
 
 Files that already sport fmIDE deep linking are ready to experience, so download the demo file and give it a spin!
 
-- Download the example file MyFile.fmp12
-- Open MyFile.fmp12 in your newest version of FileMaker Pro
+- Download the example file `MyFile.fmp12` from the [fmIDE repository](https://github.com/fmIDE/fmIDE)
+- Open `MyFile.fmp12` in your newest version of FileMaker Pro
 - Try clicking one of these links…
-  - Open Script `Hello World` 🙈
+  - Open Script `Hello World` 🐒
     - [fmp://$/MyFile?script=fmIDE&$script_name=Hello%20World](fmp://$/MyFile?script=fmIDE&$script_name=Hello%20World)
-  - Open Script `Hello World` at step 4 🙈
+  - Open Script `Hello World` at step 4 🐒
     - [fmp://$/MyFile?script=fmIDE&$script_name=Hello%20World&$script_step_number=4](fmp://$/MyFile?script=fmIDE&$script_name=Hello%20World&$script_step_number=4)
+  - Open Script `fmIDE README` at step 2 🐒
+    - [fmp://$/MyFile?script=fmIDE&$script_name=fmIDE%20README&$script_step_number=2](fmp://$/MyFile?script=fmIDE&$script_name=fmIDE%20README&$script_step_number=2)
   - Open layout with internal id 14
     - [fmp://$/MyFile?script=fmIDE&$layout_id=14](fmp://$/MyFile?script=fmIDE&$layout_id=14)
-  - Open Custom Function `_Format_Text_` 🙈⚙️
+  - Open Custom Function `_Format_Text_` 🐒⚙️
     - [fmp://$/MyFile?script=fmIDE&$custom_function_name=_Format_Text](fmp://$/MyFile?script=fmIDE&$custom_function_name=_Format_Text)
   - Open Theme `MrW`⚙️
     - [fmp://$/MyFile?script=fmIDE&$theme_name=MrW](fmp://$/MyFile?script=fmIDE&$theme_name=MrW)
 
-🙈
-: Actions marked with the monkey need the MBS Plugin to work.
+Legend
+
+🐒
+: Actions marked with the monkey need the [MBS Plugin] to work.
 
 ⚙️
 : Actions marked with the gear can get you to exactly where you want to go in the FileMaker dialog in one extra keypress IFF you install and use the fmIDE Retype Keyboard Buffer Service to retype the name of the thing you are looking for.
+
+Are your fmp urls not working? Try [troubleshooting fmp urls]
 
 ## Basic Installation
 
@@ -80,3 +91,4 @@ fmIDE is well documented on the [fmIDE Wiki](https://github.com/fmIDE/fmIDE/wiki
 
 {% comment %}mrwMarkdownLinks{% endcomment %}
 [fmScriptWorkspace]: fmscriptworkspace.html
+[MBS Plugin]: mbs-plugin.html

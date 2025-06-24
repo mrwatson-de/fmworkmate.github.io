@@ -2,7 +2,7 @@
 title: MrWatson's Keyboard Shortcut Cheatsheet
 strapline: All the keys
 parent: Help
-nav_order: 2
+nav_order: 1000
 layout: default
 ---
 - TOC
@@ -18,7 +18,7 @@ This cheatsheet lists all the useful keyboard shortcuts (and mouse clicks) to ge
 
 - Operating System
 - [FileMaker Pro](filemaker-pro.html)
-- [MBS Plugin](the-mbs-plugin.html)
+- [MBS Plugin](mbs-plugin.html)
 - [fmAutoMate] 
 
 ### Notes

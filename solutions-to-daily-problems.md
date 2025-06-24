@@ -21,7 +21,7 @@ Yep, and in my daily work I often find myself solving the same problems over and
 
 ## And Solution Sharers
 
-My tools are my solutions to all the problems I get in my daily work, and since we [share the same platform](claris-filemaker.html) we very probably *share the same problems* in our daily FileMaker development, I can share my solutions to your great advantage :D
+My tools are my solutions to all the problems I get in my daily work, and since we [share the same platform](filemaker.html) we very probably *share the same problems* in our daily FileMaker development, I can share my solutions to your great advantage :D
 
 If there was one thing we learned from [dotfmp](https://www.youtube.com/channel/UCpvtoyie8-1vZd7pW-wEICA/videos), it was
 

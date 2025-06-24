@@ -32,7 +32,7 @@ The tonic you need is
 
 - [fmAutoMate](./fmautomate.html) 
 - [fmIDE](./fmide.html)!
-- and, of course, [the MBS Plugin](./the-mbs-plugin.html)
+- and, of course, [the MBS Plugin](./mbs-plugin.html)
 
 fmAutoMate extends the FileMaker development environment to provide extra menu items and keyboard shortcuts to make your life easier.
 
