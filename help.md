@@ -453,16 +453,26 @@ About [MrWatson's MBS Quarantine Remover App](mrwatsons-mbs-quarantine-remover-a
 
 ---
 
-![MrWatson's tools](mrwatsons-tools.png){:.float-front-right .mt-16 .h-64}
+![MrWatson's Tools](mrwatsons-tools.png){:.float-front-right .mt-16 .h-64}
 
-## MrWatson's tools
+## MrWatson's Tools
 
-About [MrWatson's tools](mrwatsons-tools.html)
+About [MrWatson's Tools](mrwatsons-tools.html)
+
+{% include top.html %}
+
+
+---
+
+![MrWatson's Tools Overview](mrwatsons-tools-overview.png){:.float-front-right .mt-16 .h-64}
+
+## MrWatson's Tools Overview
+
+About [MrWatson's Tools Overview](mrwatsons-tools-overview.html)
 
 {% include top.html %}
 
 ---
-
 ![myMateJson](mymatejson.png){:.float-front-right .mt-16 .w-64}
 
 ## myMateJson
