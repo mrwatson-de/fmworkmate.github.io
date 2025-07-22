@@ -5,7 +5,7 @@ parent: Solutions to Daily Problems
 nav_order: 300
 layout: default
 ---
-1. TOC
+- TOC
 {:toc}
 
 {% include page-image.html width=site.page_image_width %}
@@ -104,6 +104,8 @@ MBS clearly flags up undefined variables, so long as you play by
 - Avoid re-using variable names for different things in different parts of the script
 - Be aware, that in long steps and calculations the step text is truncated, so the MBS Plugin may may miss ome variable references.
 {% endcapture %}<section class="fullwidth">{{ tips | markdownify }}</section>
+
+![fmSyntaxColorizer](fmsyntaxcolorizer.png){:.float-front-right .mt-16 .w-64}
 
 ## MrWatson's Solution 2: fmSyntaxColorizer
 

@@ -7,7 +7,7 @@ layout: default
 stylesheets:
 - https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css
 ---
-1. TOC
+- TOC
 {:toc}
 
 {% include page-image.html width=site.page_image_width %}

@@ -4,7 +4,7 @@ page.name     -> The filename itself, e.g. "my-page.md"
 We remove .md, .markdown, etc. from page.name to get the base, then append .png, .jpg, etc.
 {% endcomment %}
 
-{% assign possible_extensions = "png,jpg,jpeg,gif,webp" | split: "," %}
+{% assign possible_extensions = "svg,png,jpg,jpeg,gif,webp" | split: "," %}
 
 {% assign base_name_no_ext = page.name 
    | remove: ".md"

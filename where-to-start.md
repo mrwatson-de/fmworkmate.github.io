@@ -1,6 +1,6 @@
 ---
 title: Where to Start
-strapline: 
+strapline: Getting started?
 parent: MrWatson's Tools
 nav_order: 0200
 layout: default
@@ -23,7 +23,7 @@ The simple answer to that question is:
 
 {% capture fmwm %}
 
-start with [fmWorkMate] - MrWatson's main toolbox of goodies
+start with [fmWorkMate](fmworkmate.html) - MrWatson's main toolbox of goodies
 
 {% endcapture %}<section class="fullwidth mrw-green-bg">{{ fmwm | markdownify }}</section>
 

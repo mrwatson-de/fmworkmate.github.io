@@ -5,7 +5,7 @@ parent: More Utilities
 nav_order: 0400
 layout: default
 ---
-1. TOC
+- TOC
 {:toc}
 
 {% include page-image.html width=site.page_image_width %}

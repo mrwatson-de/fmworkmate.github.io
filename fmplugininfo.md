@@ -6,7 +6,7 @@ nav_exclude: true
 nav_order: 900
 layout: default
 ---
-1. TOC
+- TOC
 {:toc}
 
 {% include page-image.html width=site.page_image_width %}

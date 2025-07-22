@@ -10,7 +10,7 @@ github_latest: https://github.com/mrwatson-de/fmAutoMate/releases/latest
 ---
 [![Get me on Github](/assets/images/get-me-on-github.png){: .mrw-github-corner}]({{page.github_latest}})
 
-1. TOC
+- TOC
 {:toc}
 
 {% include page-image.html width=site.page_image_width %}

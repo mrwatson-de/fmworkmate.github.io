@@ -4,7 +4,7 @@ strapline: We share because we can
 nav_order: 2000
 layout: default
 ---
-1. TOC
+- TOC
 {:toc}
 
 {% include page-image.html width=site.page_image_width %}

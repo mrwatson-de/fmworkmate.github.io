@@ -15,6 +15,11 @@ layout: default
 
 {{page.strapline}}
 
+![MBS Plugin](mbs-plugin.png){: .float-front-right .w-32}
+![Mac only](mac-only.png){: .float-front-right .w-32}
+
+{: .important}
+
 This functionality is [Mac only] and requires the [MBS Plugin]!
 
 Having [installed fmAutoMate](fmautomate.html#install-fmautomate) you have some extra context menus in your FileMaker GUI.
@@ -23,24 +28,23 @@ Having [installed fmAutoMate](fmautomate.html#install-fmautomate) you have some 
 
 ## An Extension of MBS Context Menus
 
-If you use the MBS plugin you may have already noticed the MBS right click menu:
+If you use the [MBS plugin] you may have already noticed the MBS right click menu:
 
 This itself provides some very useful functions, particularly…
 
 - `Copy Selection` copies the selected text - the *script workspace step text* - to the clipboard.
 - `Enable/Disable` is also useful - at least for German keyboard users - for whom the standard shortcut does not always work.
 
-…but the MBS packs some cool functions to extend this menu - and shortcut keys ('hotkeys') - further, and 
+…but the MBS packs some cool functions to extend this menu and shortcut keys ('hotkeys')
+
+## fmAutoMate Script Workspace Context Menu
 
 {: .mrw-green-bg}
 fmAutoMate extends the fantastic MBS Context Menu functionality bringing you extremely powerful tools to your fingertips.
 
-
-## fmAutoMate Script Workspace Context Menu
+![fmAutoMate Script Workspace Context Menu](/assets/images/fmautomate-script-workspace-context-menu.png){: .float-front-right .clear}
 
 In the Script Workspace right clicking in the script steps area reveals an extended context menu, something like this…
-
-![fmAutoMate Script Workspace Context Menu](/assets/images/fmautomate-script-workspace-context-menu.png)
 
 Under the `fmAutoMate > …` submenus you can find a small description of each of the menu items.
 
@@ -93,24 +97,27 @@ zzz
 
 ## fmAutoMate Layout Workspace Context Menu
 
-In the Layout Workspace right clicking on the layout surface area reveals an extended context menu, something like this…
+![fmAutoMate Layout Workspace Context Menu](/assets/images/fmautomate-layout-workspace-context-menu.png){: .float-front-right .clear}
 
-![fmAutoMate Layout Workspace Context Menu](/assets/images/fmautomate-layout-workspace-context-menu.png)
+In the Layout Workspace right clicking on the layout surface area reveals an extended context menu, something like this…
 
 The submenus in the Layout Workspace are basically the same as those in the Script Workspace.
 
+{: .clear}
+
 ## fmAutoMate Browse Mode Context Menu
 
-There are even context menus in Browse mode.
+There is even a context menu in Browse mode.
 
-At the bottom of the standard  right clicking on the layout surface area reveals an extended context menu, something like this…
+![fmAutoMate Layout Workspace Context Menu](/assets/images/fmautomate-layout-workspace-context-menu.png){: .float-front-right .clear}
 
-![fmAutoMate Layout Workspace Context Menu](/assets/images/fmautomate-layout-workspace-context-menu.png)
+Right clicking in browse mode reveals the context menu, and is extended by fmAutoMate something like this…
 
 The submenus in Browse Mode are again basically the same as those in the Script Workspace.
 
-If the fmAM Script module is installed, you may see further menu entries here.
+If the [fmAutoMate fmAM Script Module] is installed, you will see further menu entries here.
 
 {% comment %}mrwMarkdownLinks{% endcomment %}
+[fmAutoMate fmAM Script Module]: fmautomate-fmam-script-module.html
 [Mac only]: mac-only.html
 [MBS Plugin]: mbs-plugin.html

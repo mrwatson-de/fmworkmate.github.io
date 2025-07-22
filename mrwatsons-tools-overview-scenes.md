@@ -5,7 +5,7 @@ parent: MrWatson's Tools
 nav_order: 9000
 layout: default
 ---
-1. TOC
+- TOC
 {:toc}
 
 {% include page-image.html width="100" %}

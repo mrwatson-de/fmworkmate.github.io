@@ -63,6 +63,11 @@
   background-color: #79fb4d !important;
 }
 
+.mrw-gold {
+  color: gold !important;
+  border: 1px solid gold !important;
+}
+
 .mrw-gold-bg {
   background-color: gold !important;
   color: black;
@@ -359,8 +364,16 @@ kbd.win, .win kbd {
   width: 192px;
 }
 
+.w-160 {
+  width: 64px;
+}
+
 .w-128 {
   width: 128px;
+}
+
+.w-96 {
+  width: 64px;
 }
 
 .w-64 {

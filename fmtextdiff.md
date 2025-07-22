@@ -5,7 +5,7 @@ parent: Text Tools
 nav_order: 5
 layout: default
 ---
-1. TOC
+- TOC
 {:toc}
 
 

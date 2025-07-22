@@ -5,7 +5,7 @@ parent: fmCheckmate
 nav_order: 9000
 layout: default
 ---
-1. TOC
+- TOC
 {:toc}
 
 {% include page-image.html width=site.page_image_width %}

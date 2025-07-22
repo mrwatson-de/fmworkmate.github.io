@@ -10,6 +10,14 @@ layout: default
 
 {{page.strapline}}
 
-FileMaker
+Great stuff:
 
-![FileMaker Pack Poster](https://filemaker-magazin.de/assets/1/367/Poster_Packshots.jpg)
+- [FileMaker Pro]
+- [FileMaker Server]
+- [FileMaker Go]
+- …
+
+…but, of them all I use and ❤️ the [FileMaker Pro] client the most!
+
+{% comment %}mrwMarkdownLinks{% endcomment %}
+[FileMaker Pro]: filemaker-pro.html

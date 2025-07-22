@@ -88,7 +88,7 @@ Install [MrWatson's Integration Tools](integration-tools.html) and get turbo-pow
 
 At the heart of MrWatson's Integration Tools is [fmIDE] - the FileMaker Integrated Development Environment - a simple script module that together with the MBS plugin puts your code at your command.
 
-Grab your code by the horns! You want it? Just name it and you get it!
+Grab your code by the horns! You want it? Just [name it](fmide-name-that-thing-api.html) and you get it!
 
 {% endcapture %}<section class="fullwidth fmide-bg">{{ fmide | markdownify }}</section>
 
@@ -111,4 +111,4 @@ Get the latest from mrwatson-de on GitHub.
 {% comment %}mrwMarkdownLinks{% endcomment %}
 [fmIDE]: fmide.html
 [fmWorkMate]: fmworkmate.html
-[mrwatson.de]: https://mrwatson.de
+[mrwatson.de]: mrwatson.de
