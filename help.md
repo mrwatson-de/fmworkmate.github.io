@@ -152,6 +152,16 @@ About [fmDBAnalyser]
 
 ---
 
+![fmGraphIt](fmgraphit.png){:.float-front-right .mt-16 .w-64}
+
+## fmGraphIt
+
+About [fmGraphIt]
+
+{% include top.html %}
+
+---
+
 ![fmIDE](fmide.png){:.float-front-right .mt-16 .w-64}
 
 ## fmIDE
@@ -481,6 +491,7 @@ About [PSBN]
 [fmCheckmate-XSLT]: fmcheckmate-xslt.html
 [fmClipboardViewer]: fmclipboardviewer.html
 [fmDBAnalyser]: fmdbanalyser.html
+[fmGraphIt]: fmgraphit.html
 [fmIDE]: fmide.html
 [fmKillDefaultFields]: fmkilldefaultfields.html
 [fmLatencyMeter]: fmlatencymeter.html
