@@ -26,7 +26,7 @@ Welcome to [fmWorkMate.com](https://fmWorkMate.com), the home of [MrWatson's Too
 
 ## TL;DR
 
-[fmWorkMate] is cool ; it will make you more productive ; it will [make your FileMaker coding-life more <span class="rainbow">COLOURFUL</span>](fmsyntaxcolorizer.html)
+[fmWorkMate](fmworkmate.html) is cool ; it will make you more productive ; it will [make your FileMaker coding-life more <span class="rainbow">COLOURFUL</span>](fmsyntaxcolorizer.html)
 
 {: .float-front-right .w-25pc}
 ![Jump Start your FileMaker Experience](jump-start.png)
@@ -74,6 +74,8 @@ Power at your fingertips.
 
 Don't console yourself with the limited functionality that the FileMaker client offers you.
 
+![fmAutoMate](fmautomate.png){: .clear .float-front-right .w-32}
+
 The functions you want where you want them - at your fingertips.
 
 Install [MrWatson's Integration Tools](integration-tools.html) and get turbo-power at your fingertips - directly within the FileMaker GUI!
@@ -86,7 +88,7 @@ Install [MrWatson's Integration Tools](integration-tools.html) and get turbo-pow
 
 ## fmIDE
 
-At the heart of MrWatson's Integration Tools is [fmIDE] - the FileMaker Integrated Development Environment - a simple script module that together with the MBS plugin puts your code at your command.
+At the heart of MrWatson's Integration Tools is [fmIDE](fmide.html) - the FileMaker Integrated Development Environment - a simple script module that together with the MBS plugin puts your code at your command.
 
 Grab your code by the horns! You want it? Just [name it](fmide-name-that-thing-api.html) and you get it!
 
@@ -100,9 +102,9 @@ Grab your code by the horns! You want it? Just [name it](fmide-name-that-thing-a
 
 Don't miss out!
 
-Keep on top of the latest developments in MrWatson's Tools.
+Keep on top of the latest developments in MrWatson's Tools on the [News](news.html) page.
 
-Sign up for an irregular newsletter!
+[Sign up for MrWatson's Irregular Newsletter](https://buttondown.com/mrwatson-de)
 
 Get the latest from mrwatson-de on GitHub.
 
