@@ -185,7 +185,7 @@
   max-width: 360px;
   margin: 1em 0;
   /* Optional: subtle tilt for realism */
-  transform: rotate(-1.5deg);
+  transform: rotate(-1deg);
 }
 
 .side-note::before {
@@ -380,8 +380,16 @@ kbd.win, .win kbd {
   width: 64px;
 }
 
+.w-48 {
+  width: 48px;
+}
+
 .w-32 {
   width: 32px;
+}
+
+.w-24 {
+  width: 24px;
 }
 
 .w-16 {
