@@ -56,9 +56,9 @@ and [Jump Start your FileMaker Experience](jump-start.html)
 
 MrWatson's fmWorkMate is a toolbox of free goodies for FileMaker developers.
 
-[![FileMaker Pro](filemaker-pro.png)][FileMaker]
+[![FileMaker Pro](filemaker-pro.png)](filemaker.html)
 
-FileMaker! You do use FileMaker, don't you? We *all* use [FileMaker]!
+FileMaker! You do use FileMaker, don't you? We *all* use [FileMaker](filemaker.html)!
 
 ## Solutions to your Daily Problems
 
