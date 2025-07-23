@@ -41,11 +41,20 @@ That could all be quite a lot of work, surely we can do better…
 
 For **simple recontextualisation** (old TO name -> new TO name)
 
-- On Mac use [fmAutoMate to recontextualise code](recontextualise-code-with-fmautomate.html) directly in the FileMaker GUI (simple and super-fast! 🤩)
+![fmCheckMate](fmcheckmate.png){: .float-front-right .w-48 .mt--16}
+
 - Use [fmCheckMate to rename all the TO references](recontextualise-code-with-fmcheckmate.html) in a single replace action
+
+![fmAutoMate](fmautomate.png){: clear .float-front-right .w-48 .mt--8}
+
+- On Mac use [fmAutoMate to recontextualise code](recontextualise-code-with-fmautomate.html) directly in the FileMaker GUI (simple and super-fast! 🤩)
 
 For **more complex recontextualisation** (multiple old TO names -> new TO names, and/or old field names -> new field names)
 
+![fmTextConverter](fmtextconverter.png){: .float-front-right .w-48 .mt--16}
+
 - Use [fmTextConverter to create a more complex list of names to change](recontextualise-code-with-fmtextconverter.html) (expert solution 😎)
 
-Alternativaly, on a Mac you can use [fmAutoMate to recontextualise code directly on the clipboard](recontextualise-code-with-fmautomate.html#recontextualise-code-directly-on-the-clipboard) (super-fast but a bit tricksy! 🤩)
+![fmAutoMate Extended HotKeys](fmautomate-extended-hotkeys.png){: .float-front-right .w-48 .mt--8}
+
+- Alternativaly, on a Mac you can use [fmAutoMate Extended HotKeys to recontextualise code directly on the clipboard](recontextualise-code-with-fmautomate.html#recontextualise-code-directly-on-the-clipboard) (super-fast but a bit tricksy! 🤩)
