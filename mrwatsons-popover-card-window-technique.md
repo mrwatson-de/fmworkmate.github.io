@@ -1,14 +1,22 @@
 ---
 title: MrWatson's Popover Card Window Technique
-strapline: Nice
+strapline: Smart Card Windows with Popover Positioning Power
 parent: Tips, Tricks and Techniques
 nav_order: 0100
 layout: default
+github_repo: https://github.com/mrwatson-de/MrWatsonsPopoverCardWindowTechnique
+github_latest: https://github.com/mrwatson-de/MrWatsonsPopoverCardWindowTechnique/releases/latest
 ---
+[![Get me on Github](/assets/images/get-me-on-github.png){: .mrw-github-corner}]({{page.github_latest}})
+
 - TOC
 {:toc}
 
 {% include page-image.html width=site.page_image_width %}
+
+# {{page.title}}
+
+{{page.strapline}}
 
 Here's a handy little thing.
 
