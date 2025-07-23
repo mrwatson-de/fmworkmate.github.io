@@ -1,8 +1,8 @@
 ---
-title: MrWatson's Tools Overview - Scenes
+title: Overview Scenes
 strapline: You have to imagine the Commentary 😜
-parent: MrWatson's Tools
-nav_order: 9000
+parent: Overview of MrWatson's Tools
+nav_order: 1000
 layout: default
 ---
 - TOC
