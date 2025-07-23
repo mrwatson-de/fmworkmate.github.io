@@ -20,6 +20,10 @@ stylesheets:
 
 Read the latest on MrWatson's blog on [mrwatson.de](https://www.mrwatson.de) to keep up to date.
 
+## MrWatson's Irregular Newsletter
+
+Check out the [irregular newsletter archives](https://buttondown.com/mrwatson-de/archive/).
+
 ## MrWatson's GitHub Ticker
 
 [![GitHub](/assets/images/github-mark.png)](https://github.com/mrwatson-de.atom){: .float-front-right .w-32}
