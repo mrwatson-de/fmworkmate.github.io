@@ -287,13 +287,15 @@ code {
 /* Keys */
 
 kbd {
-  display: inline-block;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
 
   margin: 0.1em;
   padding: 0.2em 0.3em;
   min-width: 2em;
-  text-align:center;
 
+  
   font-family: "Helvetica Neue", Arial, sans-serif;
   font-size: 0.7rem;
 }
@@ -402,6 +404,10 @@ kbd.win, .win kbd {
 
 .h-64 {
   height: 64px;
+}
+
+.h-32 {
+  height: 32px;
 }
 
 .mr-2 {
@@ -613,6 +619,11 @@ h1 {
     margin-block-start: 2px;
     margin-block-end: 2px;
  
+}
+
+/* Thicker border before a new tbody section */
+div.table-wrapper table tbody + tbody tr:first-child td {
+  border-top: 1px solid #eeebee; /* adjust thickness & color */
 }
 
 /*************************/

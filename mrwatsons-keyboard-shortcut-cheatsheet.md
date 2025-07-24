@@ -23,13 +23,6 @@ This cheatsheet lists all the useful keyboard shortcuts (and mouse clicks) to ge
 
 ### Notes
 
-![Command-Ctrl](/assets/images/ctrl-cmd.png){:.w-64 .clear .float-front-right}
-
-{: .mrw-windows-bg}
-Of course windows users will need to use the ctrl key <kbd>⌃</kbd> instead of the command key <kbd>⌘</kbd>.
-
-For example to search in the relationship graph, use <kbd>Ctrl</kbd>+<kbd>F</kbd> instead of <kbd>⌘</kbd>+<kbd>F</kbd>.
-
 {: .mrw-killer-bg }
 MrWatson's tools and the MBS Plugin optimize the interactive experience for power keyboard users. See [Killer Keyboard Mode](killer-keyboard-mode.html) for the details.
 
@@ -44,10 +37,17 @@ Note that the modifier keys tend to be used with the following meanings:
 <kbd>⌥</kbd>
 : The option (alt) key often means: "do it in a different, *alt*ernative way".
 
+![Command-Ctrl](/assets/images/ctrl-cmd.png){:.w-64 .clear .float-front-right}
+
+{: .mrw-windows-bg}
+Of course windows users will need to use the ctrl key <kbd>⌃</kbd> instead of the command key <kbd>⌘</kbd>.
+
+For example to search in the relationship graph, use <kbd>Ctrl</kbd>+<kbd>F</kbd> instead of <kbd>⌘</kbd>+<kbd>F</kbd>.
+
 See also the [Useful Links](#useful-links) at the bottom of this page
 
 {: .mrw-orange-bg .clear}
-Please let me know if there is anything missing from or incorrect on this page
+Please [let me know] if there is anything missing from or incorrect on this page
 
 ## General Keys
 
@@ -172,3 +172,4 @@ Please let me know if there is anything missing from or incorrect on this page
 
 {% comment %}mrwMarkdownLinks{% endcomment %}
 [fmAutoMate]: fmautomate.html
+[let me know]: let-me-know.html
