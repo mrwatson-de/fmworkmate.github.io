@@ -27,38 +27,39 @@ Comments
 : `(: comment :)`
 
 XPath
-: `//BaseTable[UUID/@userName="R.Watson"]/@name` `(: // get name of all tables changed by R.Watson :)`
+: `//BaseTable[UUID/@userName="R.Watson"]/@name` // get name of all tables changed by R.Watson
 
 XML
 : `<BaseTable name="fmCheckMate" UUID="..." userName="R.Watson"/>`
 
 Strings
-: `"hello"` (: → `hello` // double quotes :)
-: `'world'` (: → `world` // single quotes :)
-: `'hello "world"'` (: → `hello "world"` :)
-: `"MrWatson's ""world"""` (: → `MrWatson's "world"` // double up to escape quote:)
-: `"MrWatson's &quot;world&quot;"` (: → `MrWatson's "world"` // use character references! :)
-: `"no\nbackslash\rescapes&#13; &#34;XQuery&#x22;""` (: → `no\nbackslash\rescapes¶in "XQuery"` :)
-: `"hello" || " " || "world"` (: → `hello world` // String concatenation :)
+: `"hello"` → `hello` // double quotes
+: `'world'` → `world` // single quotes
+: `'hello "world"'` → `hello "world"` // use what fits best
+: `"MrWatson's ""world"""` → `MrWatson's "world"` // double up to escape quote
+: `'MrWatson''s "world"'` → `MrWatson's "world"` // double up to escape quote
+: `"MrWatson's &quot;world&quot;"` → `MrWatson's "world"` // use character references!
+: `"hello" || " " || "world"` → `hello world` // String concatenation
+: `'&#10;'`→ LF // literal newline character
+: `codepoints-to-string(10)`→ LF // generated newline character
+: `"no\nbackslash\rescapes&#13; &#34;XQuery&#x22;"` → `no\nbackslash\rescapes¶in "XQuery"`
 
 Sequences
-: `(1,2,3)` (: → `1 2 3` // sequences are ouput with spaces :)
-: `("hello","world")` (: → `hello world` :)
-: `((1,2),("hello","world"))` (: → `1 2 hello world` // embedded sequences are flattened! :)
-: `(<hello/>,<world/>)` (: → `<hello/><world/>`  // sequences of xml are ouput without spaces :)`
-: `(1,("hello"),<xml>world</xml>)` (: → `1 helloworld`  // sequences can be mixed and nested :)
-: `(1)=1` (: → `true` // a single value in a sequence (a 'singleton') is equivalent to itself :)
+: `(1,2,3)` // a sequences is an ordered list of items
+: `("hello","world")` // of any type
+: `(1,"hello",<xml>world</xml>)` // of mixed types
+: `1 to 5` → `(1,2,3,4,5)` // range = sequence of numbers
+: `((1,2),("hello"))` → `(1,2,"hello")` // sequences are always flat / flatened!
+: `//Book` → `(«Book1»,«Book2»,«Book3»)` // sequences are everywhere in XQuery!
+: `(1,2,3)` → `1 2 3` // sequences are ouput with spaces
+: `("hello","world")` → `hello world`
+: `(<hello/>,<world/>)` → `<hello/><world/>`  // xml sequences are ouput without spaces `
+: `(1,("hello"),<xml>world</xml>)` → `1 helloworld` // not the mixed delimiters!
+: `(1)=1` → `true` // a single value in a sequence (a 'singleton') is equivalent to itself!
 
-Filter and Range
-: `('one','two','three')[2]` (: → `two` // `[n]` = a filter :)
-: `1 to 5` (: → `1 2 3 4 5` // range :)
-: `(1 to 10)[. mod 2 = 0]` (: → `(2,4,6,8,10)` // filter can be a function - using `.` to ) :)
-
-Let
-: `let $hello := "world" return $hello (: → world :)`
-: `let $x := 42 return $x*2 (: → 84 :)`
-: `let $xml := <value>some</value> return $xml/value (: → some :)`
-: `let $hello := "world" return <hello>{$hello}</hello> (: → <hello>world</hello> // use {} inside XML to refer to vars :)`
+Filters
+: `('one','two','three')[2]` → `two` // `[n]` = a simple positional filter (1-based)
+: `(1 to 10)[. mod 2 = 0]` → `(2,4,6,8,10)` // filter can be a function (use `.` to reference item)
 
 Types
 : `xs:string` `xs:int` `xs:dateTime` `node()` `item()`
@@ -90,10 +91,28 @@ Operators…
 : Note: these remove duplicates and sort the result!
 : `(3,2,1,2) union ()` → `(1,2,3)`
 
-ControlStructures…:
+Control Structures…:
+
+…let
+: `let $hello := "world" return $hello → world `
+: `let $x := 42 return $x*2 → 84 `
+: `let $xml := <value>some</value> return $xml/value → some `
+: `let $hello := "world" return <hello>{$hello}</hello> → <hello>world</hello> // use {} inside XML to refer to vars/switch back to XQuery`
+
+{% capture FLWOR %}
+**F** or
+
+**L** et
+
+**W** here
+
+**O** rder by
+
+**R** eturn
+{% endcapture %}<section>{{ FLWOR | markdownify }}</section>{: .side-note}
+
 …FLWOR
 : `for $i in 1 to 5 let $sq := $i*$i where $sq > 10 order by $sq return $sq` → `(16,25)`
-: (**F**or, **L**et, **W**here, **O**rder by, **R**eturn = The only looping structure in XQuery!)
 
 …Conditionals
 : `if ($x > 0) then "positive" else "non-positive"`
@@ -150,3 +169,98 @@ text() vs data()
 : `<a>hi<b>yo</b></a>/text()` → "hi"
 : `data(<a year="2025">42</a>/@year)` → "2025"
 
+# Common Patterns
+
+## List of unique Values
+
+List of Variable names used in a file
+
+```xquery
+distinct-values(//Step[@name='Set Variable']/Name)
+  => string-join("&#13;")
+```
+
+## Sorting
+
+{% capture sorting %}
+Sorting in XQuery 3.1 is a bit tricky
+
+- The default sort order is not so useful (unicode codepoint order)
+  - You can remedy this by using `declare default collation` (see below)
+- The `order by` clause requires a `collation «url»` clause (which is a bit unwieldly)
+- moreover it only supports a *static* url and thus is not replaceable by a short variable.
+- On the other hand, the `sort` function *does* support dynamic collations.
+- Happily this is all fixed in XQuery 4.0! 😃
+{% endcapture %}<section>{{ sorting | markdownify }}</section>{: .note}
+
+### Sorted List of Unique Values (with a natural order)
+
+Sorted list of Variable names used in a file (with a natural order)
+
+```xquery
+declare default collation "http://www.w3.org/2005/xpath-functions/collation/html-ascii-case-insensitive";
+for $name in distinct-values(//Step[@name='Set Variable']/Name)
+order by $name
+return $name
+  => string-join("&#13;")
+```
+
+returns
+
+```text
+$aardvark
+$Apple
+$banana
+$Cat
+$dog
+```
+
+### Sorted Unique Values (standard sort order)
+
+- For more natural sorting you need to use a collation
+
+```xquery
+for $name in distinct-values(//Step[@name='Set Variable']/Name)
+order by $name
+return $name
+  => string-join("&#13;")
+```
+
+returns
+
+```text
+$Apple
+$Cat
+$aardvark
+$banana
+$dog
+```
+
+## List Scripts containing a search term (in script tree order)
+
+```xquery
+(
+let $search := 'Set'
+for $script in //Script
+let $script_name := $script/data(@name)
+where contains($script,$search)
+return $script_name
+) => string-join('&#10;')
+```
+
+## Filter results using RegEx
+
+- the filter function applies a function to each item in the sequence and if the function returns true the item is kept.
+- the match function tests a regular expression and returns true if it matches.
+
+List Variable names used in a file, sorted, filtered to only those containing 'Anzahl' or 'count' (case insensitive), but not account.
+
+```xquery
+(
+for $name in distinct-values(//Step[@name='Set Variable']/Name)
+order by $name
+return $name
+)
+=> filter(matches(?, '([Aa]nzahl|(C|[^c]c)ount)'))  (: keep only matching results :)
+=> string-join('&#10;')
+```
