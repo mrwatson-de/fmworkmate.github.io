@@ -14,7 +14,7 @@ nav_order: 0100
 
 {{page.strapline}}
 
-{: .side-note .float-front-right}
+{: .side-note}
 You can do this even more quickly and intuitively with [fmAutoMate]!
 
 You can quickly rename script variables using fmCheckMate:

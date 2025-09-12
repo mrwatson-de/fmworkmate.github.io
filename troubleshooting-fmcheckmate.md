@@ -58,7 +58,7 @@ If you can't avoid this problem, because your search term is a substring of some
     - replace `AT` with `RG`
     - replace `CDRGA` back to `CDÀTA`
 
-{: .side-note}
+{: .note}
 
 If you find yourself doing this regularly, you may want to create the substitution in [fmTextConverter] to perform the 3 search & replace actions in one go.
 
@@ -98,7 +98,7 @@ Possible causes
 
 Yes, when working with FileMaker XML code it *is* possible to break the XML.
 
-{: .side-note }
+{: .note }
 You can return to a previous version of the XML / navigate the XML history by pressing <kbd>⌃</kbd><kbd>↑</kbd> /<kbd>↓</kbd>.
 
 {% comment %}mrwMarkdownLinks{% endcomment %}

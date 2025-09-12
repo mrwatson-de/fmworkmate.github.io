@@ -173,6 +173,13 @@
 }
 
 .side-note {
+  @extend .note;
+  @extend .float-front-right;
+  min-width: 180px;
+  max-width: 360px;
+}
+
+.note {
   background-color: #fff9c4 !important; /* light yellow */
   color: #333 !important;
   border: 1.5px solid #ffe066;
@@ -181,18 +188,16 @@
   padding: 1rem 1.5rem 1rem 2.5rem;
   position: relative;
   font-family: "Comic Sans MS", "Comic Sans", cursive, sans-serif;
-  min-width: 180px;
-  max-width: 360px;
   margin: 1em 0;
   /* Optional: subtle tilt for realism */
   transform: rotate(-1deg);
 }
 
-.side-note::before {
+.note::before {
   content: "👉 ";
-  margin-right: 0.25rem; /* space between emoji and text */
-  margin-left: 0.25rem; /* space between emoji and margin */
-}
+  margin-right: 0.15rem; /* space between emoji and text */
+  margin-left: -1.65rem; /* space between emoji and margin */
+  }
 
 .mrw-windows-bg {
   background-color: #0050ef !important;
