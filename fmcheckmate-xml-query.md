@@ -1,5 +1,5 @@
 ---
-title: fmCheckMate XML Query
+title: fmCheckMate XML-Query
 strapline: Query your XML Structure with XPath, XSLT, XQuery
 parent: fmCheckMate
 nav_order: 300
@@ -61,8 +61,6 @@ To get a quick overview of the XML structure of your FileMaker file
 - select `Analyse XML Struture` from the `fmCheckMate`menu or press <kbd>⇧</kbd><kbd>⌘</kbd><kbd>S</kbd>
 
 ![XML Structure](/assets/images/fmcheckmate-xml-query-xml-structure.png)
-
-
 
 ## XPath
 

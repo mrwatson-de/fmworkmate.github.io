@@ -1,7 +1,7 @@
 ---
 title: fmFileChooser
 strapline: A plug-and-play file chooser!
-parent: Other Tools and Modules
+parent: Roadmap
 nav_order: 30
 layout: default
 ---
@@ -14,10 +14,54 @@ layout: default
 
 {{page.strapline}}
 
+## Problem
+
 Why is choosing and opening a file so hard?
 
-This module makes it easy to add a file chooser to your FileMaker solution.
+Well, there's a few steps to take.
 
-Currently in development for fmThings and fmCheckMate.
+- filtering or limiting the types files a user can choose.
+- getting the path to the chosen file
+- discovering what kind of file it is
+- handling binary files
+- handling text files
+  - recognising and handling encoding
+  - dealing with BOM characters
+  - offering the user a manual encoding override
+  - handling EOL characters
+  - reading the file in without BOM characters.
 
-More to come.
+## Solution
+
+fmFileChooser is a File-Module you can drop into your solution to easily add file choosing functionality to your FileMaker solution.
+
+### More to come.
+
+Currently in development for [fmThings] and [fmCheckMate].
+
+---
+
+## P.S.
+
+There are also the issues of
+
+- handling display of different files
+  - text files
+  - image files
+  - PDF files
+  - XML files
+  - JSON files
+  - CSV files
+  - other structured text files
+  - binary files
+- round tripping
+  - saving files back in the same format you loaded them in
+  - same encoding
+  - same EOL characters
+  - same BOM characters
+
+But that's for another day. :D
+
+{% comment %}mrwMarkdownLinks{% endcomment %}
+[fmCheckMate]: fmcheckmate.html
+[fmThings]: fmthings.html

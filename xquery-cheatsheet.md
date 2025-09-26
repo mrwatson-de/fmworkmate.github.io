@@ -36,8 +36,8 @@ Strings
 : `"hello"` → `hello` // double quotes
 : `'world'` → `world` // single quotes
 : `'hello "world"'` → `hello "world"` // use what fits best
-: `"MrWatson's ""world"""` → `MrWatson's "world"` // double up to escape quote
-: `'MrWatson''s "world"'` → `MrWatson's "world"` // double up to escape quote
+: `"MrWatson's ""world"""` → `MrWatson's "world"` // double up to escape[^1]
+: `'MrWatson''s "world"'` → `MrWatson's "world"` // double up to escape[^1]
 : `"MrWatson's &quot;world&quot;"` → `MrWatson's "world"` // use character references!
 : `"hello" || " " || "world"` → `hello world` // String concatenation
 : `'&#10;'`→ LF // literal newline character
@@ -97,7 +97,7 @@ Control Structures…:
 : `let $hello := "world" return $hello → world `
 : `let $x := 42 return $x*2 → 84 `
 : `let $xml := <value>some</value> return $xml/value → some `
-: `let $hello := "world" return <hello>{$hello}</hello> → <hello>world</hello> // use {} inside XML to refer to vars/switch back to XQuery`
+: `let $hello := "world" return <hello>{$hello}</hello>` → `<hello>world</hello>` // use `{}` inside XML to refer to vars/switch back to XQuery[^1]
 
 {% capture FLWOR %}
 **F** or
@@ -163,11 +163,23 @@ Maps/Arrays
 : `["x","y"][2]`
 
 Higher-order
-: `(1 to 5)! (function($n){$n*2})`
+: `(1 to 5)! (function($n){$n^2})` → `(1,4,9,16,25)`
 
 text() vs data()
 : `<a>hi<b>yo</b></a>/text()` → "hi"
 : `data(<a year="2025">42</a>/@year)` → "2025"
+
+## Syntax order
+
+XQuery supports modern (left to right) 'pipeline' syntax with the arrow operator `=>` and bang operator `!`. 
+
+This is far more logical and easier to read than the traditional nested function syntax. At least, once you have got used to it.
+
+Traditional (middle-outwards) syntax
+: `string-join(distinct-values(("hello","world","hello")),"&#10;")`
+
+Modern (left→ right) Pipeline syntax
+: `("hello","world","hello") => distinct-values() => string-join("&#10;")`
 
 # Common Patterns
 
@@ -193,16 +205,17 @@ Sorting in XQuery 3.1 is a bit tricky
 - Happily this is all fixed in XQuery 4.0! 😃
 {% endcapture %}<section>{{ sorting | markdownify }}</section>{: .note}
 
-### Sorted List of Unique Values (with a natural order)
+### Sorted List of Unique Values (in natural order)
 
-Sorted list of Variable names used in a file (with a natural order)
+Sorted list of Variable names used in a file with a natural (case-insensitive) sort order
 
 ```xquery
 declare default collation "http://www.w3.org/2005/xpath-functions/collation/html-ascii-case-insensitive";
+(
 for $name in distinct-values(//Step[@name='Set Variable']/Name)
 order by $name
 return $name
-  => string-join("&#13;")
+) => string-join("&#13;")
 ```
 
 returns
@@ -236,7 +249,7 @@ $banana
 $dog
 ```
 
-## List Scripts containing a search term (in script tree order)
+## List Scripts containing a search term
 
 ```xquery
 (
@@ -256,11 +269,56 @@ return $script_name
 List Variable names used in a file, sorted, filtered to only those containing 'Anzahl' or 'count' (case insensitive), but not account.
 
 ```xquery
-(
+let $regex := '([Aa]nzahl|(C|[^c]c)ount)'  (: regex to match :)
+return (
 for $name in distinct-values(//Step[@name='Set Variable']/Name)
 order by $name
 return $name
 )
-=> filter(matches(?, '([Aa]nzahl|(C|[^c]c)ount)'))  (: keep only matching results :)
+=> filter(matches(?, $regex))  (: keep only matching results :)
 => string-join('&#10;')
 ```
+
+
+<hr/>
+
+# XQuery snippets for MrWatson
+
+These are just some XQuery snippets that I'm storing here for now.
+
+## Get distinct script parameter types from SaXML
+
+```xquery
+(
+for $name in distinct-values(/FMSaveAsXML/Structure/AddAction/StepsForScripts/Script/ObjectList/Step/ParameterValues/Parameter/@type)
+order by $name
+return $name
+) => string-join("&#13;")
+```
+
+## Examine script parameters used within a scipt
+
+```xquery
+let $script_name := "All script steps and all options",
+     $script_parameter_type := "AccountType"
+return
+(
+for $parameter in /FMSaveAsXML/Structure/AddAction/StepsForScripts/Script/ObjectList/Step/ParameterValues/Parameter[@type=$script_parameter_type]
+return $parameter
+)
+```
+
+
+## Examine elements (in layouts) referencing a (table) name
+
+```xquery
+(
+for $element in //*
+where $element[not( ancestor-or-self::Field) and contains(data(@name),'dress') ]
+return $element
+)
+```
+
+# Footnotes
+
+[^1]: **Double up to escape** is the concept of the day! If you need to embed an xml element that really contains `{}` then you need to **double up to escape** the braces here too: Use `<xml>{{{{"some"\:"json"}}}}</xml>` to encode `<xml>{{"some":"json"}}</xml>` in the output.
