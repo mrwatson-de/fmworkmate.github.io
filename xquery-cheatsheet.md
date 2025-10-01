@@ -19,8 +19,6 @@ It's a full blown language with variables, functions, control structures, types 
 
 Whereas in FileMaker 'everything is text', in XQuery 'everything is a sequence'.
 
-AI produced, so no guarantees here!
-
 ## XQuery 3.1 BASICS
 
 Comments
@@ -34,15 +32,16 @@ XML
 
 Strings
 : `"hello"` → `hello` // double quotes
-: `'world'` → `world` // single quotes
-: `'hello "world"'` → `hello "world"` // use what fits best
-: `"MrWatson's ""world"""` → `MrWatson's "world"` // double up to escape[^1]
-: `'MrWatson''s "world"'` → `MrWatson's "world"` // double up to escape[^1]
-: `"MrWatson's &quot;world&quot;"` → `MrWatson's "world"` // use character references!
-: `"hello" || " " || "world"` → `hello world` // String concatenation
+: `'world'` → `world` // or single quotes
+: `'hello "world"'` → `hello "world"` // use what fits best!
+: `"MrWatson's ""world"""` → `MrWatson's "world"` // double up quotes to escape[^1]
+: `'MrWatson''s "world"'` → `MrWatson's "world"` // or double up apostrophes[^1]
+: `"MrWatson's &quot;world&quot;"` → `MrWatson's "world"` // alternatively use XML character references!
 : `'&#10;'`→ LF // literal newline character
-: `codepoints-to-string(10)`→ LF // generated newline character
-: `"no\nbackslash\rescapes&#13; &#34;XQuery&#x22;"` → `no\nbackslash\rescapes¶in "XQuery"`
+: `codepoints-to-string(10)`→ LF // or generate newline character (~Char(10) in FileMaker)
+: `"no\nbackslash\rescapes&#13;in &#34;XQuery&#x22;"` → `no\nbackslash\rescapes¶in "XQuery"`
+: `"hello" || " " || "world"` → `hello world` // String concatenation operator
+: `concat("hello"," ","world")` → `hello world` // String concatenation function
 
 Sequences
 : `(1,2,3)` // a sequences is an ordered list of items
@@ -94,9 +93,9 @@ Operators…
 Control Structures…:
 
 …let
-: `let $hello := "world" return $hello → world `
-: `let $x := 42 return $x*2 → 84 `
-: `let $xml := <value>some</value> return $xml/value → some `
+: `let $hello := "world" return $hello` → `world`
+: `let $x := 42 return $x*2` → `84`
+: `let $xml := <value>some</value> return $xml/value` → `some`
 : `let $hello := "world" return <hello>{$hello}</hello>` → `<hello>world</hello>` // use `{}` inside XML to refer to vars/switch back to XQuery[^1]
 
 {% capture FLWOR %}
@@ -171,7 +170,7 @@ text() vs data()
 
 ## Syntax order
 
-XQuery supports modern (left to right) 'pipeline' syntax with the arrow operator `=>` and bang operator `!`. 
+XQuery supports modern (left to right) 'pipeline' syntax with the arrow operator `=>` and bang operator `!`.
 
 This is far more logical and easier to read than the traditional nested function syntax. At least, once you have got used to it.
 
@@ -308,8 +307,7 @@ return $parameter
 )
 ```
 
-
-## Examine elements (in layouts) referencing a (table) name
+## Examine elements referencing a (table) name
 
 ```xquery
 (
