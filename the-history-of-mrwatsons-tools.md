@@ -397,13 +397,30 @@ The new website is a complete overhaul of the old website - indeed a replacement
 - [fmworkmate.com](https://fmworkmate.com/) = home of my tools
 - [mrwatson.de](https://mrwatson.de/) = home of my blog
 
+[![XQuery in fmCheckMate](xquery-in-fmcheckmate.png){:.w-64}](xquery-in-fmcheckmate.html){: .clear .float-front-right}
+
+## 2025 Q3 fmCheckMate > XML-Query / XQuery
+
+- [XQuery comes to fmCheckMate](xquery-in-fmcheckmate.html)!
+- XPath window rebranded as [fmCheckMate XML-Query] and extended to support XQuery, XSLT and XPath.
+
+[fmIDE QuickLink] - Link to your FileMaker things quick
+
+[![fmIDE QuickLink](fmide-quicklink.png){:.w-64}](fmide-quicklink.html){: .clear .float-front-right}
+
+## 2025 Q3 fmIDE QuickLink
+
+[fmIDE QuickLink] - Link to your FileMaker things quick
+
 {% comment %}mrwMarkdownLinks{% endcomment %}
 [fmAutoMate]: fmautomate.html
 [fmCheckMate]: fmcheckmate.html
+[fmCheckMate XML-Query]: fmcheckmate-xml-query.html
 [fmCheckMate-XSLT]: fmcheckmate-xslt.html
 [fmClipboardViewer]: fmclipboardviewer.html
 [fmDBAnalyser]: fmdbanalyser.html
 [fmIDE]: fmide.html
+[fmIDE QuickLink]: fmide-quicklink.html
 [fmKeyPress]: fmkeypress.html
 [fmKillDefaultFields]: fmkilldefaultfields.html
 [fmLatencyMeter]: fmlatencymeter.html
