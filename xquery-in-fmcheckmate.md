@@ -16,14 +16,21 @@ layout: default
 
 [![](/assets/images/xquery-in-fmcheckmate-hello-filemaker-world.png)](fmcheckmate-xml-query.html)
 
-MBS Plugin has started supporting Saxon.
+MBS Plugin has started supporting [Saxon](https://www.mbsplugins.de/archive/2025-01-07/Saxon_in_MBS_FileMaker_Plugin/monkeybreadsoftware_blog_filemaker).
 
-Saxon supports the latest 3.1 version of XPath, XSLT, and XQuery.
+…and Saxon supports 
 
-Since XQuery is a very powerful language to query and transform XML data, I have built it into fmCheckMate.
+- XSLT 3.0 for transformations
+- XQuery 3.1 for queries
+- XSD 1.1 for document validation
+- XPath 3.1 for navigation within documents
 
-- fmCheckMate supports xquery files with the `.xq` extension.
-- Plus the old XPath Query window is now the [XML-Query](/fmcheckmate-xml-query.html) window and supports XPath, XSLT and XQuery.
+…and since XQuery is a very powerful language to query and transform XML data, I have built it into fmCheckMate: 😃
+
+- fmCheckMate now also supports importing and applying xquery files with the `.xq` or `.xquery` extension.
+- Plus the old XPath Query window is now the [XML-Query](/fmcheckmate-xml-query.html) window and supports XPath (old v1.0 still), XSLT and XQuery.
+
+
 
 Never heard of XQuery?
 
