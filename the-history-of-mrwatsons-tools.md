@@ -408,7 +408,7 @@ A new attempt to illustrate how the tools hang together - since 2016 the Integra
 
 ## 2025 Q2 New Website
 
-Historic day! On Tuesday, 20th May 2025, I finally launched the new website for my tools, [fmworkmate.com] - albeit in a half baked state - so, the standard state of most of my first releases.
+Historic day! On Tuesday, 20th May 2025, I finally launched the new website for my tools, [fmworkmate.com](https://fmworkmate.com/) - albeit in a half baked state - so, the standard state of most of my first releases.
 
 The new website is a complete overhaul of the old website - indeed a replacement - and it is now much easier to navigate and find the tools and tips you need. Whereas mrwatson.de and fmworkmate.com used to reference the same website, they now have a split personality:
 
