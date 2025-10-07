@@ -196,7 +196,7 @@ First came the new MacBook Pro with TouchBar, then the MBS plugin made functions
 
 …and then came [fmTouchBar], an app to experiment with the TouchBar functions.
 
-Time and UX never meant it never quite caught on and remained experimental.
+Time and UX meant it never quite caught on and remained experimental.
 
 {: .clear}
 
