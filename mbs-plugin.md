@@ -1,7 +1,7 @@
 ---
 title: The MBS Plugin
 strapline: Christian Schmitz - Wonderman!
-parent: Claris FileMaker
+parent: fmWorkMate Settings
 nav_order: 100
 layout: default
 ---
