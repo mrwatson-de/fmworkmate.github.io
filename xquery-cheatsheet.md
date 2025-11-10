@@ -317,6 +317,32 @@ return $element
 )
 ```
 
+## Show scripts containing A or B
+
+```xquery
+declare namespace output = "http://www.w3.org/2010/xslt-xquery-serialization";
+declare option output:method "text";
+let $search  := '$errMsg'
+,   $search2 := 'Halt'
+return (
+for $script in //Script
+let $script_name := $script/@name
+where  $script => contains($search) or $script => contains($search2)
+
+return ( "# Script '" || $script_name || "'
+",
+  for $step in $script/Step
+  let $step_text := $step/@name || " [" || translate(($step//Calculation)[1],'&#10;&#13;','  ') || "  ]"
+    , $script_step_number := $step/count( preceding-sibling::Step ) + 1
+  where contains($step,'$errMsg')
+  return '- ' || $script_step_number || '	' || $step_text
+  ) => string-join("
+")||"
+"
+) => string-join("
+")
+
+
 # Footnotes
 
 [^1]: **Double up to escape** is the concept of the day! If you need to embed an xml element that really contains `{}` then you need to **double up to escape** the braces here too: Use `<xml>{{{{"some"\:"json"}}}}</xml>` to encode `<xml>{{"some":"json"}}</xml>` in the output.
