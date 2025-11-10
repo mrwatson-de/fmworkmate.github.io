@@ -10,9 +10,11 @@ description: The Home of MrWatson's Tools for FileMaker developers
 url: https://fmworkmate.com
 
 aux_links:
-  mrwatson.de: https://mrwatson.de
-  fmworkmate.com: https://fmWorkMate.com
+  ↺⎋▷ mrwatson.de: https://mrwatson.de
+  ▷ fmworkmate.com: https://fmWorkMate.com
   github: https://github.com/mrwatson-de
+
+# Site-specific parameters
 
 page_image_width: 256
 page_image_height: 256
