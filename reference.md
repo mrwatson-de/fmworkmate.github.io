@@ -14,4 +14,4 @@ layout: default
 
 {{page.strapline}}
 
-All that stuff that yo need to compile and reference…
+All that stuff that you (or I 🙃) need to compile and reference…
