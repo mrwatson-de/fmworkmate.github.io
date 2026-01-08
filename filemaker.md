@@ -1,7 +1,7 @@
 ---
 title: Claris FileMaker
 strapline: One Platform to bind them
-nav_order: 3
+nav_order: 4000
 layout: default
 ---
 {% include page-image.html width=site.page_image_width %}
