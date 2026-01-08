@@ -16,9 +16,9 @@ stylesheets:
 
 {{page.strapline}}
 
-{: .mrw-gold-bg}
+## MrWatson's Blog
 
-Read the latest on MrWatson's blog on [mrwatson.de](https://www.mrwatson.de) to keep up to date.
+Read the latest on MrWatson's blog on [mrwatson.de](https://mrwatson.de) to keep up to date.
 
 ## MrWatson's Irregular Newsletter
 
