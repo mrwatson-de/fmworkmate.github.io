@@ -4,3 +4,6 @@
 
 # Ignore Node.js scripts and related files
 .node-scripts/
+
+# Ignore any file or directory containing "-nogit" in the name
+*-nogit*
