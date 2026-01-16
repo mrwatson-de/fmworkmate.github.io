@@ -28,4 +28,6 @@ they say.
 
 *But is it really, really?*
 
-You will only know, if you see the truth for yourselfin the vRyThNgStXt (E**v**e**RyTh**i**Ng**i**St**e**Xt**) file in the [EverythingIsText repository](https://github.com/mrwatson-de/EverythingIsText).
+You will only know, if you see the truth for yourself in the **vRyThNgStXt** file(*) in the [EverythingIsText repository](https://github.com/mrwatson-de/EverythingIsText).
+
+(*) E**v**e**RyTh**i**Ng**i**St**e**Xt**
