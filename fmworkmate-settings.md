@@ -33,12 +33,38 @@ Click the `⚙️` button
 
 You'll need
 
-- The Base Elements plugin
+- The [Base Elements Plugin](https://github.com/GoyaPtyLtd/BaseElements-Plugin/tree/main/docs)
 - The [MBS Plugin]
 
-1. Download the Base Elements plugin and place it FileMaker's extensions folder.
-2. Download the MBS plugin and place it FileMaker's extensions folder.
+1. [Download the Base Elements plugin](https://github.com/GoyaPtyLtd/BaseElements-Plugin/blob/main/docs/Downloads.md) and place it in FileMaker's extensions folder.
+2. [Download the MBS plugin](https://www.monkeybreadsoftware.com/filemaker/) and place it in FileMaker's extensions folder.
 3. License the MBS Plugin
+
+   Press `[MBS BYOL]`
+   : to register the MBS plugin (BYOL = Bring Your Own License)
+
+   Paste
+   : your `MBS ("Register" ; … )` function into the first field in order to automatically fill the fields
+
+   Or use the fields
+   : to enter your licence details manually
+
+   `[Register MBS]`
+   : to register the plugin for this session.
+
+4. Store the License permanently and safely
+
+    Navigate
+    : to the second panel using the slider dots at the bottom
+
+   `[Store License]`
+   : to store the MBS registration details permanently
+
+   `[Clear Data]`
+   : to remove the MBS registration details from the fields
+
+   `[Clear Stored License]`
+   : removes the permanent MBS registration details, should you change your mind later.
 
 ## Install MBS Saxon extension, if desired
 
@@ -51,20 +77,20 @@ The installation process is still in development (and buggy), so if neessary ple
 
 Once the Saxon library is in place in the extensions folder…
 
-Press [Load Saxon]
+Press `[Load Saxon]`
 : to load the Saxon library
 
-Press [Saxononica BYOL]
+Press `[Saxononica BYOL]`
 : to register the Saxon library
 
-Paste your MBS ("Saxon.Register" ; … )
+Paste your `MBS ("Saxon.Register" ; … )`
 : function into the first field in order to automatically fill the fields, or
 
 Use the fields
 : to Enter your licence details manually
 
-Press [Register]
-: to register the extension. for this session
+Press `[Register]`
+: to register the extension for this session.
 
 ## Autofocus FileMaker
 
