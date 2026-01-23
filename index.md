@@ -17,7 +17,7 @@ This site is a 🚧 WORK IN PROGRESS 🚧
 
 [![mrwatson.de](made-by-mrwatson-de.png){: .float-front-right .w-128}](https://mrwatson.de)
 
-Welcome to [fmWorkMate.com](https://fmWorkMate.com), the home of [fmWorkMate] and [MrWatson's Tools](mrwatsons-tools.html) for FileMaker developers.
+Welcome to [fmWorkMate.com](https://fmWorkMate.com), the home of [fmWorkMate](fmworkmate.html) and [MrWatson's Tools](mrwatsons-tools.html) for FileMaker developers.
 
 [Made with love by one FileMaker Developer](made-by-mrwatson-de.html) for a whole community of FileMaker developers.
 {% endcapture %}<section class="fullwidth mrw-gold-bg">{{ welcome | markdownify }}</section>
