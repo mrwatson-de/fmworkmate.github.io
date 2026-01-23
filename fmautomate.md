@@ -26,16 +26,20 @@ A tool for FileMaker developers which extends and automates your script workspac
 
 fmAutoMate comprises
 
-1. the main [install fmAutoMate](#install-fmautomate) function, which 
+1. the main [install fmAutoMate](#install-fmautomate) function, which
    - installs the [fmAutoMate Context Menus]
      - extends the `Script Workspace` with a [context menu](#an-extension-of-mbs-context-menus) full of all kinds of useful and powerful functions
      - provides a [context menu in layout mode](fmautomate-context-menus.html#fmautomate-layout-workspace-context-menu)
      - provides a [context menu in browse mode](fmautomate-context-menus.html#fmautomate-browse-mode-context-menu)
-   - provides keyboard shortcuts ('`HotKeys`') to bring these functions to your fingertips
-   - extends the entire FileMaker GUI by introducing [Extended HotKey functions](#fmautomate-extended-hotkeys) <kbd>⌃</kbd><kbd>⌘</kbd><kbd>K</kbd>)
-2. the [fmAM Script Module](#fmautomate-fmam-script-module)
+     - which add useful functions to the right-click context menus in various FileMaker workspaces
+2. [fmAutomate Hot Keys]
+   - keyboard shortcuts *anywhere* in FileMaker Pro
+     - perform select fmAutoMate context menu functions
+     - bring power to your finger tips!
+   - extend the entire FileMaker GUI by introducing [Extended HotKey functions](#fmautomate-extended-hotkeys) <kbd>⌃</kbd><kbd>⌘</kbd><kbd>K</kbd>)
+3. the [fmAM Script Module](#fmautomate-fmam-script-module)
    - which adds even more functions to the context menus
-3. [fmAutomate Services](#fmautomate-services)
+4. [fmAutomate Services](#fmautomate-services)
    - which provide (text formatting) functionality in the Mac OS services context menu in text fields throughout your system.
 
 ## Install fmAutoMate
