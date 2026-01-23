@@ -166,10 +166,6 @@
       text-decoration-color: rgba(255, 255, 255, 0.8); // Stark underline on hover
     }
   }
-
-  :not(pre, figure) > code {
-    background-color: #aaacb3;
-  }
 }
 
 .side-note {
@@ -224,8 +220,9 @@
   @include light-text;
 }
 
-code {
-  color: black;
+:not(pre, figure) > code {
+  color: rgba(0, 0, 0, 0.729) !important;
+  background-color: #ececec !important;
 }
 
 /* FIXME */
