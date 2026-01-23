@@ -13,7 +13,7 @@ layout: default
 
 {{page.strapline}}
 
-MrWatson's Tools are not just a random set of tools, but a [system of integrated tools](a-system-of-integrated-tools.html) that work together to [solve your problems](solutions-to-daily-problems.html) and [make your life easier](why-mrwatsons-tools.html#fun).
+MrWatson doesn't just make [fmWorkMate] and MrWatson's Tools are not just a random set of tools, rather MrWatson's Tools are a [system of integrated tools](a-system-of-integrated-tools.html) that work together to [solve your problems](solutions-to-daily-problems.html) and [make your life easier](why-mrwatsons-tools.html#fun).
 
 Take a look at the [overview of MrWatson's Tools](mrwatsons-tools-overview.html) to see how they fit together, and how they can help you in your daily FileMaker development tasks.
 
