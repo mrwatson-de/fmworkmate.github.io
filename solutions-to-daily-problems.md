@@ -17,7 +17,7 @@ layout: default
 
 > We are FileMaker developers. We are problem solvers, right?
 
-Yep, and in my daily work I often find myself solving the same problems over and over again. Sometimes silly little problems, sometimes huge problems needing all the skills and tools of the trade.
+Yep, and in my daily work as a FileMaker developer I often find myself facing the same problems over and over again. Sometimes silly little problems, sometimes huge problems needing all the skills and tools of the trade.
 
 ## And Solution Sharers
 
