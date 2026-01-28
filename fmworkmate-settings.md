@@ -1,8 +1,8 @@
 ---
 title: fmWorkMate Settings
 strapline: Plugins, Options & co.
-parent: fmWorkMate
-nav_order: 05
+parent: Setup fmWorkMate
+nav_order: 01
 layout: default
 ---
 - TOC
@@ -28,6 +28,14 @@ Click the `⚙️` button
 : at the bottom of the fmWorkMate tool list.
 
 ![fmWorkMate Settings > Plugins](/assets/images/fmworkmate-settings-plugins.png)
+
+In the Settings dialog you can
+
+- [Install the Plugins](#install-the-plugins) that fmWorkMate needs
+  - and optionally [install the MBS Saxon extension](#install-mbs-saxon-extension-if-desired) for advanced XML processing
+- [autofocus FileMaker](#autofocus-filemaker) when generating code.
+- set [various options](#more-settings), like keeping fmWorkMate open.
+- add your own functions in the [Simple Calculator Settings](#simple-calculator-settings)
 
 ## Install the Plugins
 
@@ -102,6 +110,20 @@ On the FileMaker tab,
 - Choose the FileMaker you want to target for your development work.
 
 ![fmWorkMate Settings > FileMaker](/assets/images/fmworkmate-settings-filemaker.png)
+
+## More Settings
+
+- Keep fmWorkMate open
+  - Select `[x] Keep fmWorkMate open` if you want fmWorkMate to stay open when opening tools.
+- Backdrop
+  - Select `[x] Backdrop` to add a backdrop in the given colour whilst working in fmWorkMate.
+  - Honestly, this is only really useful for screenshots. :D
+
+## Simple Calculator Settings
+
+Here you can add your own functions to the Simple Calculator tool.
+
+The functions here reachable from the Simple Calculator by just entering an `f`.
 
 {% comment %}mrwMarkdownLinks{% endcomment %}
 [MBS Plugin]: mbs-plugin.html

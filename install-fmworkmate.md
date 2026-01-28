@@ -60,3 +60,8 @@ To install the old fmWorkMate Windows version:
 4. Move the `fmWorkMate` folder to your preferred location, such as to `Program Files`
 5. Double-click the `fmWorkMate.exe` file to fmWorkMate
 6. Right Click the fmWorkMate tab in the windows task bar and select `Pin to taskbar` for easy access in the future.
+
+Once installed proceed to [Setup fmWorkMate]
+
+{% comment %}mrwMarkdownLinks{% endcomment %}
+[Setup fmWorkMate]: setup-fmworkmate.html

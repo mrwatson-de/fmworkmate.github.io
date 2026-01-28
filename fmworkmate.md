@@ -42,17 +42,18 @@ See [Solutions to Daily Problems](solutions-to-daily-problems.html) for more com
 
 [Install fmWorkMate] to get access to a variety of useful tools right inside FileMaker Pro.
 
-[Setup fmWorkMate](fmworkmate-settings.html) to target the FileMaker you use and work in the mode which fits your task.
+[Setup fmWorkMate] to target the FileMaker you use and work in the mode which fits your task.
 
 ## Getting started
 
-Once you have [installed and set up fmWorkMate](#installation-and-setup), 
+Once you have [installed and set up fmWorkMate](#installation-and-setup), you can use the toolbox tools right away.
 
-
-
-fmWorkMate now shows you better what you have installed:
+From the indicator to the left of a tool you can see whether it is part of the toolbox `⋮`, an  installed `✦` or missing `✧` external tool, or a group heading `:`:
 
 ![fmWorkMate GUI](assets/images/fmworkmate-screenshot-excerpt.png)
 
+To open a tool, just click on its name, or press the corresponding shortcut key, if available.
+
 {% comment %}mrwMarkdownLinks{% endcomment %}
 [Install fmWorkMate]: install-fmworkmate.html
+[Setup fmWorkMate]: setup-fmworkmate.html
