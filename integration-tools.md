@@ -25,9 +25,15 @@ Here and now!
 
 Plug fmIDE into your files to get a powerful API that tools can speak to in order to reach - and manipulate - the things, the scripts, the fields, the value lists, the building blocks of your database. 
 
-[fmScriptWorkspace], the predecessor of fmIDE, gives access to the Script Workspace. Open scripts, select specific script steps. Fix your bugs in an instant!
+[fmScriptWorkspace], the predecessor of fmIDE, gives access to the Script Workspace. Open scripts, select specific script steps, and fix your bugs in an instant!
+
+[fmLaunchPad] integrates FileMaker files into your Mac's app environment. It's an intelligent file starter. 
 
 [fmSyntaxColorizer] is also integration tool, my first, and to be found under [Developer Tools](developer-tools.html)
 
 {% comment %}mrwMarkdownLinks{% endcomment %}
+[fmAutoMate]: fmautomate.html
+[fmIDE]: fmide.html
+[fmLaunchPad]: fmlaunchpad.html
+[fmMetaMate]: fmmetamate.html
 [fmSyntaxColorizer]: fmsyntaxcolorizer.html
