@@ -22,12 +22,13 @@ GitHub can be a bit daunting at first, but it's really quite simple.
 
 Here's how to download stuff from GitHub:
 
-1. Go to the repository on github you need.
+1. Go to the repository you need on github.
 2. If there is a release,
-   - go to thelatest release page
+   - go to the latest release page
+     - (you'll find a link in the middle of the right hand side of the main page)
    - Scroll to the bottom
    - Download the Zip file
-3. or If you want cutting edge 
+3. or if you want the latest cutting edge update
    - Click the Code button
    - Download the Zip file
 
