@@ -54,6 +54,22 @@ From the indicator to the left of a tool you can see whether it is part of the t
 
 To open a tool, just click on its name, or press the corresponding shortcut key, if available.
 
+## The Tools
+
+The tools in fmWorkMate are grouped under various headings:
+
+- [Developer Tools]
+- [Text Tools]
+- [Integration Tools]
+- [Clip + Key Tools]
+- [Setup Utilities]
+- [More Utilities]
+
 {% comment %}mrwMarkdownLinks{% endcomment %}
+[Developer Tools]: developer-tools.html
 [Install fmWorkMate]: install-fmworkmate.html
+[Integration Tools]: integration-tools.html
+[More Utilities]: more-utilities.html
 [Setup fmWorkMate]: setup-fmworkmate.html
+[Setup Utilities]: setup-utilities.html
+[Text Tools]: text-tools.html
