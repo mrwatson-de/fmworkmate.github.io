@@ -41,4 +41,5 @@ Those of you lucky enough to be acquainted with the whimsical  offerings of Amer
 {% comment %}mrwMarkdownLinks{% endcomment %}
 [fmCheckMate]: fmcheckmate.html
 [fmDBAnalyser]: fmdbanalyser.html
+[fmLogAnalyser]: fmloganalyser.html
 [fmSyntaxColorizer]: fmsyntaxcolorizer.html
