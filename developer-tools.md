@@ -20,7 +20,7 @@ The first group of tools in the fmWorkMate toolbox are the `Developer Tools`.
 
 Historically, some of the first tools I made, this group of tools represent the original core of MrWatson's Power Tools for FileMaker developers.
 
-Above all [fmCheckMate] and the [fmCheckMate XSLT-Library](fmcheckmate-xslt-library.html) along with fmLogAnalyser and the BugOff! Alarm, belong to the tools that get used most every day. .
+Above all [fmCheckMate] and the [fmCheckMate XSLT-Library](fmcheckmate-xslt-library.html) along with [fmLogAnalyser] and the [BugOff! Alarm], belong to the tools that get used most every day. .
 
 [fmDBAnalyser] is the original analytics tool to 'turn your databases inside out
 
