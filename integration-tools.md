@@ -36,5 +36,5 @@ Plug fmIDE into your files to get a powerful API that tools can speak to in orde
 [fmIDE]: fmide.html
 [fmLaunchPad]: fmlaunchpad.html
 [fmMetaMate]: fmmetamate.html
-[fmScriptWorkspace]: fmScriptWorkspace.html
+[fmScriptWorkspace]: fmscriptworkspace.html
 [fmSyntaxColorizer]: fmsyntaxcolorizer.html
