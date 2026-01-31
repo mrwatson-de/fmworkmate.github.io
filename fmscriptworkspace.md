@@ -1,5 +1,5 @@
 ---
-title: fmScriptWorkSpace
+title: fmScriptWorkspace
 strapline: Kinda deprecated
 parent: Integration Tools
 nav_order: 400
