@@ -20,12 +20,16 @@ This page is on it's way … bit by bit.
 
 ## fmWorkMate
 
-- Which version?
-- Download
-- Install
-- Download Plugins
-- Install Plugins
-- Licence Plugin
+Once you have [Installed and setup fmWorkMate](fmworkmate.html#installation-and-setup) there are some cool things you can do
+- Rename things in your code using [fmCheckMate's Find & Replace](fmcheckmate.html##finding--replacing-textFinding & Replacing Text)
+  - For example: in your scripts [rename variables with fmCheckMate]
+- Use [fmTextMultiplier] to [Multiply your Code]
+- Use [fmTextConverter] to [Recontextualise Code]
+- Need to copy code to/from another computer?
+  - You can [transfer code across the ether with fmCheckMate]
+- 
+
+- Brighten up your code with [fmSyntaxColorizer]
 
 {% capture fmworkmate %}
 
@@ -121,3 +125,14 @@ Ready for Some fun?
 …
 
 {% endcapture %}<section class="fullwidth schawarz-bg">{{ fmlaunchpad | markdownify }}</section>
+
+{% comment %}mrwMarkdownLinks{% endcomment %}
+[fmAutoMate]: fmautomate.html
+[fmSyntaxColorizer]: fmsyntaxcolorizer.html
+[fmTextConverter]: fmtextconverter.html
+[fmTextMultiplier]: fmtextmultiplier.html
+[Install fmWorkMate]: install-fmworkmate.html
+[Multiply your Code]: multiply-your-code.html
+[Recontextualise Code]: recontextualise-code.html
+[rename variables with fmCheckMate]: rename-variables-with-fmcheckmate.html
+[transfer code across the ether with fmCheckMate]: transfer-code-across-the-ether-with-fmcheckmate.html
