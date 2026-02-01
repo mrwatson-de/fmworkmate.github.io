@@ -160,12 +160,12 @@ Here is a list of the tools we used, and how they helped.
 - [fmAutoMate] ![fmAutoMate](fmautomate.png){:.float-front-right .w-32}
   - to transfer code even quicker using [Xopy 'n' PaXte](xopy-n-paxte.html)
 
-- [fmLogAnalyzer] ![fmLogAnalyser](fmloganalyser.png){:.float-front-right .w-32} and the BugOff! Alarm
+- [fmLogAnalyser] ![fmLogAnalyser](fmloganalyser.png){:.float-front-right .w-32} and the BugOff! Alarm
   - to catch pasting errors as we made them
   - and to turn the errors in a still-to-do list
 - [fmCheckMate-XSLT] ![fmCheckmate-XSLT](fmcheckmate-xslt.png){:.float-front-right .w-32} library
   - primarily for layout analysis to check no pasting errors crept into customers' layouts.
-- [fmDBAnalyzer] ![fmDBAnalyser](fmdbanalyser.png){:.float-front-right .w-32}
+- [fmDBAnalyser] ![fmDBAnalyser](fmdbanalyser.png){:.float-front-right .w-32}
   - for the specific task of checking the new TOs in the relationship graph.
 - [fmTextDiff] ![fmTextDiff](fmtextdiff.png){:.float-front-right .w-32}
   - to check how the customer's code and our code differed
@@ -183,9 +183,11 @@ Here is a list of the tools we used, and how they helped.
 [fmAutoMate]: fmautomate.html
 [fmCheckmate]: fmcheckmate.html
 [fmCheckMate-XSLT]: fmcheckmate-xslt.html
+[fmDBAnalyser]: fmdbanalyser.html
 [fmIDE]: fmide.html
 [fmKillDefaultFields]: fmkilldefaultfields.html
 [fmLaunchPad]: fmlaunchpad.html
+[fmLogAnalyser]: fmloganalyser.html
 [fmSetupAssistant]: fmsetupassistant.html
 [fmSyntaxColorizer]: fmsyntaxcolorizer.html
 [fmTextDiff]: fmtextdiff.html
