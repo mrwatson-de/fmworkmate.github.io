@@ -1,5 +1,5 @@
 ---
-title: Jump Start your Experience
+title: Jump Start your FileMaker Experience
 strapline: Getting Started
 parent: Help
 nav_order: 0100
@@ -15,21 +15,39 @@ layout: default
 {{page.strapline}}
 
 {: .fullwidth .mrw-schwarz-bg}
-
 This page is on it's way … bit by bit.
+
+![fmWorkMate](fmworkmate.png){: .float-front-right .w-48}
 
 ## fmWorkMate
 
 Once you have [Installed and setup fmWorkMate](fmworkmate.html#installation-and-setup) there are some cool things you can do
+
 - Rename things in your code using [fmCheckMate's Find & Replace](fmcheckmate.html##finding--replacing-textFinding & Replacing Text)
   - For example: in your scripts [rename variables with fmCheckMate]
 - Use [fmTextMultiplier] to [Multiply your Code]
 - Use [fmTextConverter] to [Recontextualise Code]
 - Need to copy code to/from another computer?
   - You can [transfer code across the ether with fmCheckMate]
-- 
 
-- Brighten up your code with [fmSyntaxColorizer]
+Building an **OnKey trigger script** and **can't remember the codes** for <kbd>←</kbd>, <kbd>→</kbd>, <kbd>␛</kbd> & co.?
+
+- Use [fmKeyPress] to get the codes quickly^
+
+Working remotely and the modifier keys seem to be sticking?
+
+- Check it out with [fmModifierKeys]
+
+![fmSyntaxColorizer](fmsyntaxcolorizer.png){: .float-front-right .w-32}
+
+## fmSyntaxColorizer
+
+Want to catch more bugs during development?
+
+- [Install fmSyntaxColorizer] to brighten up your code with **semantic** step colours.
+
+
+
 
 {% capture fmworkmate %}
 
@@ -39,7 +57,13 @@ Once you have [Installed and setup fmWorkMate](fmworkmate.html#installation-and-
 
 {% endcapture %}<section class="fullwidth mrw-green-bg">{{ fmworkmate | markdownify }}</section>
 
-## fmCheckMate-XSLT
+
+
+
+
+![fmCheckMate-XSLT](fmcheckmate-xslt.png){: .float-front-right .w-32} 
+
+## Pimp your fmWorkMate with fmCheckMate-XSLT
 
 1. Download - [from GitHub](https://github.com/mrwatson-de/fmCheckMate-XSLT/releases/latest)
 2. Install - the fmCheckmate folder into your Documents folder
@@ -128,9 +152,12 @@ Ready for Some fun?
 
 {% comment %}mrwMarkdownLinks{% endcomment %}
 [fmAutoMate]: fmautomate.html
+[fmKeyPress]: fmkeypress.html
+[fmModifierKeys]: fmmodifierkeys.html
 [fmSyntaxColorizer]: fmsyntaxcolorizer.html
 [fmTextConverter]: fmtextconverter.html
 [fmTextMultiplier]: fmtextmultiplier.html
+[Install fmSyntaxColorizer]: install-fmsyntaxcolorizer.html
 [Install fmWorkMate]: install-fmworkmate.html
 [Multiply your Code]: multiply-your-code.html
 [Recontextualise Code]: recontextualise-code.html
