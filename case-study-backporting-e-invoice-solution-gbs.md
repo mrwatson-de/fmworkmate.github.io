@@ -177,7 +177,7 @@ Here is a list of the tools we used, and how they helped.
 [^1]: Due to the advanced features of Advanter's line item functionality the solution also required a new table of normalised line items.
 
 [^2]: A value list allows selection of the target e invoice format. This is not without problems: It is a schema reference to the eRechnungAPI file, and as such during an update of the e-invoicing module it  makes it impossible to close the eRechnungAPI file on the server without the users who have used the value list having to close ALL files. In a future version I hope to replace this with a script based magic value list to remove this irritation. ![Value List](/assets/images/cs1-4-script-api-and-value-list.png)
-[^3] Since the Slack Canvas does not support fmp urls they get changed into http-urls, and you have to do a little dance in the browser address field to turn the url back into an fmp link.
+[^3]: Since the Slack Canvas does not support fmp urls they get changed into http-urls, and you have to do a little dance in the browser address field to turn the url back into an fmp link.
 
 {% comment %}mrwMarkdownLinks{% endcomment %}
 [fmAutoMate]: fmautomate.html
