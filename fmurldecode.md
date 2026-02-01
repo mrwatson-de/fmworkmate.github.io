@@ -13,3 +13,18 @@ layout: default
 # {{page.title}}
 
 {{page.strapline}}
+
+fmURLDecode helps you discover the parameters encoded in a URL  
+
+It was developed to help get the raw URL to from the FileMaker ETS 
+download link in order to use a fast downloader app.
+
+Just paste a URL and get a list of the decoded URL parameters. 
+
+That's it. 
+
+Small and sweet. 
+
+Like my mum. 
+
+😉
