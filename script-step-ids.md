@@ -448,7 +448,7 @@ The results are, of course, very dependent on programming and documenting styles
 
 ```mermaid
 pie
-    title Script step categories
+    title Script step frequencies
     "Comments / white space": 43
     "Control structures (If / Loop)": 19
     "Variable assignments": 14
