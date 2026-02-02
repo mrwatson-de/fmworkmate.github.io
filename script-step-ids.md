@@ -433,7 +433,7 @@ AI produced, so no guarantees here!
 | Miscellaneous | Show Custom Dialog                        | 87      |       |
 | Miscellaneous | Speak                                     | 66      |       |
 
-## Script steps by Frequency
+## Script Steps by Frequency
 
 This statistic was created using Advanter + Cross Check, from ~850K Script steps.
 
