@@ -439,23 +439,23 @@ This statistic was created using Advanter + Cross Check, from ~850K Script steps
 
 The results are, of course, very dependent on programming and documenting styles, nevertheless very illuminating!
 
-- 43% comments / white space
-- 19% control structures (If / Loop)
-- 14% variable assignments
-- 6% field operations
-- 5% script calls
-- 13% other stuff
-
 ```mermaid
 pie
     title Script step frequencies
     "Comments / white space": 43
     "Control structures (If / Loop)": 19
     "Variable assignments": 14
+    "Everything else": 13
     "Field operations": 6
     "Script calls": 5
-    "Other": 13
 ```
+
+- 43% comments / white space
+- 19% control structures (If / Loop)
+- 14% variable assignments
+- 6% field operations
+- 5% script calls
+- 13% everything else
 
 | Frequency Rank | Step Name                              | Step ID | Frequency |
 |----------------|----------------------------------------|---------|-----------|
