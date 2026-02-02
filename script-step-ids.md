@@ -13,7 +13,9 @@ layout: default
 
 {{page.strapline}}
 
-AI produced, so no guarantees here!
+Skip to the [Script Steps by Frequency](#script-steps-by-frequency) section for more about the chart.
+
+Note: Partly AI produced, so no guarantees here!
 
 ## Script Steps by ID
 
