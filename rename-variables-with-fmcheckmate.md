@@ -20,20 +20,17 @@ You can do this even more quickly and intuitively with [fmAutoMate]!
 You can quickly rename script variables using fmCheckMate:
 
 1. Copy (or cut) all the script steps where the variable is used
-2. Open [fmCheckMate]
-   - from [fmWorkMate] <kbd>⌘</kbd><kbd>2</kbd>
-3. Convert to XML
-   - by clicking [`Convert Clipboard`]
-   - or pressing <kbd>⌘</kbd><kbd>2</kbd>
-4. Type the <kbd>$old name</kbd> of the variable to search for - including the $.
-5. Press <kbd>⇥</kbd> (or <kbd>⇧</kbd><kbd>⌘</kbd><kbd>F</kbd>) and enter the <kbd>$new_name</kbd> - including the $.
-6. To replace and convert back to FileMaker objects on the clipboard
+ 2. Open [fmCheckMate]
+2. Convert to XML - [`Convert Clipboard`] or <kbd>⌘</kbd><kbd>2</kbd> <span>from [fmWorkMate] press <kbd>⌘2</kbd> twice</span>{: .mrw-killer-bg .float-front-right}
+3. In the Search field: <kbd>$old name</kbd>, the <kbd>⇥</kbd>…
+4. In the Replace field: <kbd>$new_name</kbd>
+5. To replace and convert back to FileMaker objects on the clipboard
    - either
      - Click `[R]` or press <kbd>⌥</kbd><kbd>⌘</kbd><kbd>A</kbd> to replace **a**ll and
      - Click `[→ FM]` or press <kbd>⌥</kbd><kbd>⌘</kbd><kbd>V</kbd> to convert back to the FileMaker clipboard
    - or
      - Press <kbd>⌥</kbd><kbd>⇧</kbd><kbd>⌘</kbd><kbd>V</kbd> (for replace **a**ll) to do it in one keypress
-7. In FileMaker paste the changed code back into your FileMaker script workspace.
+6. In FileMaker paste the changed code back into your FileMaker script workspace.
 
 This process helps ensure consistent and error-free variable renaming throughout your scripts.
 

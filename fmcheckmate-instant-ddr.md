@@ -1,12 +1,15 @@
 ---
 title: fmCheckMate Instant DDR
 strapline: Faster and smarter analysis
-parent: fmCheckMate
+parent: fmCheckMate Settings
 nav_order: 030
 layout: default
 ---
 - TOC
 {:toc}
+
+{: .mrw-schwarz-bg}
+This page is a 🚧 WORK IN PROGRESS 🚧
 
 {% include page-image.html width=site.page_image_width %}
 

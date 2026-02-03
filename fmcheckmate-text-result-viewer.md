@@ -2,7 +2,7 @@
 title: fmCheckMate Text Result Viewer
 strapline: More than just a viewer
 parent: fmCheckMate
-nav_order: 300
+nav_order: 1000
 layout: default
 ---
 - TOC

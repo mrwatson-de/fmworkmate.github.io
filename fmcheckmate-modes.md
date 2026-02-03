@@ -2,7 +2,7 @@
 title: fmCheckMate Modes
 strapline: Convert/Transfer, Analyse/Fix or Edit/Transform your FileMaker work
 parent: fmCheckMate Settings
-nav_order: 020
+nav_order: 0020
 layout: default
 ---
 - TOC
