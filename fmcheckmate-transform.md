@@ -15,4 +15,6 @@ layout: default
 {{page.strapline}}
 
 With the help of the [fmCheckMate XSLT Library](fmcheckmate-xslt-library.html)
-fmCheckMate can transform your life by analysing, changing and transforming your FileMaker code.
+fmCheckMate can [transform your code](transform-your-code-with-fmcheckmate.html) (and your life) by analysing, changing and transforming your FileMaker code.
+
+Just click `[T]` - or press <kbd>⌘T</kbd> - in fmCheckMate.

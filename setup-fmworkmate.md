@@ -39,9 +39,9 @@ This has both advantages and disadvantages:
 - `-` It can, however, be a bit fiddly switching between fmWorkMate and your solution files
 - `-` Closing your solution may close fmWorkmate as well.
 
-![fmWorkMate App](fmworkmate.png){: .float-front-right .w-32}
+![fmWorkMate App](fmworkmate-app.png){: .float-front-right .w-64}
 
-### b) A dedicated FileMaker Pro installation
+### b) fmWorkMate App - A dedicated FileMaker Pro installation
 
 A good alternative is to set up a dedicated FileMaker Pro installation for fmWorkMate.
 

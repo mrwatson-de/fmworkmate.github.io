@@ -17,7 +17,7 @@ layout: default
 {: .fullwidth .mrw-schwarz-bg}
 This page is on it's way … bit by bit.
 
-![fmWorkMate](fmworkmate.png){: .float-front-right .w-48}
+![fmWorkMate](fmworkmate.png){: .float-front-right .w-64}
 
 ## fmWorkMate
 
@@ -27,18 +27,29 @@ Once you have [Installed and setup fmWorkMate](fmworkmate.html#installation-and-
   - For example: in your scripts [rename variables with fmCheckMate]
 - Use [fmTextMultiplier] to [Multiply your Code]
 - Use [fmTextConverter] to [Recontextualise Code]
-- Need to copy code to/from another computer?
-  - You can [transfer code across the ether with fmCheckMate]
 
-Building an **OnKey trigger script** and **can't remember the codes** for <kbd>←</kbd>, <kbd>→</kbd>, <kbd>␛</kbd> & co.?
+{: .note}
+Need to copy code to/from another computer?
 
-- Use [fmKeyPress] to get the codes quickly^
+![fmCheckMate](fmcheckmate.png){: .float-front-right .w-64}
 
+- You can [transfer code across the ether with fmCheckMate]
+
+{: .note}
+Building an **OnKey trigger script** but **can't remember the codes** for <kbd>←</kbd>, <kbd>→</kbd>, <kbd>␛</kbd> & co.?
+
+![fmKeyPress](fmkeypress.png){: .float-front-right .w-64}
+
+- Use [fmKeyPress] to get the codes quickly
+
+{: .note}
 Working remotely and the modifier keys seem to be sticking?
+
+![fmModifierKeys](fmmodifierkeys.png){: .float-front-right .w-64}
 
 - Check it out with [fmModifierKeys]
 
-![fmSyntaxColorizer](fmsyntaxcolorizer.png){: .float-front-right .w-32}
+![fmSyntaxColorizer](fmsyntaxcolorizer.png){: .float-front-right .w-64}
 
 ## fmSyntaxColorizer
 
@@ -61,7 +72,7 @@ Want to catch more bugs during development?
 
 
 
-![fmCheckMate-XSLT](fmcheckmate-xslt.png){: .float-front-right .w-32} 
+![fmCheckMate-XSLT](fmcheckmate-xslt.png){: .float-front-right .w-64} 
 
 ## Pimp your fmWorkMate with fmCheckMate-XSLT
 
