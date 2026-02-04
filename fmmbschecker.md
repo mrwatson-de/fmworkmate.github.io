@@ -51,7 +51,7 @@ Yes! You can discover the minimum MBS version *for an entire solution* in moment
 
 ### What MBS functions are used in this code?
 
-Click the little (i) button.
+Click the little information button `(?)`.
 
 ### Are the MBS functions compatible with my OS?
 
@@ -71,6 +71,6 @@ An now you can instantly copy and check MBS example code from the MBS website in
 
 ### Update now
 
-Plus there's an [Update now] button to update the list automatically from the MBS website, giving you access to the new functions as soon as a new version is released.
+Plus there's an `[Update now]` button to update the list automatically from the MBS website, giving you access to the new functions as soon as a new version is released.
 
 😎 nice!
