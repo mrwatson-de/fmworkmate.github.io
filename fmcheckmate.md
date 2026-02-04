@@ -14,7 +14,7 @@ layout: default
 
 {{page.strapline}}
 
-
+fmCheckMate is part of the [fmWorkMate] toolbox and is installed when you [install fmWorkMate].
 
 ## Introduction
 
@@ -44,4 +44,9 @@ Depending on what you are doing with fmCheckMate, you may want to [select a diff
 
 ## Extending fmCheckmate with fmCheckMate-XSLT Library
 
-If you want more power at your fingertips, then install the [fmCheckMate XSLT Library](fmcheckmate-xslt.html) to add hundreds of functions to fmCheckMate.
+If you want more power at your fingertips, then install the [fmCheckMate XSLT] Library to add hundreds of functions to fmCheckMate.
+
+{% comment %}mrwMarkdownLinks{% endcomment %}
+[fmCheckMate XSLT]: fmcheckmate-xslt.html
+[fmWorkMate]: fmworkmate.html
+[install fmWorkMate]: install-fmworkmate.html
