@@ -122,11 +122,11 @@ About [fmCheckMate]
 
 ---
 
-![fmCheckmate-XSLT](fmcheckmate-xslt.png){:.float-front-right .mt-16 .w-64}
+![fmCheckMate-XSLT](fmcheckmate-xslt.png){:.float-front-right .mt-16 .w-64}
 
-## fmCheckmate-XSLT
+## fmCheckMate-XSLT
 
-About [fmCheckmate-XSLT]
+About [fmCheckMate-XSLT]
 
 {% include top.html %}
 
@@ -498,7 +498,7 @@ About [PSBN]
 [FileMakerDoc]: filemakerdoc.html
 [fmAutoMate]: fmautomate.html
 [fmCheckMate]: fmcheckmate.html
-[fmCheckmate-XSLT]: fmcheckmate-xslt.html
+[fmCheckMate-XSLT]: fmcheckmate-xslt.html
 [fmClipboardViewer]: fmclipboardviewer.html
 [fmDBAnalyser]: fmdbanalyser.html
 [fmGraphIt]: fmgraphit.html
