@@ -100,7 +100,7 @@ flowchart LR
     CM  -. ❌ no logging at all             .-> NONE
 ```
 
-And we won't mention - let alone dream about - the things you can't (yet) copy & paste in FileMaker. 😜
+And we won't mention - let alone dream about - the things you can't copy & paste in FileMaker. 😜
 
 ![Import log](/assets/images/import-log.png){: .float-front-right .w-50pc}
 
@@ -116,9 +116,9 @@ The `import.log` file  is ugly.
 
 Three of MrWatson's Tools come to the rescue here…
 
-1. fmLogAnalyser
-2. fmCheckMate
-3. fmIDE
+1. [fmLogAnalyser](#fmloganalyser)
+2. [fmCheckMate](#fmcheckmate)
+3. [fmIDE](#fmide)
 
 ```mermaid
 ---
@@ -171,7 +171,7 @@ Once you have meticulously fixed all the errors in the log and ticked them off, 
 
 ![OK](assets/images/fmloganalyser-ok.png)
 
-sign tells you you have no more errors, 
+sign tells you you have no more errors.
 
 {: .note .w-50pc}
 Proof you have done your work right!
@@ -180,7 +180,7 @@ Proof you have done your work right!
 
 #### fmLogAnalyser for Active Bug-Hunting
 
-With [fmLogAnalyser's BugOff! Alarm](fmloganalyser-and-the-bugoff-alarm.html) to tell you when something has broken, .
+Use [fmLogAnalyser's BugOff! Alarm](fmloganalyser-and-the-bugoff-alarm.html) to actively tell you when something has broken.
 
 ![fmCheckMate](fmcheckmate.png){: .float-front-right .w-64}
 
@@ -220,11 +220,17 @@ I still need to implement that :D
 
 Finally, [fmIDE] cuts through the last problem by navigating you straight to the erroneous object.
 
-## The double-helix of quality-control-happiness
+## Happiness is a double-helix of quality-control
 
 There are indeed *two* circles of quality-control-happiness:
 
-1. The circle of quality-control-happiness for main (logged) objects (`Value Lists`, `Tables & Fields`, `Scripts & Steps`, `Themes` and - passively - `External Data Source`)
+1. The circle of quality-control-happiness for main, logged objects
+
+   - `Value Lists`
+   - `Tables & Fields`
+   - `Scripts & Steps`
+   - `Themes`
+   - `External Data Sources` (passively)
 
     ```mermaid
     ---
@@ -238,8 +244,8 @@ There are indeed *two* circles of quality-control-happiness:
         log[/"📄 import.log"/]
         errors{"errors"}
 
-        You -. "1. Paste code"             .-> FMP
-        FMP == "2. writes **some** errors" ==> log
+        You == "1. Paste code"         ==> FMP
+        FMP == "2. writes *some* errors" ==> log
 
         subgraph mrwatsons-tools["MrWatson's Tools"]
             fmLA[["fmLogAnalyser"]]
@@ -256,7 +262,11 @@ There are indeed *two* circles of quality-control-happiness:
         You    == "8. directly fix" ==> errors
     ```
 
-2. The circle of quality-control-happiness for secondary (non-logged) objects (`Custom Functions`, `Custom Menus` and - above all - `Layout Objects`)
+2. The circle of quality-control-happiness for secondary, non-logged objects
+
+   - `Custom Functions`
+   - `Custom Menus`
+   - `Layout Objects`
 
     ```mermaid
     ---
@@ -269,22 +279,23 @@ There are indeed *two* circles of quality-control-happiness:
         Pro")]
         errors{"errors"}
 
-        You -. "1. Paste code"     .-> FMP
-        FMP -. "2. copy code back" .-> You
+        You == "1. Paste code"      ==> FMP
+        FMP == "2. copy code back"  ==> You
 
         subgraph mrwatsons-tools["MrWatson's Tools"]
             fmCM[["fmCheckMate"]]
             fmCMX[["fmCheckMate-XSLT"]]
+            fmIDE[["fmIDE"]]
         end
 
-        You    -. "3. Convert copied code to XML" .-> fmCM
-        fmCM   -. "4. analyse XML" .-> fmCMX
-        fmCMX  -. "5. shows"       .-> errors
-        errors -. "in"             .-> FMP
-        You    == "6. fix"         ==> errors
+        You    == "3. Convert copied code to XML"  ==> fmCM
+        fmCM   == "4. analyse XML"                 ==> fmCMX
+        fmCMX  == "5. Press 'Go to Thing' Button"  ==> fmIDE
+        fmIDE  == "6. navigates to"                ==> errors
+        errors -. "in"                             .-> FMP
+        You    == "7. directly fix"                ==> errors
 
     ```
-
 
 {% comment %}mrwMarkdownLinks{% endcomment %}
 [fmCheckMate]: fmcheckmate.html
