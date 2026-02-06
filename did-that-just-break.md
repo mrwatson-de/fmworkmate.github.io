@@ -1,6 +1,6 @@
 ---
 title: Did That Just Break?
-strapline: When something breaks in a forest, does it make a noise?
+strapline: When something breaks in the forest, does it make a noise?
 parent: Solutions to Daily Problems
 nav_order: 0310
 layout: default
@@ -14,53 +14,282 @@ layout: default
 
 {{page.strapline}}
 
-And when something breaks in a FileMaker database, does it log an error?
+{: .note .w-50pc}
+When something breaks in a FileMaker database, does it log an error?
 
-When moving code around, patching files, or generally copy + pasting stuff from A to B, it's quite easy to break things. 
+## The Problem
 
-FileMaker tries to help in the form of the import.log which gets written to every time you paste something in, **but…**
+When moving code around, patching files, or generally copy + pasting stuff from A to B, it's quite easy to break things.
 
-## The Problems
+![import.log file](/assets/images/import-log-file.png){: .float-front-right .w-64}
 
-1. The import.log is hard to read
-2. Some problems are not logged as errors
-3. Errors from cancelled imports are hard to recognise
-4. Finding the error in the log is one thing, finding the original error is another
-5. Custom functions errors are not logged
-6. In Layout Mode there is *no logging at all*
+### The Good
+
+FileMaker tries to help in the form of the `import.log` which gets written to when you paste something in.
+
+#### The circle of quality-control-happiness(*)
+
+```mermaid
+---
+config:
+  layout: dagre
+---
+flowchart LR
+    You((You))
+    FMP[("FileMaker
+    Pro")]
+    log[/"📄 import.log"/]
+
+    You -. "1. Paste code"        .-> FMP
+    FMP == "2. writes errors"     ==> log
+    log == "3. discover errors"   ==> You
+    You == "4. find + fix errors" ==> FMP
+```
+
+(*) …theoretical…
+
+### The Bad
+
+{: .hover-accordion}
+
+- 💢 Some things are not logged at all
+  - `Layout Objects`
+  - `Custom Menus`
+- ❓ Some things are logged, but not as errors
+  - `Custom functions` are mentioned, but errors are not logged
+  - Things that get renamed are not logged as errors
+  - Automatically created `External Data Sources` are also not logged as errors
+- ⁉️ Some problems are logged, but are unimportant
+  - Errors in cancelled imports can distract
+- 🔍 Finding the error in the log is one thing
+  - navigating to the errorneous object in the soluton is another problem entirely
+
+```mermaid
+---
+config:
+  layout: elk
+---
+flowchart LR
+    Paste["⌘V
+    Paste
+    code"]
+    File[("MyFile.fmp12")]
+    FMP[("FileMaker
+    Pro")]
+    log[/"📄 import.log"/]
+    NONE[/"💢 NONE"/]
+
+    Paste -.> FMP .-> File
+
+    File ==> EDS["External Data Source"]
+    File ==> VL["Value Lists"]
+    File ==> TAF["Tables & Fields"]
+    File ==> SCR["Scripts & Steps"]
+    File ==> CF["Custom Functions"]
+    File ==> THM["Themes"]
+    File ==> LAY["Layout Objects"]
+    File ==> CM["Custom Menus"]
+
+    VL  -- ✅ logs errors OK                --> log
+    TAF -- ✅ logs errors OK                --> log
+    SCR -- ✅ logs errors OK                --> log
+    THM -. ✅ logs errors(?) OK             .-> log
+    EDS -. 🔶 logs, but not as an error     .-> log
+    CF  -. ❌ logs, but *lies* about errors .-> log
+    LAY -. ❌ no logging at all             .-> NONE
+    CM  -. ❌ no logging at all             .-> NONE
+```
+
+And we won't mention - let alone dream about - the things you can't (yet) copy & paste in FileMaker. 😜
+
+![Import log](/assets/images/import-log.png){: .float-front-right .w-50pc}
+
+### The Ugly
+
+The `import.log` file  is ugly.
+
+- It is hard to read.
+- It is hard to find the errors in.
+- It is so hard, that you mostly just don't bother.
 
 ## MrWatson's Solutions
 
-MrWatson has a solution for everything
+Three of MrWatson's Tools come to the rescue here…
 
-### For Mastering the import.log
+1. fmLogAnalyser
+2. fmCheckMate
+3. fmIDE
 
-First and foremost you need [fmLogAnalyser](./fmloganalyser.html) to help you read the import.log, and the  [BugOff! Alarm](./fmloganalyser-and-the-bugoff-alarm.html) to tell you when you've broken something.
+```mermaid
+---
+config:
+  layout: dagre
+---
+flowchart LR
+    subgraph mrwatsons-tools[MrWatson's Tools]
+        fmLA[["fmLogAnalyser"]]
+        fmCM[["fmCheckMate"]]
+        fmIDE[["fmIDE"]]
+    end
+    log[/"📄 import.log"/]
+    ESC[/"cancelled imports"/]
+    errors{"errors"}
 
-This solves problems 1-3. Errors and warnings (e.g. thing 'x' imported as thing 'x 2') are highlighted and a big green OK button tells you your import was successful.
+    File ==> log
+    File ==> ESC
+    File ==> EDS["External Data Source"]
+    File ==> CF["Custom Functions"]
+    File ==> LAY["Layout Objects"]
+    File ==> CM["Custom Menus"]
 
-For problem 4, you need to add [fmIDE](./fmide.html) to your solution. Then it needs approximately a single click to get to the error in your solution
-The tonic you need is
+    log == ✅ visualises           ==> fmLA
+    EDS == ✅ warnsabout           ==> fmLA
+    ESC -. ✅ hides errors         .-> fmLA
+    CF  == ✅ CF analysis          ==> fmCM
+    LAY == ✅ Layout analysis      ==> fmCM
+    CM  -. ? CM analysis           .-> fmCM
 
-Problem 5 and 6, errors in Custom Functions and Layouts, have to be solved differently, since they are not logged. For this you need
+    fmLA == names that Thing       ==> fmIDE
+    fmIDE == opens Thing in FM-GUI ==> errors
+```
 
-- [fmCheckMate](./fmcheckmate.html) (part of [fmWorkMate](./fmworkmate.html))
-- [fmCheckMate XSLT-Library](./fmcheckmate-xslt-library.html)!
-- and, of course, [the MBS Plugin](./mbs-plugin.html)
+![fmLogAnalyser](fmloganalyser.png){: .float-front-right .w-64}
 
-### For Custom Functions
+### fmLogAnalyser
 
-…after you paste them in, but *before* you close the Custom Functions dialog,…
+First and foremost you need [fmLogAnalyser](./fmloganalyser.html) to help you make the most of the `import.log`.
 
-- Copy the Custom Functions back to the clipboard
+#### fmLogAnalyser for Visualising the import.log
+
+![fmLogAnalyser Screenshot](assets/images/fmloganalyser-errors.png)
+
+#### fmLogAnalyser for Proving you are Right
+
+fmLogAnalyser turns your errors into a to-do list.
+
+Once you have meticulously fixed all the errors in the log and ticked them off, the big
+
+![OK](assets/images/fmloganalyser-ok.png)
+
+sign tells you you have no more errors, 
+
+{: .note .w-50pc}
+Proof you have done your work right!
+
+![BugOff! Alarm](fmloganalyser-and-the-bugoff-alarm.png){: .float-front-right .w-64}
+
+#### fmLogAnalyser for Active Bug-Hunting
+
+With [fmLogAnalyser's BugOff! Alarm](fmloganalyser-and-the-bugoff-alarm.html) to tell you when something has broken, .
+
+![fmCheckMate](fmcheckmate.png){: .float-front-right .w-64}
+
+### fmCheckMate
+
+To catch errors in `Custom Functions`, `Custom Menus` and `Layouts`, we need a different approach, since the log is useless here.
+
+![fmCheckMate-XSLT](fmcheckmate-xslt.png){: .float-front-right .w-64}
+
+For this you'll need [fmCheckMate] and the [fmCheckMate-XSLT] Library
+
+#### fmCheckMate for Custom Function Analysis
+
+…after you paste them in, but *before* you close the `Custom Functions` dialog,…
+
+- Copy the `Custom Functions` back to the clipboard
 - With fmCheckMate convert them to XML
-- Click `[T]` (or press`⌘T`) to choose an XSLT transformation
-- Select the analysis function "List functions that seem to be commented out"
-- You get a list of suspect CFs
+- Click `[T]` or press <kbd>⌘T</kbd> to choose an XSLT transformation
+- Select the analysis function `List functions that seem to be commented out`
+- You get a list of suspect `CFs`
 
-If the list is empty, you can go back and save the custom functions, and if not you can break off, fix the problems and repeat.
+If the list is empty, you can go back and save the `custom functions`, and if not you can break off, fix the problems and repeat.
 
-### For Layouts
+#### fmCheckMate for Layout Analysis
 
-With fmCheckMate and the fmCheckMate XSLT Library you can [perform an instant analysis on any layout](layout-analysis-with-fmcheckmate.html) in your solution.
+With fmCheckMate and the fmCheckMate-XSLT Library you can [perform an instant analysis on any layout](layout-analysis-with-fmcheckmate.html) in your solution.
 
+#### fmCheckMate for Custom Menu Analysis
+
+I still need to implement that :D
+
+![fmIDE](fmide.png){: .float-front-right .w-64}
+
+### fmIDE
+
+#### for a Quick Fix
+
+Finally, [fmIDE] cuts through the last problem by navigating you straight to the erroneous object.
+
+## The double-helix of quality-control-happiness
+
+There are indeed *two* circles of quality-control-happiness:
+
+1. The circle of quality-control-happiness for main (logged) objects (`Value Lists`, `Tables & Fields`, `Scripts & Steps`, `Themes` and - passively - `External Data Source`)
+
+    ```mermaid
+    ---
+    config:
+    layout: elk
+    ---
+    flowchart LR
+        You((You))
+        FMP[("FileMaker
+        Pro")]
+        log[/"📄 import.log"/]
+        errors{"errors"}
+
+        You -. "1. Paste code"             .-> FMP
+        FMP == "2. writes **some** errors" ==> log
+
+        subgraph mrwatsons-tools["MrWatson's Tools"]
+            fmLA[["fmLogAnalyser"]]
+            alarm[["Bug-Off Alarm"]]
+            fmIDE[["fmIDE"]]
+        end
+
+        log    == "3. read by"      ==> fmLA
+        fmLA   == "4. triggers"     ==> alarm
+        alarm  -- "5. warns"        --> You
+        alarm  == "6. calls 'Name that Thing' API" ==> fmIDE
+        fmIDE  == "7. navigates to" ==> errors
+        errors -. "in"              .-> FMP
+        You    == "8. directly fix" ==> errors
+    ```
+
+2. The circle of quality-control-happiness for secondary (non-logged) objects (`Custom Functions`, `Custom Menus` and - above all - `Layout Objects`)
+
+    ```mermaid
+    ---
+    config:
+    layout: elk
+    ---
+    flowchart LR
+        You((You))
+        FMP[("FileMaker
+        Pro")]
+        errors{"errors"}
+
+        You -. "1. Paste code"     .-> FMP
+        FMP -. "2. copy code back" .-> You
+
+        subgraph mrwatsons-tools["MrWatson's Tools"]
+            fmCM[["fmCheckMate"]]
+            fmCMX[["fmCheckMate-XSLT"]]
+        end
+
+        You    -. "3. Convert copied code to XML" .-> fmCM
+        fmCM   -. "4. analyse XML" .-> fmCMX
+        fmCMX  -. "5. shows"       .-> errors
+        errors -. "in"             .-> FMP
+        You    == "6. fix"         ==> errors
+
+    ```
+
+
+{% comment %}mrwMarkdownLinks{% endcomment %}
+[fmCheckMate]: fmcheckmate.html
+[fmCheckMate-XSLT]: fmcheckmate-xslt.html
+[fmIDE]: fmide.html
+[fmWorkMate]: fmworkmate.html
+[MBS Plugin]: mbs-plugin.html
+[MrWatson's Tools]: mrwatsons-tools.html

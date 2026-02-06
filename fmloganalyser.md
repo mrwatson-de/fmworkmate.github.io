@@ -16,9 +16,13 @@ layout: default
 
 fmLogAnalyser is part of the [fmWorkMate] toolbox and is installed when you [install fmWorkMate].
 
-When you paste code into a FileMaker solution (or import them) things can easily break.
+## Did That Just Break?
 
-Fortunately, when this happens FileMaker ([*mostly*](#what-filemaker-doesnt-log)) creates log entries (in the `import.log` file) to help you find out what went wrong.
+When pasting stuff in to FileMaker you find yourself asking [Did that just break]? - well, with fmLogAnalyser now you can prove it!
+
+When you paste code into a FileMaker solution (or import them) things can easily break (for example, if referenced items are not present or names have been changed).
+
+Fortunately, when this happens FileMaker creates log entries (in the `import.log` file) to help you find out what went wrong ([*most of the time*](#what-filemaker-doesnt-log)) at least.
 
 ## The import.log file
 
@@ -26,13 +30,31 @@ The `import.log` file is created in the same folder next to your FileMaker file,
 
 Whilst it does contain the info you need, it is not very user friendly to read.
 
-fmLogAnalyser to the rescue!
+![import.log file sample](/assets/images/import-log.png)
 
-![fmLogAnalyser Screenshot of the Log Analysis](/assets/images/fmloganalyser-screenshot.png)
+fmLogAnalyser to the rescue!
 
 ## fmLogAnalyser - a to do list of errors
 
-FIXME - more to come here
+![fmLogAnalyser Screenshot of the Log Analysis](/assets/images/fmloganalyser-screenshot.png)
+
+fmLogAnalyser
+
+- presents the log file elegantly
+- highlights issues (errors and warnings)
+- turns any errors into a to-do list!
+
+Work through your fmLogAnalyser to-do list…
+
+![fmLogAnalyser Open Issues](/assets/images/fmloganalyser-open-issues.png)
+
+…and when you get the [OK]…
+
+![fmLogAnalyser OK Button](/assets/images/fmloganalyser-ok.png)
+
+…you KNOW you are right!
+
+:-)
 
 ## What FileMaker *doesn't* log
 
@@ -42,7 +64,9 @@ FIXME - more to come here
 - FileMaker does not log custom function paste errors.
   - MrWatson to the rescue with [Custom Function Analysis with fmCheckMate]!
 
+
 {% comment %}mrwMarkdownLinks{% endcomment %}
+[Did That Just Break]: did-that-just-break.html
 [fmWorkMate]: fmworkmate.html
 [install fmWorkMate]: install-fmworkmate.html
 [Layout Analysis with fmCheckMate]: layout-analysis-with-fmcheckmate.html
