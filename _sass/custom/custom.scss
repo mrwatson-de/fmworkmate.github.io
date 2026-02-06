@@ -709,3 +709,76 @@ div.table-wrapper table tbody + tbody tr:first-child td {
   width: 11px !important;
   min-width: auto !important;
 }
+
+/*******************/
+/* Hover Accordion */
+/*******************/
+
+/* Base list */
+.hover-accordion {
+  list-style: none;
+  padding-left: 0;
+  margin: 1em 0;
+}
+
+/* Top-level items */
+.hover-accordion > li {
+  position: relative;
+  margin: 0.5em 0;
+  padding: 0.5em 0;
+  transition: background 0.6s ease;
+}
+
+/* Hover highlight */
+.hover-accordion > li:hover {
+  background: #f6f6f6;
+}
+
+/* Hide nested lists by default */
+.hover-accordion > li > ul {
+  max-height: 0;
+  overflow: hidden;
+  opacity: 0;
+  margin-left: 1.5em;
+  transition:
+    max-height 3.0s ease,
+    opacity 0.6s ease;
+}
+
+/* Reveal container on hover */
+.hover-accordion > li:hover > ul {
+  max-height: 1000px; /* large enough for content */
+  opacity: 1;
+}
+
+/* Sub-bullets: initial hidden state */
+.hover-accordion > li > ul > li {
+  opacity: 0;
+  transform: translateY(-4px);
+  transition:
+    opacity 1.0s ease,
+    transform 0.4s cubic-bezier(.2,.8,.2,1);
+}
+
+/* Sub-bullets: reveal on hover */
+.hover-accordion > li:hover > ul > li {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Staggered reveal (top → bottom) */
+.hover-accordion > li:hover > ul > li:nth-child(1) { transition-delay: 0.40s; }
+.hover-accordion > li:hover > ul > li:nth-child(2) { transition-delay: 0.80s; }
+.hover-accordion > li:hover > ul > li:nth-child(3) { transition-delay: 1.20s; }
+.hover-accordion > li:hover > ul > li:nth-child(4) { transition-delay: 1.60s; }
+.hover-accordion > li:hover > ul > li:nth-child(5) { transition-delay: 2.00s; }
+
+/* Accessibility: respect reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  .hover-accordion > li,
+  .hover-accordion > li > ul,
+  .hover-accordion > li > ul > li {
+    transition: none;
+    transform: none;
+  }
+}
