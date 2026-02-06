@@ -25,7 +25,7 @@ When moving code around, patching files, or generally copy + pasting stuff from 
 
 ### The Good
 
-FileMaker tries to help in the form of the `import.log` which gets written to when you paste something in.
+FileMaker tries to help in the form of the `import.log` file, which gets written to when you paste something in.
 
 #### The circle of quality-control-happiness(*)
 
@@ -56,9 +56,12 @@ flowchart LR
   - `Layout Objects`
   - `Custom Menus`
 - ❓ Some things are logged, but not as errors
-  - `Custom functions` are mentioned, but errors are not logged
-  - Things that get renamed are not logged as errors
-  - Automatically created `External Data Sources` are also not logged as errors
+  - `Custom functions`
+    - mentioned, but errors are not logged
+  - Things that already exist
+    - renamed, but not logged as errors
+  - `External Data Sources`
+    - automatically created, but not logged as errors
 - ⁉️ Some problems are logged, but are unimportant
   - Errors in cancelled imports can distract
 - 🔍 Finding the error in the log is one thing
@@ -79,21 +82,21 @@ flowchart LR
     log[/"📄 import.log"/]
     NONE[/"💢 NONE"/]
 
-    Paste -.> FMP .-> File
+    Paste -.-> FMP -.-> File
 
-    File ==> EDS["External Data Source"]
-    File ==> VL["Value Lists"]
-    File ==> TAF["Tables & Fields"]
-    File ==> SCR["Scripts & Steps"]
-    File ==> CF["Custom Functions"]
-    File ==> THM["Themes"]
-    File ==> LAY["Layout Objects"]
-    File ==> CM["Custom Menus"]
+    File --> VL["Value Lists"]
+    File --> TAF["Tables & Fields"]
+    File --> SCR["Scripts & Steps"]
+    File --> EDS["External Data Source"]
+    File --> THM["Themes"]
+    File --> CF["Custom Functions"]
+    File --> LAY["Layout Objects"]
+    File --> CM["Custom Menus"]
 
     VL  -- ✅ logs errors OK                --> log
     TAF -- ✅ logs errors OK                --> log
     SCR -- ✅ logs errors OK                --> log
-    THM -. ✅ logs errors(?) OK             .-> log
+    THM -- ✅ logs errors OK                --> log
     EDS -. 🔶 logs, but not as an error     .-> log
     CF  -. ❌ logs, but *lies* about errors .-> log
     LAY -. ❌ no logging at all             .-> NONE
@@ -131,26 +134,28 @@ flowchart LR
         fmCM[["fmCheckMate"]]
         fmIDE[["fmIDE"]]
     end
+    File[("MyFile.fmp12")]
     log[/"📄 import.log"/]
     ESC[/"cancelled imports"/]
     errors{"errors"}
 
-    File ==> log
-    File ==> ESC
-    File ==> EDS["External Data Source"]
-    File ==> CF["Custom Functions"]
-    File ==> LAY["Layout Objects"]
-    File ==> CM["Custom Menus"]
+    File -->  log
+    File -.-> ESC
+    File -->  EDS["External Data Source"]
+    File -->  CF["Custom Functions"]
+    File -->  LAY["Layout Objects"]
+    File -->  CM["Custom Menus"]
 
-    log == ✅ visualises           ==> fmLA
-    EDS == ✅ warnsabout           ==> fmLA
-    ESC -. ✅ hides errors         .-> fmLA
-    CF  == ✅ CF analysis          ==> fmCM
-    LAY == ✅ Layout analysis      ==> fmCM
-    CM  -. ? CM analysis           .-> fmCM
+    log   -- ✅ visualises         --> fmLA
+    EDS   -- ✅ warns about        --> fmLA
+    ESC   -. ✅ hides errors       .-> fmLA
+    CF    -- ✅ CF analysis        --> fmCM
+    LAY   -- ✅ Layout analysis    --> fmCM
+    CM    -. 🔶 CM analysis        .-> fmCM
 
-    fmLA == names that Thing       ==> fmIDE
-    fmIDE == opens Thing in FM-GUI ==> errors
+    fmLA  -- "names that Thing"      --> fmIDE
+    fmCM  -- "[Go to Thing] Button"    --> fmIDE
+    fmIDE -- "opens Thing in FM-GUI" --> errors
 ```
 
 ![fmLogAnalyser](fmloganalyser.png){: .float-front-right .w-64}
@@ -245,7 +250,7 @@ There are indeed *two* circles of quality-control-happiness:
         errors{"errors"}
 
         You == "1. Paste code"         ==> FMP
-        FMP == "2. writes *some* errors" ==> log
+        FMP == "2. writes some errors" ==> log
 
         subgraph mrwatsons-tools["MrWatson's Tools"]
             fmLA[["fmLogAnalyser"]]
@@ -288,9 +293,9 @@ There are indeed *two* circles of quality-control-happiness:
             fmIDE[["fmIDE"]]
         end
 
-        You    == "3. Convert copied code to XML"  ==> fmCM
+        You    == "3. convert to XML"              ==> fmCM
         fmCM   == "4. analyse XML"                 ==> fmCMX
-        fmCMX  == "5. Press 'Go to Thing' Button"  ==> fmIDE
+        fmCMX  == "5. press 'Go to Thing' Button"  ==> fmIDE
         fmIDE  == "6. navigates to"                ==> errors
         errors -. "in"                             .-> FMP
         You    == "7. directly fix"                ==> errors
