@@ -172,6 +172,16 @@ About [fmIDE]
 
 ---
 
+![fmKeyPress](fmkeypress.png){:.float-front-right .mt-16 .w-64}
+
+## fmKeyPress
+
+About [fmKeyPress]
+
+{% include top.html %}
+
+---
+
 ![fmKillDefaultFields](fmkilldefaultfields.png){:.float-front-right .mt-16 .w-64}
 
 ## fmKillDefaultFields
@@ -503,6 +513,7 @@ About [PSBN]
 [fmDBAnalyser]: fmdbanalyser.html
 [fmGraphIt]: fmgraphit.html
 [fmIDE]: fmide.html
+[fmKeyPress]: fmkeypress.html
 [fmKillDefaultFields]: fmkilldefaultfields.html
 [fmLatencyMeter]: fmlatencymeter.html
 [fmLaunchPad]: fmlaunchpad.html
