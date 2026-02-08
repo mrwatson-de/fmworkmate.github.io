@@ -18,9 +18,9 @@ fmLogAnalyser is part of the [fmWorkMate] toolbox and is installed when you [ins
 
 ## Did That Just Break?
 
-When pasting stuff in to FileMaker you find yourself asking [Did that just break]? - well, with fmLogAnalyser now you can prove it!
+When pasting stuff in to FileMaker you'll find yourself asking [Did that just break]?
 
-When you paste code into a FileMaker solution (or import them) things can easily break (for example, if referenced items are not present or names have been changed).
+When you paste (or import) code into a FileMaker solution things can easily break (for example, if referenced items are not present or names have been changed).
 
 Fortunately, when this happens FileMaker creates log entries (in the `import.log` file) to help you find out what went wrong ([*most of the time*](#what-filemaker-doesnt-log)) at least.
 
@@ -63,7 +63,6 @@ Work through your fmLogAnalyser to-do list…
   - MrWatson to the rescue with [Layout Analysis with fmCheckMate]!
 - FileMaker does not log custom function paste errors.
   - MrWatson to the rescue with [Custom Function Analysis with fmCheckMate]!
-
 
 {% comment %}mrwMarkdownLinks{% endcomment %}
 [Did That Just Break]: did-that-just-break.html
