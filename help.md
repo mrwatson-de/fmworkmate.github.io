@@ -222,6 +222,16 @@ About [fmLogAnalyser]
 
 ---
 
+![fmMBSChecker](fmmbschecker.png){:.float-front-right .mt-16 .w-64}
+
+## fmMBSChecker
+
+About [fmMBSChecker]
+
+{% include top.html %}
+
+---
+
 ![fmMetaMate](fmmetamate.png){:.float-front-right .mt-16 .w-64}
 
 ## fmMetaMate
@@ -518,6 +528,7 @@ About [PSBN]
 [fmLatencyMeter]: fmlatencymeter.html
 [fmLaunchPad]: fmlaunchpad.html
 [fmLogAnalyser]: fmloganalyser.html
+[fmMBSChecker]: fmmbschecker.html
 [fmMetaMate]: fmmetamate.html
 [fmModifierKeys]: fmmodifierkeys.html
 [fmPasteMate]: fmpastemate.html
