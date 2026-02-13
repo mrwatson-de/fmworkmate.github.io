@@ -47,20 +47,58 @@ If the XSLT files are not yet loaded, click the `[Reimport]` Button or press <kb
 
 The XSLT Chooser has two views
 
-- Guided View
-- List View
+- [List View](#list-view)
+- [Guided View](#guided-view)
 
 Press the `[View]` button to switch between the two.
 
+### List View
+
+List View is a simple list of functions. You can browse or search for the function you want.
+
+![XSLT Chooser List View](/assets/images/fmcheckmate-xslt-chooser-screenshot.png)
+
+- the `Do` column identifies what category of function it is
+  - `Analyse` - a function that produces a text output
+  - `Change` -  a function that produces the same kind of output as input
+  - `Transform` -  a function that produces something completely different as the input
+- the `What` column declares the type of thing that this function operates on
+- the `Icon` column indicates what kind of output will be generated - press the `(i)` for info:
+  ![Types of XSL Transformation](/assets/images/fmcheckmate-types-of-xsl-transformation.png)
+- the `Function` column describes what the function does
+- the `XSLT-Library` column locates the library from which the function comes
+- `Last Used` indicates if/when the function was last used
+- the final column shows how many `Times` the function has been run on your machine.
+
+{: .note .w-50pc}
+Click on the function name to run it
+
+#### How to Find what you are looking for…
+
+**To filter the list** you can click on any other column value (e.g. `Analyse`) to reduce the list to just that value.
+
+**To search for a specific function**, click `[Find]` and enter search words (`explode` or `swap`are good ones)
+
+**To toggle between all functions and the most suitable** functions for the type of thing you have copied click the `[All/Best]` button
+
+{: .note}
+Tip: For best experience sort the records into last-used order by clicking the `Last Used` header.
+
+If you find the list view overwhelming try maybe the Guided View…
+
 ### Guided View
 
-Use the `[View]` button if necessary to change to the Guided View.
+In Guided View you whittle the selection down bit by bit, until you find what you are looking for.
 
-In Guided View you are presented with the [three categories of XSLT function](#three-categories-of-xslt-functions)…
+You are first presented with the [three main categories of XSLT function](#three-categories-of-xslt-functions)…
 
 ![XSLT Chooser Guided View 1](/assets/images/fmcheckmate-xslt-chooser-guided-view-screenshot-1-category.png)
 
-Each entry shows how many xslt transformations it contains. Clicking an entry selects the contents of that entry, and so you work your way down the tree and words of the file name…
+Each entry shows how many xslt transformations it contains.
+
+Click an entry to select the contents of that entry.
+
+ and so you work your way down the tree and words of the file name:
 
     category > input type > output type > First word > Second word > …
 
@@ -73,12 +111,6 @@ Choose output type:
 ![XSLT Chooser Guided View 3](/assets/images/fmcheckmate-xslt-chooser-guided-view-screenshot-3-output-type.png)
 
 Where there is only one file left in a category you see the file icon and can choose it, otherwise you continue to distinguish between the names of the different functions.
-
-### List View
-
-Use the `[View]` button if necessary to change to the List View.
-
-![XSLT Chooser List View](/assets/images/fmcheckmate-xslt-chooser-screenshot.png)
 
 ## fmCheckMate-XSLT library structure
 
