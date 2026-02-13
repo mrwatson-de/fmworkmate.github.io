@@ -8,7 +8,7 @@ layout: default
 - TOC
 {:toc}
 
-{% include page-image.html width="500" %}
+{% include page-image.html width=site.page_image_width %}
 
 # {{page.title}}
 
