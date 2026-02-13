@@ -117,14 +117,15 @@ On the FileMaker tab,
   - Select `[x] Keep fmWorkMate open` if you want fmWorkMate to stay open when opening tools.
 - Backdrop
   - Select `[x] Backdrop` to add a backdrop in the given colour whilst working in fmWorkMate.
-  - Honestly, this is only really useful for screenshots. :D
+  - Great, if you want a clear desktop, but, honestly, this is only really useful for screenshots of fmWorkmate. :D
 
 ## Simple Calculator Settings
 
-Here you can add your own functions to the Simple Calculator tool.
+Here you can add your own functions to the [fmSimpleCalculator] tool.
 
 The functions here reachable from the Simple Calculator by just entering an `f`.
 
 {% comment %}mrwMarkdownLinks{% endcomment %}
+[fmSimpleCalculator]: fmsimplecalculator.html
 [MBS Plugin]: mbs-plugin.html
 [MrWatson's Tools]: mrwatsons-tools.html
