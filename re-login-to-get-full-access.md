@@ -14,7 +14,7 @@ layout: default
 
 [MrWatson's tools] are open source. That means you are free to open them up and take a look.
 
-Tucked away safely in the window menu you'll find the `Re-Login' function.
+Tucked away safely in the window menu you'll find the `Re-Login` function.
 
 All you need is [the secret password] and you're ready to go.
 
