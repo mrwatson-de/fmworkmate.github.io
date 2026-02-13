@@ -63,10 +63,9 @@ Of course, fmSimpleCalculator supports all the standard [FileMaker functions](ht
 
 fmSimpleCalculator has a few commands you can enter
 
-### b is for back
+### `<` to go back
 
-Enter a `b` to go back to the previous calculation.
-
+Enter just a `<` to go back to the previous calculation.
 
 ### f is for function
 
@@ -118,6 +117,14 @@ If you have a text or calculation that you need the quoted form of then type `q:
 
     q:"hi"
     "\"hi\""
+
+### c is for copy
+
+Enter `c` to copy the result to the clipboard.
+
+### x is for exit
+
+Enter `x` to exit fmSimpleCalculator, or press `[cancel]`, or with an emnpty input press `[OK]` or `⏎`
 
 ## Customise the Functions
 
@@ -253,7 +260,6 @@ You may have to change the menu set from the Tools menu
 
 {: .note}
 and you may have to first enable the tools menu by choosing `use advanced tools` in the FileMaker Settings dialog
-
 
 {: .note}
 and in that case you'll' have to restart Fielmaker
