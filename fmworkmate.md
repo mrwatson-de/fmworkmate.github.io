@@ -48,11 +48,30 @@ See [Solutions to Daily Problems](solutions-to-daily-problems.html) for more com
 
 Once you have [installed and set up fmWorkMate](#installation-and-setup), you can use the toolbox tools right away.
 
-From the indicator to the left of a tool you can see whether it is part of the toolbox `⋮`, an  installed `✦` or missing `✧` external tool, or a group heading `:`:
-
 ![fmWorkMate GUI](assets/images/fmworkmate-screenshot-excerpt.png)
 
-To open a tool, just click on its name, or press the corresponding shortcut key, if available.
+From the indicator to the left of a tool you can see whether
+
+- `:` the entry is a group of tools
+- `⋮` the tool is part of the fmWorkMate toolbox
+- `✧` the tool is an external tool but missing
+- `✦` the tool is an external tool and present
+
+To open a tool, just click on its name, or, if available, press the corresponding shortcut key (<kbd>⌘</kbd> + the key(s) shown faintlyon the right).
+
+### Disocvering and downloading other tools
+
+Use the icon to the left of the tool to open the tool menu:
+
+![fmWorkmate Tool Menu](assets/images/fmworkmate-tool-menu.png)
+
+- `About`Open a short description of the tool with links to the documentation and the GitHub repo
+- `Help` Open the fmWorkmate.com help page for the tool
+- `Homepage` Open the fmWorkmate.com homepage for the tool
+- `Latest Release` Open the GitHub releases page to download the latest version of the tool
+- `Repository` Open the tool's GitHub repository page
+- `Hide/Show Tool` You can hide the tool here if you don't need it. (Good luck getting it back though!)
+- `Launch on Start` Use with fmLogAnalyser and the `Bug Off!` Alarm to catch errors as you make them.
 
 ## The Tools
 
@@ -64,6 +83,8 @@ The tools in fmWorkMate are grouped under various headings:
 - [Clip + Key Tools]
 - [Setup Utilities]
 - [More Utilities]
+
+For an A-Z list of all tools, see the [Help Page](help.html), or use the search function.
 
 {% comment %}mrwMarkdownLinks{% endcomment %}
 [Developer Tools]: developer-tools.html
