@@ -117,6 +117,25 @@ The submenus in Browse Mode are again basically the same as those in the Script 
 
 If the [fmAutoMate fmAM Script Module] is installed, you will see further menu entries here.
 
+# fmAutoMate Find Mode Context Menu
+
+{: .note}
+At last you can use the full power of FileMaker Pro's find mode in a click
+
+To get fmAutoMate's powerful functionality find mode install the [fmAutoMate fmAM Script Module], stuff, that is, which is normally - but inexplicably - hidden away (or maybe even *locked* away!) on the toolbar or in the `Requests` menu.
+
+`Omit Records`
+: changes the current request to not match the given request criteria
+
+`Include Records`
+: changes the current request to match the given request criteria
+
+`Constrain Found Set`
+: Performs a `Constrain Found Set` on the current found set with the given request criteria
+
+`Extend Found Set`
+: Performs an `Extend Found Set` on the current found set with the given request criteria
+
 {% comment %}mrwMarkdownLinks{% endcomment %}
 [fmAutoMate fmAM Script Module]: fmautomate-fmam-script-module.html
 [Mac only]: mac-only.html
