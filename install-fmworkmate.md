@@ -36,7 +36,7 @@ To install fmWorkMate, simply
 4. Double-click the `fmWorkMate.fmp12` file to launch fmWorkMate in FileMaker Pro
 
 {: .note}
-(*) Want to install the latest cutting.edge version, or need more help? See our [Downloading Stuff from GitHub] help page.
+(*) Want to install the latest cutting-edge version, or need more help? See our [Downloading Stuff from GitHub] help page.
 
 
 ![Windows](assets/images/win.png){: .float-front-right .w-48}
