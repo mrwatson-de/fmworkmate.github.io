@@ -9,33 +9,35 @@ layout: default
 - TOC
 {:toc}
 
-{% include page-image.html width="500" %}
+{% include page-image.html width=site.page_image_width %}
 
 # {{page.title}}
 
 There are different versions of fmWorkMate available, depending on your operating system.
 
 - fmWorkMate is designed primarily **for macOS** where the MBS Plugin can work its integration wonders and where it has been extensively tested through daily use.
-- **For Windows** there is an older runtime version available … or …
-
-{:.note}
-Window users - please help me get fmWorkMate working on Windows properly by reporting any issues you find on the [GitHub Issues page](https://github.com/mrwatson-de/fmWorkMate/issues)
+- **For Windows** there is an older limited runtime version available … or … maybe you hve time to help with the windows version?
 
 ![Mac](assets/images/mac.png){: .float-front-right .w-48}
 
 ## fmWorkMate for Mac
 
-### Install the latest version on a Mac
+![fmWorkMate](fmworkmate.png){: .float-front-right .w-48}
+
+### Install the latest release on a Mac
 
 To install fmWorkMate, simply
 
-![fmWorkMate](fmworkmate.png){: .float-front-right .w-48}
+![GitHub Latest Release Assets Zip Download Explanation](assets/images/download-latest-release-assets-zip.png){: .float-front-right .w-50pc}
 
-1. Download the [latest release of fmWorkMate]({{page.github_latest}})
+1. Download the [latest release of fmWorkMate]({{page.github_latest}})(*)
 2. Unzip the archive
-   - Note: If instead of using the latest release you have downloaded the latest code from the main repo using `Code > Download ZIP`, you will need to rename the `fmWorkMate-main` folder to just `fmWorkMate`
 3. Move the `fmWorkMate` folder to your `Applications` folder (or wherever you like to keep your apps)
 4. Double-click the `fmWorkMate.fmp12` file to launch fmWorkMate in FileMaker Pro
+
+{: .note}
+(*) Want to install the latest cutting.edge version, or need more help? See our [Downloading Stuff from GitHub] help page.
+
 
 ![Windows](assets/images/win.png){: .float-front-right .w-48}
 
@@ -43,22 +45,26 @@ To install fmWorkMate, simply
 
 On windows you have two options:
 
-1. Install the Mac version,
+1. Install the old Windows runtime version of fmWorkMate
+   - It is no longer actively maintained, but is still available for download.
+   - Use the  limited functionality (80% of the tasks you need)
+   - copy the clipboard back and forth to/from your Mac to use the full functionality.
+   - Read on below for installation instructions.
+2. Install the Mac version,
    - use the limited functionality that works (~80% of the tasks you need daily work)
    - help me get it working properly on windows
    - report any issues you find on the [GitHub Issues page](https://github.com/mrwatson-de/fmWorkMate/issues)
    - Thank you, if you do this!
    - Go for it: [install the latest macOS version of fmWorkMate](#install-the-latest-version-on-a-mac)
-2. Read on and install the old Windows runtime version of fmWorkMate
-   - It is no longer actively maintained, but is still available for download.
-   - Use the  limited functionality (80% of the tasks you need)
-   - copy the clipboard back and forth to/from your Mac to use the full functionality.
+
+{:.note}
+Window users - please help me get fmWorkMate working on Windows properly by testing and  reporting any issues you find on the [GitHub Issues page](https://github.com/mrwatson-de/fmWorkMate/issues)
 
 ![fmWorkMate Runtime](assets/images/fmworkmate-runtime.png){: .float-front-right .w-48}
 
-### Install the old fmWorkMate-Archive-Win runtime version on Windows
+### Install fmWorkMate-Archive-Win on Windows
 
-This version has more limited functionality, is no longer actively maintained, but is still available for download.
+This old windows runtime version has more limited functionality, is no longer actively maintained, but is still useful and available for download.
 
 To install the old fmWorkMate Windows version:
 
@@ -73,4 +79,5 @@ To install the old fmWorkMate Windows version:
 Once installed proceed to [Setup fmWorkMate]
 
 {% comment %}mrwMarkdownLinks{% endcomment %}
+[Downloading Stuff from GitHub]: downloading-stuff-from-github.html
 [Setup fmWorkMate]: setup-fmworkmate.html
