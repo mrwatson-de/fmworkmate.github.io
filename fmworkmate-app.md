@@ -21,10 +21,6 @@ Once you have [setup an extra App for fmWorkMate](setup-fmworkmate.html#fmworkma
 
 Using [fmLaunchPad] you can automate the start process so that each app knows what to open. Here is how to do that:
 
-## On Windows
-
-...you can open fmWorkMate in a second FileMaker **only with a different version of FileMaker** on your system
-
 ## On Mac
 
 ...there is a much more elegant solution using fmLaunchPad.
@@ -72,6 +68,10 @@ Once you have [installed and setup fmWorkMate](fmworkmate.html#installation-and-
 
 {: .note}
 You're good to go - have fun! :)
+
+## On Windows
+
+...you can open fmWorkMate in a second FileMaker **only with a different version of FileMaker** on your system
 
 {% comment %}mrwMarkdownLinks{% endcomment %}
 [fmLaunchPad]: https://fmWorkMate.com/fmlaunchpad

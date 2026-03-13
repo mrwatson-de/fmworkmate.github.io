@@ -14,5 +14,19 @@ layout: default
 
 {{page.strapline}}
 
+Press a key.
 
+fmKeyPress tells you the code.
 
+That's it.
+
+But **it's really useful when making OnKeyPress trigger scripts!**
+
+{: .note }
+What is the key code for the 'ESC' key? Dunno - just ask fmKeyPress!
+
+{: .note }
+What is the key code for the '←' key? Dunno - just ask fmKeyPress!
+
+{: .note }
+What is the key code for the 'F12' key? Dunno - just ask fmKeyPress!

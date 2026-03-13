@@ -48,6 +48,10 @@ See [Solutions to Daily Problems](solutions-to-daily-problems.html) for more com
 
 Once you have [installed and set up fmWorkMate](#installation-and-setup), you can use the toolbox tools right away.
 
+![Jump start](jump-start.png){: .float-front-right .w-48}
+
+**TL;DR:** Skip the rest and [jump start] your experience to get started quick.
+
 ![fmWorkMate GUI](assets/images/fmworkmate-screenshot-excerpt.png)
 
 From the indicator to the left of a tool you can see whether
@@ -59,7 +63,7 @@ From the indicator to the left of a tool you can see whether
 
 To open a tool, just click on its name, or, if available, press the corresponding shortcut key (<kbd>⌘</kbd> + the key(s) shown faintlyon the right).
 
-### Disocvering and downloading other tools
+### Discovering and downloading other tools
 
 Use the icon to the left of the tool to open the tool menu:
 
@@ -80,16 +84,18 @@ The tools in fmWorkMate are grouped under various headings:
 - [Developer Tools]
 - [Text Tools]
 - [Integration Tools]
-- [Clip + Key Tools]
+- [Clip and Key Tools]
 - [Setup Utilities]
 - [More Utilities]
 
 For an A-Z list of all tools, see the [Help Page](help.html), or use the search function.
 
 {% comment %}mrwMarkdownLinks{% endcomment %}
+[Clip and Key Tools]: clip-and-key-tools.html
 [Developer Tools]: developer-tools.html
 [Install fmWorkMate]: install-fmworkmate.html
 [Integration Tools]: integration-tools.html
+[jump start]: jump-start.html
 [More Utilities]: more-utilities.html
 [Setup fmWorkMate]: setup-fmworkmate.html
 [Setup Utilities]: setup-utilities.html
