@@ -34,7 +34,7 @@ GitHub and GitHub Pages are great! 😃
 
 ## Visual Studio Code
 
-[VS-Code](https://code.visualstudio.com/) is my editor of choice, and if you have not used it, you should try.Indeed it is the hero of interactive development environments and the inspiration for fmIDE.
+[VS-Code](https://code.visualstudio.com/) is my editor of choice, and if you have not used it, you should try. Indeed it is the hero of interactive development environments and the inspiration for fmIDE.
 
 VS-Code is mega cool! 🤩
 
