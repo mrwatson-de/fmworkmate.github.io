@@ -16,7 +16,7 @@ layout: default
 There are different versions of fmWorkMate available, depending on your operating system.
 
 - fmWorkMate is designed primarily **for macOS** where the MBS Plugin can work its integration wonders and where it has been extensively tested through daily use.
-- **For Windows** there is an older limited runtime version available … or … maybe you hve time to help with the windows version?
+- **For Windows** there is an older limited runtime version available … or … maybe you have time to help with the windows version?
 
 ![Mac](assets/images/mac.png){: .float-front-right .w-48}
 
