@@ -48,7 +48,7 @@ On windows you have two options:
 1. Install the old Windows runtime version of fmWorkMate
    - It is no longer actively maintained, but is still available for download.
    - Use the  limited functionality (80% of the tasks you need)
-   - copy the clipboard back and forth to/from your Mac to use the full functionality.
+   - Copy the clipboard back and forth to/from your Mac to use the full functionality.
    - Read on below for installation instructions.
 2. Install the Mac version,
    - use the limited functionality that works (~80% of the tasks you need daily work)

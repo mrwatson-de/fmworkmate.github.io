@@ -17,7 +17,9 @@ This page is a 🚧 WORK IN PROGRESS 🚧
 
 {{page.strapline}}
 
-Here is how you can use [fmLaunchPad][fmLaunchPad home] to create a separate [fmWorkMate] app.
+Once you have [setup an extra App for fmWorkMate](setup-fmworkmate.html#fmworkmate-app-setup), you can use it to open fmWorkMate in a separate FileMaker instance.
+
+Using [fmLaunchPad] you can automate the start process so that each app knows what to open. Here is how to do that:
 
 ## On Windows
 
@@ -35,10 +37,8 @@ Once you have [installed and setup fmWorkMate](fmworkmate.html#installation-and-
    - For added comfort, you can also replace the app's icon using the icon in the Finder (See [How to change Mac app icons](https://9to5mac.com/2019/01/17/change-mac-icons/))
    - You *could* stop here, and just open the fmWorkMate app and save it as a FileMaker favourite...
    - ...but we can do better than that...
-
-![fmLaunchPad](fmlaunchpad.png){: .float-right .w-48}
-
-1. Use **fmLaunchpad**
+  ![fmLaunchPad](fmlaunchpad.png){: .float-right .w-48}
+2. Use **fmLaunchpad**
    - [fmLaunchPad] is a cool little starter file 🚀 rocket you can 'programme' to open the file you really want to open.
    - You'll be setup in just 3 or 4 steps:
 
@@ -73,5 +73,7 @@ Once you have [installed and setup fmWorkMate](fmworkmate.html#installation-and-
 {: .note}
 You're good to go - have fun! :)
 
-[fmWorkMate repo]:https://github.com/mrwatson-de/fmWorkMate
-[fmLaunchPad]:https://fmWorkMate.com/fmlaunchpad
+{% comment %}mrwMarkdownLinks{% endcomment %}
+[fmLaunchPad]: https://fmWorkMate.com/fmlaunchpad
+[fmWorkMate]: fmworkmate.html
+[fmWorkMate repo]: https://github.com/mrwatson-de/fmWorkMate
