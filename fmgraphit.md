@@ -1,8 +1,8 @@
 ---
 title: fmGraphIt
 strapline: Connect the dots
-parent: Other Tools and Modules
-nav_order: 30
+parent: More Utilities
+nav_order: 0040
 layout: default
 ---
 - TOC
@@ -56,31 +56,32 @@ And an interactive diagramme is worth a thouand beers! 🍻
 
 ## Installing fmGraphIt
 
-To generate a field dependency graph from the field definitions of one table you will need 
+To generate a field dependency graph from the field definitions of one table you will need
 
-![](/assets/images/fmworkmate-and-fmcheckmate.png){: .float-front-right .w-128}
+![fmWorkMate and fmCheckmate](/assets/images/fmworkmate-and-fmcheckmate.png){: .float-front-right .w-128}
 
-1. MrWatson's [fmWorkMate] toolbox (which includes the [fmCheckMate] tool)
+<details markdown="1">
+<summary>fmGraphIt is part of fmWorkMate and the fmCheckmate-XSLT library. If you already have them, you can skip this step.</summary>
 
-   - Download the [latest release of fmWorkMate from GitHub](https://github.com/mrwatson-de/fmWorkMate/releases/latest)
+1. [Install and Setup the fmWorkMate toolbox](fmworkmate.html#installation-and-setup) (which includes the [fmCheckMate] tool)
 
    ![](fmcheckmate-xslt.png){: .float-front-right .w-64}
 
-2. MrWatson's [fmCheckMate-XSLT] Library (which includes the graph creation function)
+2. Install MrWatson's [fmCheckMate-XSLT] Library (which includes the graph creation function)
 
-   - Download the [latest release of fmCheckMate-XSLT from GitHub](https://github.com/mrwatson-de/fmCheckMate-XSLT/releases/latest)
+</details>
 
-   ![](yed.png){: .float-front-right .w-64}
+![](yed.png){: .float-front-right .w-64}
 
-3. To visualise this field dependency graph you will need a graph visualisation tool.
+To visualise this field dependency graph you will need a graph visualisation tool.
 
-   - The free **yEd** software from **yWorks**
+- The free **yEd** software from **yWorks**
 
-   - Download the [latest version of yEd from yWorks](https://www.yworks.com/products/yed)
+- Download the [latest version of yEd from yWorks](https://www.yworks.com/products/yed)
 
-4. some yEd configuration files for formatting the graph (which are to be found in the xml/yEd folder of The **fmCheckMate-XSLT Library**)
+1. some yEd configuration files for formatting the graph (which are to be found in the xml/yEd folder of The **fmCheckMate-XSLT Library**)
 
-5. Finally, you need
+2. Finally, you need
 
    - A step-by-step guide to installing **fmGraphIt** ( **fmWorkMate**, the  **fmCheckMate-XSLT Library**, and yEd)
    - A tutorial on creating your first Field Dependency Graph
@@ -93,8 +94,10 @@ To generate a field dependency graph from the field definitions of one table you
 {: .fullwidth .mrw-schwarz-bg}
 **👌 OK, we are finally ready to go!**
 
-{% capture disclaimer %}
 
+{: .side-note .float-front-right}
+<details markdown="1">
+<summary>Disclaimer and Limitations</summary>
 **Disclaimer:**
 
 fmGraphIt's field dependency graphs are not rocket science—they're not always perfect—but they provide a quick overview of field structure without needing to create a DDR.
@@ -108,48 +111,96 @@ Since the FileMaker clipboard only contains field calculations as a string, the 
 
 See [How fmGraphIt works](how-fmgraphit-works.html) for more details on its limitations.
 
-{% endcapture %}<section class="side-note float-front-right">{{ disclaimer | markdownify }}</section>
+</details>
 
 ## Disclaimer
 
 Before you jump into **fmGraphIt** you should understand its limits.
 
-
 ## Getting Started
 
 Once you're set up, you can transform your fields into a stunning diagramme with just a few clicks
 
-1. Copy the fields of a table you are interested in
-2. Convert to XML with [fmCheckMate]
-3. Apply the Transformation `Analyse > Fields > Create field dependencies graph advanced` to create a graphml Field Dependency Graph
-   - This saves the `Clipboard.graphml` file to your documents folder, and opens it with the default editor
-   - 
-4. The graph is displayed in [yEd]
-   - Just seeing what looks like a dot?
-   - No problem, that's normal, read on.
-5. Open the property mapper with `Edit > Properties Mapper…`
-6. Apply the standard style
-   - Select `FDG: Template = Default (Node)`
-   - click `[Apply]`
-   - Click `[OK]`
-   - You'l see the dots get shape and colour, but are still all in a pile…
-7. Now apply a layout-strategy
-   - Select menu item `Layout`> `Hierarchal` or press <kbd>⌃</kbd><kbd>⌘</kbd><kbd>H</kbd>
-   - Check the layout settings:
-     - General
-        - Orientation: Top to Bottom
-     - Edges
-        - Routing Style: `Orthogonal` (`Polyline` is also good)
-   - Try a one-click layout
-   - Organic - to discover the complex bits
+1. Create a graphml file of your fields with [fmCheckMate]
+   1. Copy the fields of a table you are interested in
+   2. Convert to XML with [fmCheckMate]
+   3. Press `[T]` and apply the Transformation `Analyse > Fields > Create field dependencies graph advanced` to create a graphml Field Dependency Graph
+      - This saves the `Clipboard.graphml` file to your documents folder, and opens it with the default editor (yEd)
+2. Visualise the graph in yEd
+   1. The graph is initially displayed in [yEd] as a pile of dots
+      - No problem, that's normal, read on.
+   2. Apply style to the graph
+      - Open the property mapper with `Edit > Properties Mapper…`
+      - Apply the standard style
+        - Select `FDG: Template = Default (Node)`
+        - Click `[Apply]`
+      - Click `[OK]`
+      - You'l see the dots get shape and colour, but are still all in a pile…
+   3. Now apply a layout-strategy (`Hierarchical` is the best layout for showing data flow)
+     - Select menu item `Layout`> `Hierarchal` or press <kbd>⌃</kbd><kbd>⌘</kbd><kbd>H</kbd>
+     - Check the settings, particularly the `General` and `Edges` settings:
 
-et voila!
+       ![yEd Hierarchic Layout General Settings](/assets/images/yed-hierarchic-layout-general.png){: .w-40pc}![yEd Hierarchic Layout Edge Settings](/assets/images/yed-hierarchic-layout-edges.png){: .w-40pc}
+
+     - Click `[OK]` and watch the graph come to life!
+
+You should see something like the example graph below.
+
+Common issues and tips:
+
+<details markdown="1">
+<summary>Layout cramped or oriented?</summary>
+ - Try tweaking the layout settings for the best look:
+   - `General` > `Orientation`:
+     - `Top to Bottom` - recommended (because of the downward pointing triangles), particularly on smaller graphs
+     - `Left to Right` - can work better with many fields or long field names
+   - `Edges` > `Routing Style`: 
+     - `Polyline` - the default, and good for most graphs
+     - `Octilinear` - gives the graph a circuit-board look: great for nerds 🤓
+ - Alternatively try a different layouting strategry
+   - `One-Click Layout` - yEd does its best to find the right layout for your data
+   - `Organic` - to discover the complex bits
+   - `Circular` - to see the loops
+</details>
+
+<details markdown="1">
+<summary>Too complex?</summary>
+
+- Over full graphs can be difficult to navigate, so try to simplify the graph by removing some fields
+- Copy less fields to the clipboard in the first place
+- Remove all fields that have no dependencies (no arrows in or out)
+</details>
+
+<details markdown="1">
+<summary>Want to focus?</summary>
+
+- Zoom in on a particular area of the graph
+
+  ![yEd Zoom Tools](/assets/images/yed-zoom-tools.png)
+
+  - Select the magnifying glass tool
+  - Then select the nodes you want to zoom in on
+  - To return to the full view click the zoom out button on the right 
+- Select the field you are interested in and study its connections
+  - Use the `Context Views` from the `Windows` menu to focus on certain connections
+  - `Neighbourhood` - shows the input / output fields around the selected field
+  - `Predecessors` - shows the tree of input fields which feed the selected field
+  - `Successors` - shows all the output fields of the selected field
+</details>
 
 ## Example Field Dependency Graph
 
 The diagramme shows the field dependencies, or rather the data flow from the (squarish) input fields at the top to the (triangular) calculated output fields at the bottom.
 
 [![Example Field Dependency Graph](/assets/images/fmgraphit-example-field-dependency-graph.svg)](/assets/images/fmgraphit-example-field-dependency-graph.svg)
+
+### Legend
+
+Here is the legend to the shapes, colours and codes used in the graph:
+
+[![Field Dependency Graph Legend](/assets/images/fmgraphit-field-dependency-graph-legend.svg)](/assets/images/fmgraphit-field-dependency-graph-legend.svg)
+
+(Click the image for a large view)
 
 ## fmGraphIt Field Dependency Graph Explained
 
@@ -162,6 +213,9 @@ Each field is labelled with its name and some (cryptic but succinct) metadata:
 - `«field-name»` (`«data-type»`-`«storage-type»``«field-type»`)
 
 #### Data Type
+
+{: .side-note .w-40pc}
+That's the same letter as the shortcut key for the data type
 
 The data type is indicated by the following codes:
 
@@ -183,8 +237,8 @@ The data type is indicated by the following codes:
 `R`
 : Container
 
-{: .mrw-gold}
-That's the same letter as the shortcut key for the data type
+{: .side-note .w-33pc}
+Storage is also indicated by the [colour](#colours)
 
 #### Storage Type
 
@@ -208,8 +262,8 @@ Storage is indicated by the following codes
 `u`
 : **u**nstored
 
-{: .mrw-gold}
-Storage is also indicated by the [colour](#colours)
+{: .side-note .w-33pc}
+Field type is also indicated by the [shape](#shapes)
 
 #### Field Type
 
@@ -241,59 +295,51 @@ For variables the following codes are used (or rather will be one day):
 `$`
 : a **$$** global variable
 
-{: .mrw-gold}
-Field type is also indicated by the [shape](#shapes)
-
 ### Shapes
+
+{: .side-note .w-33pc}
+The pointier the shape, the more complex the [type of field](#field-type).<br>⏺️→⏹️→⏢→▶️→*️⃣
 
 The shape indicates the [field type](#field-type):
 
 - ⏹️ Square shapes are input fields
 - ▶️ Triangular shapes are output fields
-  - 🔼 Upwards pointing are data sources
-  - 🔽 Downwards pointing are data aggregators
-- ⏢ Tweeny shapes are a bit of both
+  - 🔼 Upwards pointing are data source fields (locked + initialised fields, creation date, etc.)
+  - 🔽 Downwards pointing are data aggregators (calculation fields)
+- ⏢ 'Tweeny' shapes are a bit of both
+  - 1/2 ⏹️ + 1/2 ▶️ = 1/2 input + 1/2 output = Auto-Enter fields
 - *️⃣ Star shapes are summary fields
-
-{: .mrw-gold}
-The pointier the shape, the more complex the [type of field](#field-type).
-
-The least pointy shape - a circle - represents the simplest of storage structures: a variable.
+- ⏺️ Circle shapes are variables.
 
 See the [Field Depency Graph Legend](#legend) for more details.
+
+{: .side-note .w-40pc}
+More colour → more storage<br>lighter → less CPU<br>darker → more CPU
 
 ### Colours
 
 The colour indicates the [storage type](#storage-type), and follow these simple guidelines:
 
-{: .mrw-gold}
-More colour = more storage, darker = more CPU
-
 See the `Storage vs CPU` part of the legend for more details.
 
 ### Top to Bottom Layout Orientation
 
-The shapes of the fields have been chosen to fit a top-down hierarchy well visually.
-
-{: .mrw-gold}
+{: .side-note .w-33pc}
 Data flows from top to bottom
 
-- source fields are at the top, comprising
-  - normal input fields (with/without Auto Enter)
-  - non-modifiable metadata fields ('output'fields)
-    - for example: id, creation date, etc.
-- auto-enter and calculation fields in the middle
-- calculation and summary fields are at the bottom
+The shapes of the fields have been chosen to fit a top-down hierarchy well visually.
+
+- At the top you find `source` and `input` fields`:
+  - 🔼 non-modifiable metadata fields ('output' source fields)
+  - ⏹️ normal input fields (with/without Auto Enter)
+- In the middle you find fields that build on the source + input fields:
+  - ⏢ auto-enter fields
+  - 🔽 calculation fields
+- Towards the bottom you find the deeper 'aggregator' fields:`
+  - 🔽 calculation fields
+  - *️⃣ summary fields
 
 Note: The arrows show data flow rather than dependency
-
-### Legend
-
-Here is the legend to the shapes, colours and codes used in the graph:
-
-[![Field Dependency Graph Legend](/assets/images/fmgraphit-field-dependency-graph-legend.svg)](/assets/images/fmgraphit-field-dependency-graph-legend.svg)
-
-(Click the image for a large view)
 
 ### Tooltip - Calculation Type
 
@@ -303,12 +349,15 @@ In the calculation in the tooltip, the kind of 'equals sign' used indicates what
 : Calculated field
 
 `:=`
-: Autoenter
+: Autoenter field
 
 `<=`
-: Lookup
+: Lookup field
 
-Note: This is a subset of the fmCheckMate Print fields function which uses the following detail
+
+
+<details markdown="1">
+<summary>Note: This is a subset of the fmCheckMate Print fields function</summary>
 
 `_ID :+1 7`
 : A field with auto-incremented serial number (Auto-Increment)
@@ -352,20 +401,7 @@ Note: This is a subset of the fmCheckMate Print fields function which uses the f
 `_List =∑¶: Names`
 : A statistic field = List of Text
 
-## Explore the different Layouts
-
-## Extract local views of nodes
-
-Want to focus on a particular field?
-
-- Select it
-- Choose one of the Context Views fro the Window menu:
-  - Neighbourhood - shows the input / output fields around the selected field
-  - Predecessors - shows the tree of input fields which feed the selected field
-  - Successors - shows all the output fields of the selected field
-
-
-     :
+</details>
 
 Enjoy!
 
