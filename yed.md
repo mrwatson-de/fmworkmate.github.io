@@ -16,18 +16,22 @@ layout: default
 
 yEd is a free graphing tool from [yWorks](https://www.yworks.com/products/yed) which can be used to display the field dependencies of your FileMaker database tables.
 
+
+## Installation and Setup
 You need to download, install and setup the yEd editor.
 
-## Download, Install and Setup yEd
+### Install yEd
 
 - Download and install the free yEd editor from the [yWorks yEd Editor download page]
 - Move the app file to your applications folder
+
+### Setup yEd
 
 You need to set up yEd to be able to format the field dependency graph produced by the [fmCheckMate-XSLT] library.
 
 yEd formats data from a graphml file using a `Property Mapper`. The Properties mapper needs to be configured
 
-### To configure the Property Mapper
+#### Configure the Property Mapper
 
 - Open yEd
 - From the menus select `Edit > Properties Mapper...`
@@ -35,6 +39,15 @@ yEd formats data from a graphml file using a `Property Mapper`. The Properties m
 - Navigate to the `~Documents/fmCheckMate/xml/yEd/fmFieldDependencyGraph` Folder
 - Load the latest `FDG_yEdPropertyMap*.cnfx` file.
 - Press `[Ok]` to exit
+
+#### Configure yEd as the default editor for graphml files
+
+Hopefully, after installing yEd graphml files will open in yEd by default. If (after creating your first graphml file - see bwelow) not, you can set it up as follows:
+
+- On a Mac, select a graphml file in the Finder
+- Press `Cmd + I` to open the file info
+- In the `Open with:` section, select yEd from the dropdown menu
+- Press the `Change All...` button to apply this setting to all graphml files
 
 ## Getting Started
 
@@ -80,4 +93,8 @@ Enjoy!
 
 MrWatson
 
+{% comment %}mrwMarkdownLinks{% endcomment %}
+[fmCheckMate]: fmcheckmate.html
+[fmCheckMate-XSLT]: fmcheckmate-xslt.html
+[yEd]: yed.html
 [yWorks yEd Editor download page]: https://www.yworks.com/products/yed/download#download
