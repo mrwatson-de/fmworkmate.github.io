@@ -5,6 +5,9 @@ parent: More Utilities
 nav_order: 0045
 layout: default
 ---
+{: .mrw-schwarz-bg}
+🚧 In Development 🚧
+
 - TOC
 {:toc}
 
@@ -14,9 +17,9 @@ layout: default
 
 {{page.strapline}}
 
-Makes Thumbnails of a standard size and helps compress them.
+Makes Thumbnails of a standard size and, with the help of [CompressPNG](https://compresspng.com/) compresses them.
 
-In Dev.
+![fmImage Screenshot](/assets/images/fmimage-screenshot.png)
 
 Enjoy!
 
