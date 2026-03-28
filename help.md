@@ -169,6 +169,15 @@ About [fmGraphIt]
 About [fmIDE]
 
 {% include top.html %}
+---
+
+![fmImage](fmimage.png){:.float-front-right .mt-16 .w-64}
+
+## fmImage
+
+About [fmImage]
+
+{% include top.html %}
 
 ---
 
@@ -523,6 +532,7 @@ About [PSBN]
 [fmDBAnalyser]: fmdbanalyser.html
 [fmGraphIt]: fmgraphit.html
 [fmIDE]: fmide.html
+[fmImage]: fmimage.html
 [fmKeyPress]: fmkeypress.html
 [fmKillDefaultFields]: fmkilldefaultfields.html
 [fmLatencyMeter]: fmlatencymeter.html
