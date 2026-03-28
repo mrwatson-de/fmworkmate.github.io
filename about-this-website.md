@@ -48,16 +48,18 @@ ChatGPT helps with the image creation and teaching me technologies very adroitly
 
 There's a lot more to learn in this area, and I'll post anything useful I find here.
 
-![fmImage](/assets/images/tool-icon-256-x-256.png){: .float-front-right .w-64}
+![fmImage](fmImage.png){: .float-front-right .w-64}
 
 ## fmImage
 
-To tweak images to the right size I've made a little tool fmImage that lets me import images and create thumbnails with FileMaker.
+To tweak images to the right size I've made a little tool [fmImage] that lets me import images and create thumbnails with FileMaker.
 
-fmImage is meh! 😕
+fmImage is meh! (or maybe just moo!) 😕
 
 …but maybe one day it'll become another great free tool from me for you! :D
 {: .mrw-gold-bg}
+
+2026-03-28 RW: Today I'm building [fmImage] into fmWorkMate. It's not a great tool yet, but we were all born a baby, so spread your wings and fly! :D
 
 ![compresspng.com](/assets/images/compresspng-66pc.png){: .float-front-right .w-64}
 
@@ -70,3 +72,6 @@ I use [compresspng.com](https://compresspng.com/) to compress PNG images, and it
 When commits are pushed to GitHub the build action is triggered.
 
 On the Actions tab of the [repository](https://github.com/mrwatson-de/fmworkmate.github.io) you can see the [state of the build process](https://github.com/mrwatson-de/fmworkmate.github.io/actions)?
+
+{% comment %}mrwMarkdownLinks{% endcomment %}
+[fmImage]: fmimage.html

@@ -472,6 +472,20 @@ The **App Help** menu now links directly to the central [help] documentation on 
 
 No more guessing. No more hidden knowledge.
 
+## 2026 Q2 – New Quarter, New Stuff
+
+![fmImage](fmimage.png)
+
+### fmImage
+
+Welcome to the herd! [fmImage] is the tool I use to make all the images on my website the right size and small.
+
+Now in fmWorkMate
+
+It's nothing great, but it does the job!
+
+It's meh! (or mehbe just moo!) 😕
+
 {% comment %}mrwMarkdownLinks{% endcomment %}
 [fmAutoMate]: fmautomate.html
 [fmCheckMate]: fmcheckmate.html
@@ -481,6 +495,7 @@ No more guessing. No more hidden knowledge.
 [fmDBAnalyser]: fmdbanalyser.html
 [fmIDE]: fmide.html
 [fmIDE QuickLink]: fmide-quicklink.html
+[fmImage]: fmimage.html
 [fmKeyPress]: fmkeypress.html
 [fmKillDefaultFields]: fmkilldefaultfields.html
 [fmLatencyMeter]: fmlatencymeter.html
