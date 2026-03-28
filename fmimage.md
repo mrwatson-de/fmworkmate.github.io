@@ -21,6 +21,11 @@ Makes Thumbnails of a standard size and, with the help of [CompressPNG](https://
 
 ![fmImage Screenshot](/assets/images/fmimage-screenshot.png)
 
-Enjoy!
+- Import a file - or a folder
+- Generate a thumbnail of a standard size
+- Export the thumbnail to a folder of your choice
+- Open [CompressPNG](https://compresspng.com/) and use the service to compress the thumbnail up to ~75%!
+
+Nothing special, but I'm happy if it helps. Enjoy!
 
 MrWatson
