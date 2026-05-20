@@ -95,11 +95,11 @@ Here are some more examples:
 #
 # trim operator (`*`=trim)
 [:]..3_trim
-[:]...spaces       = ;*;     "  spaces trimmed  "
-[:]...horizontal   = ;**;    Char(9)&" tabs too "
-[:]...vertical     = ;***;   Char(9)&"¶ trim WS ¶¶"
-[:]...compact_json = ;****;  "¶{ \"a\":1 } ¶  "
-[:]...format_json  = ;*****; "¶{ \"a\":1 } ¶  "
+[:]...spaces              = ;*;     "  spaces trimmed  "
+[:]...horizontal          = ;**;    Char(9)&" tabs too "
+[:]...vertical            = ;***;   Char(9)&"¶ trim WS ¶¶"
+[:]...compact_json_string = ;****;  "¶{ \"a\":1 } ¶  "
+[:]...format_json_string  = ;*****; "¶{ \"a\":1 } ¶  "
 #
 # …not operator (`!'0'`=empty, if the value = "0")
 [:]..4_not_op
@@ -137,8 +137,8 @@ produces the following JSON
       },
       "3_trim" : 
       {
-        "compact_json" : "{\"a\":1}",
-        "format_json" : "{\r\t\"a\" : 1\r}",
+        "compact_json_string" : "{\"a\":1}",
+        "format_json_string" : "{\r\t\"a\" : 1\r}",
         "horizontal" : "tabs too",
         "spaces" : "spaces trimmed",
         "vertical" : "trim WS"
