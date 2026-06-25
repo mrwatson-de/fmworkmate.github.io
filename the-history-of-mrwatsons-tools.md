@@ -486,6 +486,35 @@ It's nothing great, but it does the job!
 
 It's meh! (or mehbe just moo!) 😕
 
+![fmJAML Code from your keyboard](fmjaml-code-from-your-keyboard.png)
+
+### fmJAML + fmIDEAS
+
+Conceived at the end of Q1 [fmJAML] - FileMaker JSON As a Markdown Language - undergoes an unfathomably fast evolution throughout Q2.
+
+fmJAML makes it possible to write fmIDEAS (fmIDE Action Scripts) completely in text - and that in a **very** script-text-like and familiar manner. This leads to the creation of the fmIDE Test table which is used to test fmIDE Action Scripts as well as the fmJAML language itself.
+
+This, in turn, opens the doors to a new rapid development cycle where new aspects of fmJAML and fmIDE Actions are conceived, implemented, tested, honed and repeated until proven.
+
+
+This lead not only to
+
+- a tested and proven fmJAML language
+- tested and proven fmIDE Action Script system
+- a simplified fmIDE Action Script JSON syntax
+
+but also
+
+- a new art style "Geometric Drag brush", and some very cool logos
+- a new mantra
+    Beauty is mathematical
+    Confidence is Architectural
+    Seeing is believing
+    Proof is Divine
+    [and Sleep is heavenly]
+- new sitcom characters Foo and Baz at the bar, who are used to illustrate the fmIDE Action Script test system in a fun and engaging way.
+  > "Hi Foo", said Baz at the Bar
+
 {% comment %}mrwMarkdownLinks{% endcomment %}
 [fmAutoMate]: fmautomate.html
 [fmCheckMate]: fmcheckmate.html
@@ -496,6 +525,7 @@ It's meh! (or mehbe just moo!) 😕
 [fmIDE]: fmide.html
 [fmIDE QuickLink]: fmide-quicklink.html
 [fmImage]: fmimage.html
+[fmJAML]: fmjaml.html
 [fmKeyPress]: fmkeypress.html
 [fmKillDefaultFields]: fmkilldefaultfields.html
 [fmLatencyMeter]: fmlatencymeter.html

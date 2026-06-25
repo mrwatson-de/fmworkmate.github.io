@@ -26,7 +26,9 @@ Vienna Calling
 
 {{page.strapline}}
 
-A compact templating language for JSON in FileMaker.
+fmJAML is a compact templating language for JSON in FileMaker.
+
+fmJAML is used in fmIDE to write fmIDE Action Scripts - literally [fmJAML Code from your Keyboard]
 
 ## Example 1
 
@@ -159,3 +161,6 @@ produces the following JSON
   }
 ]
 ```
+
+{% comment %}mrwMarkdownLinks{% endcomment %}
+[fmJAML Code from your Keyboard]: fmjaml-code-from-your-keyboard.html
