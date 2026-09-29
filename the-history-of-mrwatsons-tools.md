@@ -510,7 +510,6 @@ fmJAML makes it possible to write fmIDEAS (fmIDE Action Scripts) completely in t
 
 This, in turn, opens the doors to a new rapid development cycle where new aspects of fmJAML and fmIDE Actions are conceived, implemented, tested, honed and repeated until proven.
 
-
 This lead not only to
 
 - a tested and proven fmJAML language
@@ -527,7 +526,19 @@ but also
       Proof is Divine
       [and Sleep is heavenly]
 - new sitcom characters Foo and Baz at the bar, who are used to illustrate the fmIDE Action Script test system in a fun and engaging way.
-  > "Hi Foo", said Baz at the Bar
+  > "Hello Foo", said Baz at the Bar
+
+## 2026 Q3 "Hello Foo", said Baz in the Bar
+
+Summer 2026 was an orgy of ideas, inspiration, ChatGPT conversations and hard work.
+
+- fmIDE was turned around from a plaything into a shiny new power-tool, with >440 tests (99% passing), many new actions including the fundamental abilities to write to data files, generate SaXML and make file backups on the fly.
+- fmJAML was polished to a shine.
+- The fmIDE-AI-Bridge started to take shape.
+
+Alongside the serious developments, the 'Foo and Baz in the Bar' sitcom was enhanced with the presence of the "'lean" sisters: Boolean, Truelean and Trillian, later joined by the stunning Noobeal.
+
+Q3 culminated with the [EngageU conference in Malmö](https://engageu.eu/), where all thigs FM+AI+U+ME were presented, including the [new AI offerings from Claris](https://help.claris.com/en/agentic-development-toolkit-help/content/index.html), from MrWatson and, of course, from Marcel and More.
 
 {% comment %}mrwMarkdownLinks{% endcomment %}
 [fmAutoMate]: fmautomate.html
