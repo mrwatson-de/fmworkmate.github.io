@@ -472,6 +472,20 @@ The **App Help** menu now links directly to the central [help] documentation on 
 
 No more guessing. No more hidden knowledge.
 
+## 2026-02-26 ixml Symposium - a revelation
+
+The [invisible xml symposium](https://www.xml.com/news/2025-11-first-international-symposium-ixml/) - that I attended whilst on skiing holiday in Austria 😎 - was not only interesting due to the amazing [parser generator language `ixml`](https://invisiblexml.org/) which magically structures plain text into XML or JSON, but because of 'the revelation' that I had whilst attending.
+
+[Gunther Rademacher's Markup Blitz ixml parser generator tool](https://github.com/GuntherRademacher/markup-blitz) has a [test suite](https://github.com/GuntherRademacher/markup-blitz#running-tests) with which it proves that it is a compliant ixml parser by way of >5000 (!) successful tests.
+
+Wow! That is a powerful proof of product!
+
+Seeing is believing - but proof is divine!
+
+Indeed, this is what fmIDE needs to turn it from a hobby project into a professional tool - proof that it does what it should!
+
+This realisation shaped the rest of the year and the future of my deelopment of fmIDE.
+
 ## 2026 Q2 – New Quarter, New Stuff
 
 ![fmImage](fmimage.png)
@@ -507,11 +521,11 @@ but also
 
 - a new art style "Geometric Drag brush", and some very cool logos
 - a new mantra
-    Beauty is mathematical
-    Confidence is Architectural
-    Seeing is believing
-    Proof is Divine
-    [and Sleep is heavenly]
+      Beauty is mathematical
+      Confidence is Architectural
+      Seeing is believing
+      Proof is Divine
+      [and Sleep is heavenly]
 - new sitcom characters Foo and Baz at the bar, who are used to illustrate the fmIDE Action Script test system in a fun and engaging way.
   > "Hi Foo", said Baz at the Bar
 
