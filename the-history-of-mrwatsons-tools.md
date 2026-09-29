@@ -33,7 +33,7 @@ Once you've read the history here, you may be interested in [the Making of the H
 
 I finally found my footing in the German FileMaker Community, and with Jens Teich did a [presentation on the new custom functions in FileMaker](videos.html#fmk2006---jens-teich--russell-watson---filemaker-7---custom-functions) at the FileMaker Conference in Chiemsee.
 
-In 2006 I was beginning to dabble in AppleScript as a glue between FileMaker and other applications. 
+In 2006 I was beginning to dabble in AppleScript as a glue between FileMaker and other applications.
 
 {: .clear}
 
@@ -100,8 +100,6 @@ At the end of 2011  I joined GitHub because I felt it was a good thing…but it 
 - October 2013 MBS Line Numbers in Scripts
 - November 2013 MBS **Variable Checking**
 - December 2013 MBS Version 3.5 with improvements in Syntax Colorising inc. Line numbers and Variable Checking!
-
-
 
 {: .clear}
 
@@ -189,7 +187,7 @@ Note to self: *Not* everything is text!
 
 ## 2016 fmTouchBar & MBS 6.5 TouchBar
 
-First came the new MacBook Pro with TouchBar, then the MBS plugin made functions to programme it. 
+First came the new MacBook Pro with TouchBar, then the MBS plugin made functions to programme it.
 
 …and then came [fmTouchBar], an app to experiment with the TouchBar functions.
 
@@ -310,11 +308,13 @@ First real use in 2025 during the [backporting of Günther Business Solutions' e
 ---
 
 [![fmLaunchPad](fmlaunchpad.png){:.w-64}](fmlaunchpad.html){: .clear .float-front-right}
+
 ## 2020 fmLaunchPad - We have lift off!
 
 So it was written in [fmLaunchPad]'s change log: `20200928 @mrwatson-de v0.1 We have lift off!`
 
 [![fmMetaMate](fmmetamate.png){:.w-64}](fmmetamate.html){: .clear .float-front-right}
+
 ## 2020 fmMetaMate
 
 [fmMetaMate] - create SaveAsXML files fast
@@ -334,7 +334,6 @@ So it was written in [fmLaunchPad]'s change log: `20200928 @mrwatson-de v0.1 We 
 
 The main question was: What (open source) licence to use?
 
-
 {: .clear}
 
 ---
@@ -342,7 +341,6 @@ The main question was: What (open source) licence to use?
 [![fmIDE](fmide.png){:.w-64}](fmide.html){: .clear .float-front-right}
 
 ## 2022 fmIDE
-
 
 [fmIDE] - Wow! - An integrated FileMaker Developer Environment
 
@@ -383,7 +381,6 @@ A tweet in June 2024 fondly looks back on the open source journey thus far.
 
 ---
 
-
 ## 2025 Q1 e-Invoices
 
 [![fmSetupAssistant](fmsetupassistant.png){:.w-64}](fmsetupassistant.html){: .clear .float-front-right}
@@ -401,7 +398,6 @@ Coming soon
 A new attempt to illustrate how the tools hang together - since 2016 the Integration tools have arrived.
 
 ![Overview 2025](/assets/images/mrwatsons-tools-overview-2025.png)
-
 
 ## 2025 Q2 New Website
 
@@ -528,13 +524,15 @@ but also
 - new sitcom characters Foo and Baz at the bar, who are used to illustrate the fmIDE Action Script test system in a fun and engaging way.
   > "Hello Foo", said Baz at the Bar
 
+![GitHub Contributions 2026 Q1-Q3](assets/images/2026-q1-q3-github-contributions.png)
+
 ## 2026 Q3 "Hello Foo", said Baz in the Bar
 
-Summer 2026 was an orgy of ideas, inspiration, ChatGPT conversations and hard work.
+Summer 2026 was an orgy of ideas, inspiring conversations with ChatGPT and hard GitHub grist - Foo work! (317 contributions in 2026 - double that of the same period in 2025)
 
-- fmIDE was turned around from a plaything into a shiny new power-tool, with >440 tests (99% passing), many new actions including the fundamental abilities to write to data files, generate SaXML and make file backups on the fly.
-- fmJAML was polished to a shine.
-- The fmIDE-AI-Bridge started to take shape.
+- fmIDE was turned around from a plaything into a shiny professional tool, with >440 tests (99% passing), many new actions including the fundamental abilities to write to data files, generate SaXML and make file backups *on the fly*.
+- fmJAML was polished to a shine with support equally for objects and arrays, and for calculation, text and quoted text values (the last for fmIDE calculations).
+- The fmIDE-AI-Bridge really started to take shape.
 
 Alongside the serious developments, the 'Foo and Baz in the Bar' sitcom was enhanced with the presence of the "'lean" sisters: Boolean, Truelean and Trillian, later joined by the stunning Noobeal.
 
